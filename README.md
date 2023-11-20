@@ -1,4 +1,4 @@
-## Pohrebni ustav Kralupy
+# Pohrebni ustav Kralupy
 
 ## Pohrebni ustav Cibulka
 
@@ -20,7 +20,7 @@ next->
 ## jak pokracuje prace
 
 - 16.11. prvni schuzka - 1h
-- 19.11. 1. verze loga, asi dobry
+- 19.11. 1.verze loga, asi dobry
 - 20.11.
-  - 2. verze loga, cekam na schvaleni
+  - 2.verze loga, cekam na schvaleni
   - struktura v nextu a rozsekat si to na komponenty (nic slozityho, vsechno bude stati)
