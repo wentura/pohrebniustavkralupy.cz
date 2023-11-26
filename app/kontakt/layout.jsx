@@ -1,4 +1,5 @@
 import BannerPhone from "@/components/bannerPhone";
+import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Logo from "@/components/logo";
@@ -10,6 +11,7 @@ export default function KontaktLayout({ children }) {
         <Header klass="transparent" />
         <SmallHero title="Kontakt" />
         <BannerPhone />
+        <Breadcrumbs />
         <div className="container mx-auto flex flex-wrap justify-evenly">
           <Logo klas="max-h-60 md:max-h-96 w-full md:w-1/2 lg:w-1/4" />
           <div className="w-full md:w-1/2 lg:w-1/4 my-8">{children}</div>

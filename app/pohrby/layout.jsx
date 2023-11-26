@@ -1,4 +1,5 @@
 import BannerPhone from "@/components/bannerPhone";
+import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import SmallHero from "@/components/smallHero";
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
         <Header klass="transparent" />
         <SmallHero title="pohřby" />
         <BannerPhone />
+        <Breadcrumbs />
         {children}
         <Footer />
       </body>
