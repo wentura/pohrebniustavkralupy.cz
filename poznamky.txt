@@ -1,0 +1,5 @@
+Struktura stranek
+ - uvodni starnka (landing page) 
+		- velky obrazek, rychly kontakt, nabidka sluzeb (i jako odkazy) a nenaky claim co vystihuje kvalitu Cibulky, kontak s otviraci dobou.
+ - nabidka pohrbu
+		- maly obrazek s nadpisem kde jsme, rozcestnik na pohreb s obradem, bez obradu, 
