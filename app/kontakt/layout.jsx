@@ -7,7 +7,7 @@ export default function KontaktLayout({ children }) {
   return (
     <html lang="en">
       <body className="container mx-auto">
-        <Header klass="" />
+        <Header klass="transparent" />
         <SmallHero title="Kontakt" />
         <BannerPhone />
         <div className="container mx-auto flex flex-wrap justify-evenly">

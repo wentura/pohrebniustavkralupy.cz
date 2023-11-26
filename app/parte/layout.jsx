@@ -14,7 +14,7 @@ export default function ParteLayout({ children }) {
   return (
     <html lang="en">
       <body className="container mx-auto">
-        <Header klass="" />
+        <Header klass="transparent" />
         <SmallHero title="Parte a smuteční oznámení" />
         <BannerPhone />
         {children}
