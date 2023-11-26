@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="container mx-auto  font-obsah">
+      <body className="container mx-auto font-obsah">
         <Header klass="transparent" />
         <Hero />
         <BannerPhone klas="" />
