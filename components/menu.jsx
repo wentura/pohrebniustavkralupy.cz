@@ -1,38 +1,57 @@
 import Link from "next/link";
-
+// import menuItems from "./data-menu";
+export const menuItems = [
+  {
+    link: "/sluzby",
+    text: "Služby",
+  },
+  {
+    link: "/sluzby/pohrby",
+    text: "Pohřby",
+  },
+  {
+    link: "/sluzby/parte",
+    text: "Smuteční oznámení",
+  },
+  {
+    link: "/pro-pozustale",
+    text: "Informace pro pozůstalé",
+  },
+  {
+    link: "/katalog",
+    text: "Smuteční katalog",
+  },
+  {
+    link: "/galerie",
+    text: "Galerie",
+  },
+  {
+    link: "/o-nas",
+    text: "O nás",
+  },
+  {
+    link: "/kontakt",
+    text: "Kontakt",
+  },
+];
 export default function Menu({ klas }) {
   klas ? klas : "";
   return (
     <div className={`flex ${klas}`}>
       <ul className="flex gap-8">
-        <li>
-          <Link
-            href="/pohrby"
-            className="hover:underline hover:underline-offset-2 hover:decoration-natyzlata hover:text-natyzlata transition ease-in-out delay-150"
-          >
-            pohřby
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="/parte"
-            className="hover:underline hover:underline-offset-2 hover:decoration-natyzlata hover:text-natyzlata transition ease-in-out delay-150"
-          >
-            parte
-          </Link>
-        </li>
-        <li>informace pro pozůstalé</li>
-        <li>smuteční katalog</li>
-        <li>galerie</li>
-        <li>o nás</li>
-        <li>
-          <Link
-            href="/kontakt"
-            className="hover:underline hover:underline-offset-2 hover:decoration-natyzlata hover:text-natyzlata transition ease-in-out delay-150"
-          >
-            kontakt
-          </Link>
-        </li>
+        {menuItems.map((menuItem) => {
+          return (
+            <li key={menuItem.link}>
+              <Link
+                key={menuItem.link}
+                href={menuItem.link}
+                className="odkaz-bila"
+              >
+                {menuItem.text}
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );

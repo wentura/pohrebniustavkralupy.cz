@@ -15,12 +15,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="container mx-auto">
-        <Header klass="transparent" />
-        <Hero />
-        <BannerPhone klas="" />
-        <Breadcrumbs />
+        {/* <Header klass="transparent" /> */}
+        {/* <Hero /> */}
+        {/* <BannerPhone klas="" /> */}
+
         {children}
-        <BannerContact />
+        {/* <BannerContact /> */}
         <Footer />
       </body>
     </html>

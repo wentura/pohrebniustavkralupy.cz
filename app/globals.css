@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .odkaz-bila {
+    @apply hover:underline hover:underline-offset-2 hover:decoration-natyzlata hover:text-natyzlata transition ease-in-out delay-150;
+  }
+}
