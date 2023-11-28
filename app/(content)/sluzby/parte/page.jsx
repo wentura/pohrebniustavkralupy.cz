@@ -2,7 +2,7 @@ import ObrazkyNaParte from "@/components/obrazkyNaParte";
 
 export default function Parte() {
   return (
-    <section>
+    <section className="px-4">
       <div class="container px-2 sm:px-12 py-24 mx-auto flex flex-wrap">
         <div class="flex flex-col text-center w-full mb-12">
           <h1 class="sm:text-3xl text-2xl font-medium font-nadpis mb-4 text-gray-900">
@@ -31,7 +31,7 @@ export default function Parte() {
           </h1>
           <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
           <p>
-            <h2 className="text-left text-xl md:text-2xl pt-4 pb-2 font-obsah">
+            <h2 className="text-center md:text-left text-xl md:text-2xl pt-4 pb-2 font-obsah">
               Pro ženu
             </h2>
 
@@ -159,7 +159,7 @@ export default function Parte() {
                 Odešels, drahý, bez slůvka rozloučení tak náhle, že těžko k
                 uvěření.
               </li>
-              <li className="break-after-column">
+              <li className="md:break-after-column">
                 Na shledanou, drahý, zůstaneš mi v srdci na věky. Rozejdeme se,
                 není na vybranou. Svede nás až zítřek daleký.
               </li>

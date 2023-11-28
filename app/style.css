@@ -5,7 +5,9 @@
   background-position: center center;
   background-size: cover;
 }
-
+ol.parte {
+  padding-left: 1rem;
+}
 .parte > li {
   margin-top: 1em;
 }

@@ -1,4 +1,5 @@
 import Menu from "./menu";
+import MobileMenu from "./mobileMenu";
 
 export default function Header({ klas }) {
   klas ? klas : "";
@@ -20,10 +21,7 @@ export default function Header({ klas }) {
         </nav> */}
 
       <Menu klas="min-w-[300px] items-center hidden xl:flex" />
-      <button className="flex xl:hidden bg-indigo-950  focus:outline-none hover:bg-modra p-2 rounded text-base  md:mt-0">
-        M
-      </button>
+      <MobileMenu />
     </header>
   );
 }
- 
