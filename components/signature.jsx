@@ -5,7 +5,7 @@ export default function Signature() {
         Pohřební ústav Cibulka,
         <br className="md:hidden" /> Pohřební ústav Kralupy &copy;
       </div>
-      {/* <div>Zbyněk Svoboda</div> */}
+      <div>Zbyněk Svoboda</div>
     </div>
   );
 }

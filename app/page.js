@@ -2,6 +2,7 @@ import BannerContact from "@/components/bannerContact";
 import BannerPhone from "@/components/bannerPhone";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
+import LandingSluzby from "@/components/landingSluzby";
 export default function Home() {
   return (
     <div>
@@ -17,7 +18,12 @@ export default function Home() {
             <p className="lg:w-3/4 w-full leading-relaxed text-right text-modra font-nadpis pb-8">
               Rodinná tradice od roku 1914.
             </p>
-            <p className="md:w-3/4 w-full text-left leading-relaxed text-modra">
+            <p className="md:w-4/5 w-full text-center font-nadpis text-xl md:text-2xl leading-relaxed text-modra pt-4 pb-12">
+              S úctou, empatií a zkušeností Vám pomůžeme se záležitostmi,
+              <br className="hidden md:block" />
+              které nastávají po úmrtí blízkého člověka.
+            </p>
+            <p className="md:w-4/5 w-full text-left leading-relaxed text-modra hidden">
               Jsme zde, abychom Vám poskytli podporu a pomoc v těch nejtěžších
               chvílích.
               <br />
@@ -26,74 +32,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex flex-wrap -m-4">
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="p-6">
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-2 underline-offset-4 underline decoration-natyzlata decoration-4">
-                  Převoz zemřelého z celé ČR do místa pohřbu
-                </h2>
-                <p className="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
-                </p>
-              </div>
-            </div>
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="p-6">
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-2 underline-offset-4 underline decoration-natyzlata decoration-4">
-                  Organizace obřadu
-                </h2>
-                <p className="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
-                </p>
-              </div>
-            </div>
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="p-6">
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-2 underline-offset-4 underline decoration-natyzlata decoration-4">
-                  Služba profesionálního řečníka
-                </h2>
-                <p className="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
-                </p>
-              </div>
-            </div>
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="p-6">
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-2 underline-offset-4 underline decoration-natyzlata decoration-4">
-                  Výroba a tisk smutečních oznámení a pozvánek{" "}
-                </h2>
-                <p className="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
-                </p>
-              </div>
-            </div>
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="p-6">
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-2 underline-offset-4 underline decoration-natyzlata decoration-4">
-                  Výběr rakví, smutečních kytic a věnců
-                </h2>
-                <p className="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
-                </p>
-              </div>
-            </div>
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="p-6">
-                <h2 className="text-lg text-gray-900 font-medium title-font mb-2 underline-offset-4 underline decoration-natyzlata decoration-4">
-                  Poradce a pomoc s dokumentací
-                </h2>
-                <p className="leading-relaxed text-base">
-                  Fingerstache flexitarian street art 8-bit waist co, subway
-                  tile poke farm.
-                </p>
-              </div>
-            </div>
-          </div>
+          <LandingSluzby />
         </div>
       </section>
       <BannerContact />
