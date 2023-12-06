@@ -1,3 +1,4 @@
+import BannerContact from "@/components/bannerContact";
 import BannerPhone from "@/components/bannerPhone";
 import Breadcrumbs from "@/components/breadcrumbs";
 import Footer from "@/components/footer";

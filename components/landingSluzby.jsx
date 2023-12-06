@@ -4,20 +4,26 @@ export default function LandingSluzby() {
   const sluzby = [
     {
       title: "Pohřeb s obřadem",
-      text: "Pohřeb s obřadem vyjadřuje úctu k zesnulému prostřednictvím formálních či rituálních prvků.<br />Poskytuje prostor pro projevení poslední úcty, vzpomínání na život zesnulého a důstojného rozloučení rodiny a přátel.",
+      text: "Vyjadření úctuy k zesnulému prostřednictvím formálních či rituálních prvků. Poskytuje prostor pro projevení poslední úcty, vzpomínání na život zesnulého a důstojného rozloučení rodiny a přátel.",
       href: "/sluzby/pohrby",
       vice: "více o pohřbech s obřadem",
     },
     {
       title: "Pohřeb bez obřadu",
       text: "Soukromější a osobnější způsob rozloučení s zesnulým, bez tradičních ceremonií či náboženských prvků.",
-      href: "/sluzby/pohrby",
-      vice: "více o pohřeb bez obřadu",
+      href: "/sluzby/pohrby#bezobradu",
+      vice: "více o pohřebech bez obřadu",
+    },
+    {
+      title: "Organizace obřadu",
+      text: "Profesionální a citlivá pomoc s organizací obřadu.",
+      href: "/sluzby/pohrby#organizaceobradu",
+      vice: "více o organizaci obřadu",
     },
     {
       title: "Převoz a úprava zesnulého",
       text: "Zajistíme transport zemřelého z celé ČR do místa pohřbu.",
-      href: "/sluzby/pohrby",
+      href: "/sluzby/pohrby#prevozzemreleho",
       vice: "více o převozu a úpravě zesnulého",
     },
     {
