@@ -23,6 +23,8 @@ export default function Home() {
               <br className="hidden md:block" />
               které nastávají po úmrtí blízkého člověka.
             </p>
+            {/* <button className="btn btn-primary">Hello daisyUI!</button> */}
+
             <p className="md:w-4/5 w-full text-left leading-relaxed text-modra hidden">
               Jsme zde, abychom Vám poskytli podporu a pomoc v těch nejtěžších
               chvílích.

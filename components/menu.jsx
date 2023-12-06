@@ -4,23 +4,44 @@ import { menuItems } from "./data-menu";
 export default function Menu({ klas }) {
   klas ? klas : "";
   return (
-    <div className={`flex flex-col xl:flex-row ${klas}`}>
-      <ul className="flex flex-col xl:flex-row gap-8 text-center xl:text-left">
-        {menuItems.map((menuItem) => {
-          return (
-            <li key={menuItem.link}>
-              <Link
-                key={menuItem.link}
-                rel="noopener noreferrer"
-                href={menuItem.link}
-                className="odkaz-bila"
-              >
-                {menuItem.text}
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
-    </div>
+    <ul className="menu menu-horizontal px-1">
+      {menuItems.map((menuItem) => {
+        return menuItem.children ? (
+          <li key={menuItem.id}>
+            <details>
+              <summary>{menuItem.text}</summary>
+              <ul className="m-4 w-52 bg-modra rounded-2xl" key={menuItem.id}>
+                {/* {menuItem.children.length} */}
+                {menuItem.children.map((menuChildren) => {
+                  return (
+                    <li key={menuChildren.id}>
+                      <Link
+                        key={menuChildren.id}
+                        rel="noopener noreferrer"
+                        href={menuChildren.link}
+                        className="odkaz-bila"
+                      >
+                        {menuChildren.text}
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+            </details>
+          </li>
+        ) : (
+          <li key={menuItem.id}>
+            <Link
+              key={menuItem.id}
+              rel="noopener noreferrer"
+              href={menuItem.link}
+              className="odkaz-bila"
+            >
+              {menuItem.text}
+            </Link>
+          </li>
+        );
+      })}
+    </ul>
   );
 }

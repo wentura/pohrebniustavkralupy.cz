@@ -1,9 +1,10 @@
-import DetailContact from "@/components/detailContact";
+import BannerContact from "@/components/bannerContact";
+// import DetailContact from "@/components/detailContact";
 
 export default function Kontakt() {
   return (
-    <section>
-      <DetailContact />
+    <section className="mt-12">
+      <BannerContact />
     </section>
   );
 }

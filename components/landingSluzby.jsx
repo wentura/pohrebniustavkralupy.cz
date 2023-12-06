@@ -23,13 +23,13 @@ export default function LandingSluzby() {
     {
       title: "Převoz a úprava zesnulého",
       text: "Zajistíme transport zemřelého z celé ČR do místa pohřbu.",
-      href: "/sluzby/pohrby#prevozzemreleho",
+      href: "/sluzby/pohrby#prevozzesnuleho",
       vice: "více o převozu a úpravě zesnulého",
     },
     {
       title: "Pomoc s výběrem rakve / urny",
       text: "Pomůžeme s výběrem rakve nebo obalu na urnu dle Vašich preferencí apotřeb.",
-      href: "/katalog",
+      href: "/katalog/urny",
       vice: "více ve smutečním katalogu",
     },
     {
