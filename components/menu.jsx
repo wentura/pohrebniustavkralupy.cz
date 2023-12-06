@@ -10,13 +10,12 @@ export default function Menu({ klas }) {
           <li key={menuItem.id}>
             <details>
               <summary>{menuItem.text}</summary>
-              <ul className="m-4 w-52 bg-modra rounded-2xl" key={menuItem.id}>
+              <ul className="m-4 w-52 bg-modra rounded-2xl">
                 {/* {menuItem.children.length} */}
                 {menuItem.children.map((menuChildren) => {
                   return (
                     <li key={menuChildren.id}>
                       <Link
-                        key={menuChildren.id}
                         rel="noopener noreferrer"
                         href={menuChildren.link}
                         className="odkaz-bila"
@@ -32,7 +31,6 @@ export default function Menu({ klas }) {
         ) : (
           <li key={menuItem.id}>
             <Link
-              key={menuItem.id}
               rel="noopener noreferrer"
               href={menuItem.link}
               className="odkaz-bila"

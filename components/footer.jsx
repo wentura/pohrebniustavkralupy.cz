@@ -25,7 +25,7 @@ export default function Footer() {
               })}
             </nav>
           ) : (
-            <nav key={menuItem.id} className="text-left justify-items-start">
+            <nav className="text-left justify-items-start">
               <header className="footer-title">&nbsp;</header>
               <Link
                 key={menuItem.id}

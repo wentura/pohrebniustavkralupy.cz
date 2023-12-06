@@ -59,7 +59,7 @@ export default function MobileMenu() {
                     return (
                       <li key={menuChildren.id}>
                         <Link
-                          // key={menuChildren.id}
+                          key={menuChildren.id}
                           rel="noopener noreferrer"
                           href={menuChildren.link}
                           className="odkaz-bila text-left underline"
@@ -74,7 +74,6 @@ export default function MobileMenu() {
             ) : (
               <li key={menuItem.id} className="text-left justify-items-start">
                 <Link
-                  // key={menuItem.id}
                   rel="noopener noreferrer"
                   href={menuItem.link}
                   className="odkaz-bila link link-hover text-left font-bold underline"

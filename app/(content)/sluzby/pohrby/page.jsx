@@ -121,7 +121,7 @@ export default function Pohrby() {
       <section className="text-gray-600 body-font">
         <div
           className="container mx-auto flex md:flex-row-reverse px-5 py-24  flex-col items-center scroll-mt-36"
-          id="prevozzemreleho"
+          id="prevozzesnuleho"
         >
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
