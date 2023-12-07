@@ -4,12 +4,18 @@ html {
   background-color: #fff;
 }
 :focus {
-  color: #fff !important; 
+  color: #fff !important;
 }
 .hero-background {
-  background-image: url("/zemechy_kriz_kostelik.webp");
+  background-image: url("https://dummyimage.com/1200.jpg?text=hero%20image");
   background-position: center center;
   background-size: cover;
+}
+.smallHero {
+  background-image: url("https://dummyimage.com/1200.jpg?text=smallHero%20image");
+  background-position: center center;
+  background-size: cover;
+  min-height: 300px;
 }
 ol.parte {
   padding-left: 1rem;

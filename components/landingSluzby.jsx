@@ -4,13 +4,13 @@ export default function LandingSluzby() {
   const sluzby = [
     {
       title: "Pohřeb s obřadem",
-      text: "Vyjadření úctuy k zesnulému prostřednictvím formálních či rituálních prvků. Poskytuje prostor pro projevení poslední úcty, vzpomínání na život zesnulého a důstojného rozloučení rodiny a přátel.",
+      text: "Vyjadření úcty k zesnulému prostřednictvím formálních či rituálních prvků. Poskytuje prostor pro projevení poslední úcty, vzpomínání na život zesnulého a důstojného rozloučení rodiny a přátel.",
       href: "/sluzby/pohrby",
       vice: "více o pohřbech s obřadem",
     },
     {
       title: "Pohřeb bez obřadu",
-      text: "Soukromější a osobnější způsob rozloučení s zesnulým, bez tradičních ceremonií či náboženských prvků.",
+      text: "Soukromější a osobnější způsob rozloučení se zesnulým, bez tradičních ceremonií či náboženských prvků.",
       href: "/sluzby/pohrby#bezobradu",
       vice: "více o pohřebech bez obřadu",
     },
@@ -28,7 +28,7 @@ export default function LandingSluzby() {
     },
     {
       title: "Pomoc s výběrem rakve / urny",
-      text: "Pomůžeme s výběrem rakve nebo obalu na urnu dle Vašich preferencí apotřeb.",
+      text: "Pomůžeme s výběrem rakve nebo obalu na urnu dle Vašich preferencí a potřeb.",
       href: "/katalog/urny",
       vice: "více ve smutečním katalogu",
     },
@@ -40,13 +40,13 @@ export default function LandingSluzby() {
     },
     {
       title: "Smuteční květinová vazba",
-      text: "Nabídka kytic a věnců,které mohou být symbolickým vyjádřením Vaší lásky a vzpomínek na ztraceného blízkého.",
+      text: "Široká nabídka kytic a věnců, které mohou být symbolickým vyjádřením lásky a vzpomínek na ztraceného blízkého.",
       href: "/katalog",
       vice: "více ve smutečním katalogu",
     },
     {
       title: "Smuteční řeč a hudba",
-      text: "Profesionální řečník, který přizpůsobí svůj projev konkrétním vztahům, zájmům či práci zemřelého. Zajišťujeme církevní obřady s knězem a hudbu podle vašeho výběru.",
+      text: "Profesionální řečník, který přizpůsobí svůj projev konkrétním vztahům, zájmům či práci zemřelého. Zajišťujeme církevní obřady s knězem a hudbu dle vašeho výběru.",
       href: "/hudba",
       vice: "více o hudbě a řečnících",
     },

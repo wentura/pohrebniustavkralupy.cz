@@ -65,7 +65,7 @@ export default function Breadcrumbs({ breads }) {
               <a
                 rel="noopener noreferrer"
                 href={bread.link}
-                className="flex items-center px-1 capitalize hover:underline"
+                className="flex items-center px-1 first-letter:capitalize hover:underline"
               >
                 {bread.title}
               </a>
