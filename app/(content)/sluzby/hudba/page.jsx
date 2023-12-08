@@ -162,7 +162,7 @@ export default function Hudba() {
   return (
     <section className="px-4">
       <div class="container px-2 sm:px-12 py-24 mx-auto flex flex-wrap">
-        <div class="flex flex-col text-center w-full mb-12">
+        <div class="flex flex-col text-center w-full mb-44">
           <h1 class="sm:text-3xl text-2xl font-medium font-nadpis mb-4 text-gray-900">
             Smuteční řeč
           </h1>
@@ -277,6 +277,37 @@ export default function Hudba() {
                 return <li key={item}>{item}</li>;
               })}
             </ol>
+          </p>
+        </div>
+        <div
+          class="flex flex-col text-center w-full my-44 scroll-mt-44"
+          id="foto"
+        >
+          <h1 class="sm:text-3xl text-2xl font-medium font-nadpis mb-4 text-gray-900">
+            Smuteční fotografie
+          </h1>
+          <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
+          <p className="text-left py-2 text-xl">
+            Fotografii, ve formátu A4, A3 nebo A2, můžete donést do kanceláře
+            pohřebního ústavu Cibulka, nebo je přinést přímo na místo konání
+            obřadu.
+          </p>
+          <p className="text-left py-2 text-xl">
+            V případě, že se rozhodnete přinést fotografii přímo k obřadu,
+            prosíme Vás, abyste nám tuto informaci předem sdělili. Fotografie
+            nemusí být v rámečku.
+          </p>
+          <p className="text-left py-2 text-xl">
+            Chápeme, že každé rozloučení je jedinečné, a proto se s Vámi snažíme
+            spolupracovat a přizpůsobit se Vašim potřebám.
+          </p>
+          <p className="text-left py-2 text-xl">
+            S námi můžete mít jistotu, že Vaše přání budou respektována a
+            poslední rozloučení se bude odehrávat tak, jak by si to Váš zesnulý
+            člen rodiny přál.
+          </p>
+          <p className="text-left py-2 text-xl">
+            Děkujeme Vám za důvěru. S úctou, kolektiv Pohřebního ústavu Cibulka
           </p>
         </div>
       </div>

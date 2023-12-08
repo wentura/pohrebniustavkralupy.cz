@@ -18,6 +18,7 @@ export const menuItems = [
         text: "Převoz zesnulého",
       },
       { id: 7, link: "/sluzby/hudba", text: "Smuteční řeč a hudba" },
+      { id: 8, link: "/sluzby/hudba#foto", text: "Smuteční fotografie" },
     ],
   },
 

@@ -45,10 +45,10 @@ export default function LandingSluzby() {
       vice: "více ve smutečním katalogu",
     },
     {
-      title: "Smuteční řeč a hudba",
+      title: "Smuteční řeč, hudba a fotografie",
       text: "Profesionální řečník, který přizpůsobí svůj projev konkrétním vztahům, zájmům či práci zemřelého. Zajišťujeme církevní obřady s knězem a hudbu dle vašeho výběru.",
       href: "/sluzby/hudba",
-      vice: "více o hudbě a řečnících",
+      vice: "více o hudbě, řečnících a fotografii",
     },
     {
       title: "Výroba a tisk smutečních oznámení",

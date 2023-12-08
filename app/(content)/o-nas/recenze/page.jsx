@@ -6,7 +6,7 @@ export default function Recenze() {
     },
     {
       text: "Ještě jednou děkuji za profesionální a vstřícný přístup a vypravení důstojného pohřbu.",
-      kdo: "Denisa T.",
+      kdo: "Dagmar H.",
     },
     {
       text: "Chtěla bych moc poděkovat za Vaši skvělou práci. Citlivý přístup a podporu během mého nejtěžšího životního období. Vaše práce rozhodně není lehká, o to více si vážím Vaší vstřícnosti.",
