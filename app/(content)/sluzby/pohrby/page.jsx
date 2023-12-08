@@ -4,6 +4,7 @@ const breads = [
   { link: "/sluzby", title: "Služby" },
   { link: "/sluzby/pohrby", title: "Pohřby" },
 ];
+
 export default function Pohrby() {
   return (
     <div>

@@ -17,7 +17,7 @@ export const menuItems = [
         link: "/sluzby/pohrby#prevozzesnuleho",
         text: "Převoz zesnulého",
       },
-      { id: 7, link: "/sluzby/hudba", text: "Smuteční hudba" },
+      { id: 7, link: "/sluzby/hudba", text: "Smuteční řeč a hudba" },
     ],
   },
 
@@ -36,7 +36,7 @@ export const menuItems = [
       {
         id: 12,
         link: "/katalog/parteObrazky",
-        text: "Obrázky na smuteční oznámení",
+        text: "Na smuteční oznámení",
       },
     ],
   },

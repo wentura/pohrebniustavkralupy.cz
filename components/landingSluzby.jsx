@@ -41,13 +41,13 @@ export default function LandingSluzby() {
     {
       title: "Smuteční květinová vazba",
       text: "Široká nabídka kytic a věnců, které mohou být symbolickým vyjádřením lásky a vzpomínek na ztraceného blízkého.",
-      href: "/katalog",
+      href: "/katalog/kvetiny",
       vice: "více ve smutečním katalogu",
     },
     {
       title: "Smuteční řeč a hudba",
       text: "Profesionální řečník, který přizpůsobí svůj projev konkrétním vztahům, zájmům či práci zemřelého. Zajišťujeme církevní obřady s knězem a hudbu dle vašeho výběru.",
-      href: "/hudba",
+      href: "/sluzby/hudba",
       vice: "více o hudbě a řečnících",
     },
     {
