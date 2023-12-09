@@ -35,7 +35,7 @@ export default function LandingSluzby() {
     {
       title: "Poradenství pro pozůstalé",
       text: "Poskytujeme pomoc s administrativními kroky a právními formalitami v obtížných časech ztráty.",
-      href: "/poradenstvi",
+      href: "/pro-pozustale",
       vice: "více o poradenství",
     },
     {
