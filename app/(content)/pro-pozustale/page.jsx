@@ -4,8 +4,36 @@ const infos = [
   {
     vlevo: "Úmrtní list",
     nadpis: "Úmrtní list",
-    text: "Úmrtní list je vyhotoven příslušnou matrikou na základě místa úmrtí zemřelého.<br />V případě, že jste poskytli občanský průkaz a kartu zdravotního pojištění zesnulého, byly tyto dokumenty odeslány na příslušnou matriku a zdravotní pojišťovnu. Na vyhotovení úmrtního listu má matrika stanoveno 30 dní jako lhůtu, kterou většinou dodržuje. Úmrtní list bude doručen na vaši adresu, kterou jste uvedli při objednávání pohřbu, doporučeně poštou. Matrika má povinnost ohlásit úmrtí orgánům sociálního zabezpečení, zdravotní pojišťovně a do evidence trvalého pobytu. O tyto administrativní záležitosti se nemusíte starat. V případě, že zesnulý pobíral speciální příspěvky, jako je péče či náhrada za zdravotní pomůcky, je NUTNÉ je odhlásit na příslušném úřadu práce.",
-    link: "#",
+    text: "Úmrtní list je vyhotoven příslušnou matrikou na základě místa úmrtí zemřelého.<br />V případě, že jste poskytli občanský průkaz a kartu zdravotního pojištění zesnulého, byly tyto dokumenty odeslány na příslušnou matriku a zdravotní pojišťovnu.<br />Na vyhotovení úmrtního listu má matrika stanoveno 30 dní jako lhůtu, kterou většinou dodržuje.<br />Úmrtní list bude doručen na vaši adresu, kterou jste uvedli při objednávání pohřbu, doporučeně poštou. Matrika má povinnost ohlásit úmrtí orgánům sociálního zabezpečení, zdravotní pojišťovně a do evidence trvalého pobytu.<br />O tyto administrativní záležitosti se nemusíte starat.<br />V případě, že zesnulý pobíral speciální příspěvky, jako je péče či náhrada za zdravotní pomůcky, je <strong>NUTNÉ</strong> je odhlásit na příslušném úřadu práce.",
+    link: "",
+    linkText: "link test text",
+  },
+  {
+    vlevo: "Notář",
+    nadpis: "Notář",
+    text: "Notář je jmenován soudem v souladu s místem trvalého bydliště zemřelého.<br />Předvolání k notáři obdržíte zhruba 2 až 3 měsíce po úmrtí.<br />První osobou, kterou notář pozve ke konzultaci, je objednatel pohřbu.<br />Mezi požadované dokumenty patří faktura za pohřeb a doklady o zaplacení (včetně stvrzenek nebo dokladu o bezhotovostním převodu).<br />Do dědictví lze zahrnout nejen náklady spojené s pohřbem samotným, ale také další výdaje, například související s kamenickými pracemi - jako je výroba pomníku nebo vytesání písma na něm.<br />Toto období může být administrativně náročné, a proto je důležité postupovat s pečlivostí a důsledností.<br />Pokud budete potřebovat další rady a pomoc, neváhejte se obrátit na zaměstnance naší pohřební služby, kteří vám mohou poskytnout potřebné informace a podporu.<br />Vašemu zemřelému a vám samým přejeme klid v této náročné době.<br />",
+    link: "",
+    linkText: "link test text",
+  },
+  {
+    vlevo: "Pracovní volno",
+    nadpis: "Nárok na pracovní volno při zařizování pohřbu",
+    text: "Podle zákoníku práce má zaměstnanec právo na pracovní volno při úmrtí nejbližších příbuzných, což zahrnuje manžela, manželku, partnera, rodiče, děti a sourozence.<br />Toto volno není určeno pouze na samotný pohřeb, ale také na čas nutný k zařízení pohřbu a smutečních ceremonií.",
+    link: "",
+    linkText: "link test text",
+  },
+  {
+    vlevo: "Pracovní volno",
+    nadpis: "Nárok na pracovní volno na pohřeb",
+    text: "<strong>Zaměstnanec, kterému zemřel blízký člen rodiny</strong><br />To zahrnuje manžela/ku, dítě, rodiče, prarodiče a sourozence.<br />Délka volna se může lišit v závislosti na vztahu k zemřelé osobě a může být stanovena v pracovních právních předpisech nebo kolektivní smlouvě.<br />Obvykle se jedná o 2 až 4 pracovní dny, avšak v některých případech může být délka volna delší.<br /><br /><strong>Zaměstnanec, který je blízkým příbuzným zesnulého</strong><br />Zaměstnanec může mít nárok na pracovní volno při úmrtí jiné osoby, se kterou měl blízký vztah, například přítele, blízkého přítele nebo člena rodiny.<br />Délka volna se může lišit v závislosti na dohodě se zaměstnavatelem.<br />Obvykle je to však 1 až 2 pracovní dny.<br /><br /><strong>Zaměstnanec, který je kolegou zesnulého</strong><br />Dle nařízení vlády je možná náhrada mzdy nebo platu spolupracovníkům zesnulého.<br />Zaměstnanci tedy mohou získat placené volno na nezbytně dlouhou dobu, během které se mají dostat na smuteční obřad, zúčastnit se jej a poté se vrátit do práce.<br />Tento nárok nevzniká automaticky, a účastníky pohřbu si může zvolit sám zaměstnavatel.<br /><br /><strong>Domluva se zaměstnavatelem</strong><br />Pokud i přesto potřebujete volno na pohřeb, jedinou možností je domluva se zaměstnavatelem a čerpání dovolené nebo neplaceného volna.<br />Je důležité si uvědomit, že nárok na placené pracovní volno může být zrušen, pokud zaměstnanec měl v měsíci pohřbu neomluvenou absenci v práci.<br />V takovém případě může zaměstnavatel odmítnout poskytnutí pracovního volna.<br />Během tohoto volna má zaměstnanec nárok na svou plnou mzdu, a to bez ohledu na to, zda pracuje ve státní nebo soukromé sféře.<br />Tento nárok na volno je upraven v pracovním právu a zaměstnavatel je povinen ho respektovat.<br />Je důležité si uvědomit, že existují stanovené podmínky, co lze považovat za pohřeb a co ne. Pohřbení zahrnuje uložení ostatků do hrobu, urny nebo rozptylu popela. V případě, že se smuteční událost, jako je rozloučení s blízkými nebo smuteční kar, koná v jiný pracovní den, není nárok na volno automatický.<br /><br />",
+    link: "",
+    linkText: "link test text",
+  },
+  {
+    vlevo: "Pracovní volno",
+    nadpis: "K získání pracovního volna na pohřeb je zapotřebí...",
+    text: "<strong>Oznámení zaměstnavateli</strong><br />Musíte informovat svého zaměstnavatele o úmrtí a požádat o volno na pohřeb.<br />Je vhodné tak učinit co nejdříve a poskytnout dostatečné informace o termínu sjednání pohřbu (pokud budete zařizovat smuteční rozloučení), datu smutečního obřadu a vztahu k zesnulé osobě.<br /><br /><strong>Doklad o úmrtí</strong><br />Zaměstnavatel obvykle požaduje doklad o úmrtí, který může být potvrzením od pohřební služby, protokolem o prohlídce zesnulého nebo úmrtním listem (vydaným příslušným orgánem, tedy matrikou).<br /><br /><strong>Potvrzení vztahu k zesnulé osobě</strong><br />Zaměstnavatel může vyžadovat potvrzení o vztahu k zesnulé osobě, což může být rodný list nebo jiný dokument potvrzující příbuzenský vztah.<br /><br /><strong>Termín pohřbu</strong><br />Dle pracovního práva je stanoveno, kolik dní volna je poskytováno v závislosti na vztahu k zesnulé osobě. Zaměstnavatel by měl být informován o tomto předpise a měl by vám poskytnout odpovídající volno.<br /><br /><br />Je důležité mít na paměti, že přesné požadavky a postupy se mohou lišit v závislosti na firemních pravidlech, interních předpisech či pracovní smlouvě. Proto je nejlepší tyto skutečnosti konzultovat se zaměstnavatelem nebo personálním oddělením, abyste se informovali o přesných postupech týkajících se volna na pohřeb.",
+    link: "",
     linkText: "link test text",
   },
 ];
@@ -21,13 +49,13 @@ export default function ProPozustale() {
                 className="py-8 flex flex-wrap md:flex-nowrap"
                 key={info.nadpis}
               >
-                <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                  <span className="font-semibold title-font text-gray-700">
+                <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 md:flex md:flex-col hidden">
+                  <span className="font-semibold title-font text-gray-400">
                     {info.vlevo}
                   </span>
                 </div>
                 <div className="md:flex-grow">
-                  <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
+                  <h2 className="text-2xl font-medium text-gray-900  mb-4 font-nadpis underline underline-offset-4">
                     {info.nadpis}
                   </h2>
                   <p
@@ -36,94 +64,32 @@ export default function ProPozustale() {
                       __html: DOMPurify.sanitize(info.text),
                     }}
                   ></p>
-                  <a className="text-indigo-500 inline-flex items-center mt-4">
-                    {info.linkText}
-                    <svg
-                      className="w-4 h-4 ml-2"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
+                  {info.link ? (
+                    <a
+                      className={`text-indigo-500 inline-flex items-center mt-4`}
+                      href={info.link}
                     >
-                      <path d="M5 12h14"></path>
-                      <path d="M12 5l7 7-7 7"></path>
-                    </svg>
-                  </a>
+                      {info.linkText}
+                      <svg
+                        className="w-4 h-4 ml-2"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        fill="none"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path d="M5 12h14"></path>
+                        <path d="M12 5l7 7-7 7"></path>
+                      </svg>
+                    </a>
+                  ) : (
+                    ""
+                  )}
                 </div>
               </div>
             );
           })}
-
-          <div className="py-8 flex flex-wrap md:flex-nowrap">
-            <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-              <span className="font-semibold title-font text-gray-700">
-                CATEGORY
-              </span>
-              <span className="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
-            </div>
-            <div className="md:flex-grow">
-              <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
-                Meditation bushwick direct trade taxidermy shaman
-              </h2>
-              <p className="leading-relaxed">
-                Glossier echo park pug, church-key sartorial biodiesel
-                vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon
-                party messenger bag selfies, poke vaporware kombucha
-                lumbersexual pork belly polaroid hoodie portland craft beer.
-              </p>
-              <a className="text-indigo-500 inline-flex items-center mt-4">
-                Learn More
-                <svg
-                  className="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-          <div className="py-8 flex flex-wrap md:flex-nowrap">
-            <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-              <span className="font-semibold title-font text-gray-700">
-                CATEGORY
-              </span>
-              <span className="text-sm text-gray-500">12 Jun 2019</span>
-            </div>
-            <div className="md:flex-grow">
-              <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
-                Woke master cleanse drinking vinegar salvia
-              </h2>
-              <p className="leading-relaxed">
-                Glossier echo park pug, church-key sartorial biodiesel
-                vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon
-                party messenger bag selfies, poke vaporware kombucha
-                lumbersexual pork belly polaroid hoodie portland craft beer.
-              </p>
-              <a className="text-indigo-500 inline-flex items-center mt-4">
-                Learn More
-                <svg
-                  className="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M5 12h14"></path>
-                  <path d="M12 5l7 7-7 7"></path>
-                </svg>
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </section>
