@@ -11,7 +11,7 @@ export default function Katalog() {
   const kvetiny = [
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702934698/pohrebniustavcibulka/kvetiny/kytice1_nbqkoh.webp",
     },
     {
       title: "",
