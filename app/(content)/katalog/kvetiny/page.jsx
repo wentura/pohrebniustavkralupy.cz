@@ -11,35 +11,35 @@ export default function Katalog() {
   const kvetiny = [
     {
       title: "",
-      href: "https://dummyimage.com/600x800",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
     },
     {
       title: "",
-      href: "https://dummyimage.com/600x800",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
     },
     {
       title: "",
-      href: "https://dummyimage.com/600x800",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
     },
     {
       title: "",
-      href: "https://dummyimage.com/600x800",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
     },
     {
       title: "",
-      href: "https://dummyimage.com/600x800",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
     },
     {
       title: "",
-      href: "https://dummyimage.com/600x800",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
     },
     {
       title: "",
-      href: "https://dummyimage.com/600x800",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
     },
     {
       title: "",
-      href: "https://dummyimage.com/600x800",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
     },
   ];
   const vence = [
@@ -55,35 +55,35 @@ export default function Katalog() {
   const zapujceni = [
     {
       title: "Kvetina 1",
-      href: "https://dummyimage.com/600x800",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
     },
     {
       title: "Kvetina 1",
-      href: "https://dummyimage.com/600x800",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
     },
     {
       title: "Kvetina 2",
-      href: "https://dummyimage.com/600x800",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
     },
     {
       title: "Kvetina 2",
-      href: "https://dummyimage.com/600x800",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
     },
     {
       title: "Kvetina 3",
-      href: "https://dummyimage.com/600x800",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
     },
     {
       title: "Kvetina 3",
-      href: "https://dummyimage.com/600x800",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
     },
     {
       title: "Kvetina 4",
-      href: "https://dummyimage.com/600x800",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
     },
     {
       title: "Kvetina 4",
-      href: "https://dummyimage.com/600x800",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
     },
   ];
   let counter = 0;

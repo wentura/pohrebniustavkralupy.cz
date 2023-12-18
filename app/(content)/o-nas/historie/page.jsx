@@ -9,8 +9,8 @@ export default function Onas() {
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               className="object-cover object-center rounded"
-              alt="hero"
-              src="https://dummyimage.com/720x600/dcdcdc/fff&text=1"
+              alt="původní podoba pohřební śtavu Macák"
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549943/pohrebniustavcibulka/historie/puOld_ukt7mo.webp"
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -32,14 +32,6 @@ export default function Onas() {
               důležitých okamžiků v životech lidí v našem městě a městské
               komunitě.
             </p>
-            <div className="flex justify-center hidden">
-              <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                Button
-              </button>
-              <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-                Button
-              </button>
-            </div>
           </div>
         </div>
       </section>
@@ -47,9 +39,9 @@ export default function Onas() {
         <div className="container mx-auto flex px-5 py-16 flex-col items-center md:flex-row-reverse">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="https://dummyimage.com/720x600/dcdcdc/fff&text=2"
+              className="object-cover object-center rounded max-h-96"
+              alt="zakladatel Macák"
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549940/pohrebniustavcibulka/historie/macak_a41ekd.webp"
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -73,14 +65,6 @@ export default function Onas() {
               V roce 1933 se pohřební ústav přestěhoval do nově postaveného domu
               v Grégrově ulici čp. 167, kde zůstává dodnes.
             </p>
-            <div className="flex justify-center hidden">
-              <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                Button
-              </button>
-              <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-                Button
-              </button>
-            </div>
           </div>
         </div>
       </section>
@@ -90,7 +74,7 @@ export default function Onas() {
             <img
               className="object-cover object-center rounded"
               alt="hero"
-              src="https://dummyimage.com/720x600/dcdcdc/fff&text=3"
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549937/pohrebniustavcibulka/historie/86_gw6ojl.webp"
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
