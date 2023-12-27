@@ -7,12 +7,12 @@ html {
   color: #fff !important;
 }
 .hero-background {
-  background-image: url("https://dummyimage.com/1200.jpg?text=hero%20image");
+  background-image: url("https://res.cloudinary.com/dam7wdzvx/image/upload/v1703670731/pohrebniustavcibulka/hero_ambr9j.webp");
   background-position: center center;
   background-size: cover;
 }
 .smallHero {
-  background-image: url("https://dummyimage.com/1200.jpg?text=smallHero%20image");
+  background-image: url("https://res.cloudinary.com/dam7wdzvx/image/upload/v1703670731/pohrebniustavcibulka/hero_ambr9j.webp");
   background-position: center center;
   background-size: cover;
   min-height: 300px;

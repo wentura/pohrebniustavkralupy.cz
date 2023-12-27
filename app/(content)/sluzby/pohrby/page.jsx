@@ -1,5 +1,6 @@
 import ADozvedetSeVic from "@/components/aDozvedetSeVic";
 import Breadcrumbs from "@/components/breadcrumbs";
+import Link from "next/link";
 const breads = [
   { link: "/sluzby", title: "Služby" },
   { link: "/sluzby/pohrby", title: "Pohřby" },
@@ -22,29 +23,44 @@ export default function Pohrby() {
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis">
               Pohřeb s obřadem
             </h1>
-            <p className="mb-8 leading-relaxed">
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
+            <p className="mb-4 leading-relaxed">
+              Profesionální péče a respekt v těžkých chvílích ztráty blízkého.
             </p>
-            <p className="mb-8 leading-relaxed">
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
+            <p className="font-bold leading-relaxed">Rozloučení</p>
+            <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
+              <li>se širokou veřejností</li>
+              <li>v úzkém kruhu rodinném</li>
+              <li>v obřadní síni</li>
+              <li>na hrobě</li>
+              <li>v domě smutku</li>
+              <li>v kostele</li>
+            </ul>
+            <p className="font-bold leading-relaxed">Pohřeb</p>
+            <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
+              <li>kremace (zpopelnění)</li>
+              <li>uložení do rodinného hrobu nebo hrobky</li>
+            </ul>
+            <p className="mb-4 leading-relaxed">
+              Zajišťujeme kompletní organizaci rozloučení v souladu s Vašimi
+              preferencemi a respektujeme individuální potřeby: od sestavení
+              smutečního oznámení, výběru rakve až po květinové aranžmá a hudby
+              k obřadu, vše je plně personalizovatelné.
             </p>
-            <p className="mb-8 leading-relaxed">
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
+            <p className="mb-4 leading-relaxed">
+              Poskytujeme možnost posledního rozloučení se zesnulým včetně
+              identifikace a podpory během této náročné doby.
             </p>
-            <div className="flex justify-center">tesdt</div>
+            <p className="mb-4 leading-relaxed">
+              Nabízíme službu profesionálního řečníka i poradce pro pozůstalé.
+            </p>
+            <p className="mb-4 leading-relaxed">
+              Po obřadu se postaráme o převoz zesnulého do krematoria či na
+              hřbitov.
+            </p>
           </div>
         </div>
 
-        <div className="container mx-auto flex md:flex-row-reverse px-5 py-24 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex md:flex-row-reverse px-5 py-24  flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               className="object-cover object-center rounded"
@@ -59,25 +75,27 @@ export default function Pohrby() {
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88">
               Pohřeb bez obřadu
             </h1>
-            <p className="mb-8 leading-relaxed">
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
+
+            <p className="font-bold leading-relaxed">Pohřeb</p>
+            <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
+              <li>kremace (zpopelnění)</li>
+              <li>možnost tzv. identifikace</li>
+            </ul>
+            <p className="mb-4 leading-relaxed">
+              Nabízíme službu pohřbu bez obřadu, která zahrnuje sestavení
+              smutečního oznámení a přípravu zesnulého v oblečení dle Vašeho
+              výběru.
+            </p>
+            <p className="mb-4 leading-relaxed">
+              Zajišťujeme převoz zesnulého do krematoria s následným
+              zpopelněním.
             </p>
             <p className="mb-8 leading-relaxed">
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
+              <strong>Identifikace</strong> značí soukromé a intimní rozloučení,
+              které je určeno pouze pro nejbližší pozůstalé a příbuzné. Tato
+              forma rozloučení umožňuje malému okruhu lidí naposledy se
+              rozloučit se zemřelým v klidné a soukromé atmosféře obřadní síně.
             </p>
-            <p className="mb-8 leading-relaxed">
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
-            </p>
-            <div className="flex justify-center">tesdt</div>
           </div>
         </div>
 
@@ -96,25 +114,41 @@ export default function Pohrby() {
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis">
               Organizace obřadu
             </h1>
-            <p className="mb-8 leading-relaxed">
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
+            <p className="mb-4 leading-relaxed">
+              Obřad trvá obvykle do 30 minut, kdy zazní oblíbené skladby drahého
+              zesnulého a je-li to Vaším přáním, promluví náš profesionální
+              řečník.
             </p>
-            <p className="mb-8 leading-relaxed">
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
+            <p className="mb-4 leading-relaxed">
+              Obřadnice, která je zde k dispozici se stará o plynulý průběh
+              celého obřadu.
             </p>
-            <p className="mb-8 leading-relaxed">
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
+            <p className="font-bold leading-relaxed">
+              Zajištění květinového aranžmá včetně stuh
             </p>
-            <div className="flex justify-center">tesdt</div>
+            <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
+              <li>živé (rostlé) květiny</li>
+              <li>umělé květiny</li>
+              <li>věnce</li>
+              <li>zápůjční vazba</li>
+            </ul>
+            <p className="mb-4 leading-relaxed">
+              <Link
+                href="/katalog/kvetiny"
+                className="underline-offset-4 underline"
+              >
+                více ve smutečním katalogu květin...
+              </Link>
+            </p>
+            <p className="mb-4 leading-relaxed">
+              <Link
+                href="/sluzby/hudba#foto"
+                className="underline underline-offset-4"
+              >
+                Fotografie
+              </Link>{" "}
+              k obřadu bude připravena a umístěna před samotným začátkem obřadu.
+            </p>
           </div>
         </div>
 
@@ -134,9 +168,8 @@ export default function Pohrby() {
               Převoz a úprava zesnulého
             </h1>
             <p className="mb-8 leading-relaxed">
-              S respektem k zesnulému zajišťujeme jeho převoz z místa úmrtí, což
-              obvykle vyžaduje tzv. plnou moc, kterou pro Vás připravíme k
-              podpisu.
+              Zajišťujeme převoz zemřelých z různých částí České republiky.
+              Soustředíme se na oblast kralupska a okolí.
             </p>
             <p className="mb-8 leading-relaxed">
               Prosíme, abyste nám předali oblečení, ve kterém chcete, aby byl

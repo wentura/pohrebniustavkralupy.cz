@@ -15,7 +15,7 @@ export default function Home() {
             <h1 className="sm:text-4xl text-2xl font-black font-nadpis mb-2 text-natyzlata">
               Kralupský pohřební ústav Cibulka
             </h1>
-            <p className="lg:w-3/4 w-full leading-relaxed text-right text-modra font-nadpis pb-8">
+            <p className="lg:w-3/4 w-full leading-relaxed text-center text-modra font-nadpis pb-8">
               Rodinná tradice od roku 1914.
             </p>
             <p className="md:w-4/5 w-full text-center font-nadpis text-xl md:text-2xl leading-relaxed text-modra pt-4 pb-12">

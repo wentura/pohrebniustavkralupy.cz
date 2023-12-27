@@ -11,35 +11,103 @@ export default function Katalog() {
   const kvetiny = [
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702934698/pohrebniustavcibulka/kvetiny/kytice1_nbqkoh.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671218/pohrebniustavcibulka/vazba/1_sglh5e.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671218/pohrebniustavcibulka/vazba/2_jgswyz.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671218/pohrebniustavcibulka/vazba/3_sxroa0.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671218/pohrebniustavcibulka/vazba/4_obstfx.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671218/pohrebniustavcibulka/vazba/5_rywgsu.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671218/pohrebniustavcibulka/vazba/6_kxhlt6.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671219/pohrebniustavcibulka/vazba/7_ypwnzl.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702914087/pohrebniustavcibulka/kvetiny/1_crnl7h.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671220/pohrebniustavcibulka/vazba/8_s0zwwb.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671219/pohrebniustavcibulka/vazba/9_dluxj7.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671220/pohrebniustavcibulka/vazba/10_maks1t.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671222/pohrebniustavcibulka/vazba/11_vznaoh.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671220/pohrebniustavcibulka/vazba/12_ujxyed.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671221/pohrebniustavcibulka/vazba/13_rzqttk.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671221/pohrebniustavcibulka/vazba/14_p1o5z5.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671221/pohrebniustavcibulka/vazba/15_qsldkl.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671222/pohrebniustavcibulka/vazba/16_fnfvxi.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671223/pohrebniustavcibulka/vazba/17_fm4uff.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671223/pohrebniustavcibulka/vazba/18_kmfa4o.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671223/pohrebniustavcibulka/vazba/19_tsw0fz.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671225/pohrebniustavcibulka/vazba/20_gy4etx.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671224/pohrebniustavcibulka/vazba/21_ilyt3z.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671224/pohrebniustavcibulka/vazba/22_piwpq4.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671225/pohrebniustavcibulka/vazba/23_afap8r.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671225/pohrebniustavcibulka/vazba/24_huz6x0.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671226/pohrebniustavcibulka/vazba/25_k0vmpe.webp",
     },
   ];
   const vence = [

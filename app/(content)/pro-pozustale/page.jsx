@@ -41,6 +41,26 @@ const infos = [
 export default function ProPozustale() {
   return (
     <section className="text-gray-600 body-font overflow-hidden">
+      <div className="container mt-2 md:mt-12 px-5 md:px-24">
+        <span className="text-2xl font-medium text-gray-900 font-nadpis underline underline-offset-4">
+          K zařízení pohřbu
+        </span>
+        <ul className="list-inside list-disc pt-4">
+          <li>Občanský průkaz objednavatele pohřbu</li>
+          <li>List o prohlídce zemřelého</li>
+          <li>Občanský průkaz zemřelého</li>
+          <li>Kartu pojištěnce</li>
+          <li>
+            Oblečení pro zemřelého
+            <ul className="pl-8">
+              <li>
+                Může to být oblečení, které měl rád – není třeba, aby bylo tmavé
+                barvy.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
       <div className="container px-5 py-24 mx-auto">
         <div className="-my-8 divide-y-2 divide-gray-100">
           {infos.map((info) => {

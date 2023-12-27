@@ -3,8 +3,8 @@ import Logo from "./logo";
 export default function Hero() {
   return (
     <section className="body-font">
-      <div className="container mx-auto flex px-5 pt-44 pb-32 items-center justify-center flex-col mt-[-80px] hero-background">
-        <div className="">
+      <div className="container mx-auto flex  items-center justify-center flex-col mt-[-80px] hero-background">
+        <div className="px-5 pt-44 pb-32 h-full">
           <Logo klas="max-h-60 md:max-h-96 mx-auto" />
           {/* <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
             Microdosing synth tattooed vexillologist

@@ -11,23 +11,83 @@ export default function Rakve() {
   const plast = [
     {
       title: "",
-      href: "https://dummyimage.com/400x600",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672058/pohrebniustavcibulka/urny/DSC_0070.JPG_qaiucq.webp",
     },
     {
       title: "",
-      href: "https://dummyimage.com/400x600",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672057/pohrebniustavcibulka/urny/DSC_0069.JPG_eezlcz.webp",
     },
     {
       title: "",
-      href: "https://dummyimage.com/400x600",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672056/pohrebniustavcibulka/urny/DSC_0068.JPG_vcpyjt.webp",
     },
     {
       title: "",
-      href: "https://dummyimage.com/400x600",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672055/pohrebniustavcibulka/urny/DSC_0060.JPG_yq5tpo.webp",
     },
     {
       title: "",
-      href: "https://dummyimage.com/400x600",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672054/pohrebniustavcibulka/urny/DSC_0057.JPG_hfwwni.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672053/pohrebniustavcibulka/urny/DSC_0054.JPG_wsisj3.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672052/pohrebniustavcibulka/urny/DSC_0052.JPG_ifvcs6.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672051/pohrebniustavcibulka/urny/DSC_0050.JPG_cauwqx.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672050/pohrebniustavcibulka/urny/DSC_0049.JPG_mhvt21.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672049/pohrebniustavcibulka/urny/DSC_0047.JPG_waacuy.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672048/pohrebniustavcibulka/urny/DSC_0045.JPG_p7jlnd.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672047/pohrebniustavcibulka/urny/DSC_0042.JPG_domihx.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672046/pohrebniustavcibulka/urny/DSC_0040.JPG_qtreec.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672045/pohrebniustavcibulka/urny/DSC_0039.JPG_br279z.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672044/pohrebniustavcibulka/urny/DSC_0037.JPG_gxvlno.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672043/pohrebniustavcibulka/urny/DSC_0034.JPG_x1fina.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672042/pohrebniustavcibulka/urny/DSC_0033.JPG_oy4dwi.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672041/pohrebniustavcibulka/urny/DSC_0030.JPG_skzffq.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672040/pohrebniustavcibulka/urny/DSC_0028.JPG_qc1jod.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672035/pohrebniustavcibulka/urny/DSC_0012.JPG_cnzoha.webp",
     },
   ];
   const kov = [
@@ -79,19 +139,19 @@ export default function Rakve() {
   const ostatni = [
     {
       title: "",
-      href: "https://dummyimage.com/400x600",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672039/pohrebniustavcibulka/urny/DSC_0025.JPG_xoxp6z.webp",
     },
     {
       title: "",
-      href: "https://dummyimage.com/400x600",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672037/pohrebniustavcibulka/urny/DSC_0022.JPG_dbtqvm.webp",
     },
     {
       title: "",
-      href: "https://dummyimage.com/400x600",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672036/pohrebniustavcibulka/urny/DSC_0020.JPG_al2awz.webp",
     },
     {
       title: "",
-      href: "https://dummyimage.com/400x600",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672036/pohrebniustavcibulka/urny/DSC_0016.JPG_ntrh2h.webp",
     },
   ];
   let counter = 0;

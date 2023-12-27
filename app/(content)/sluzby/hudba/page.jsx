@@ -168,23 +168,21 @@ export default function Hudba() {
           </h1>
           <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
           <p className="text-left py-2 text-xl">
-            V těžkých chvílích, kdy se loučíte s blízkým člověkem, se snažíme
-            Vám co nejvíce ulehčit organizaci pohřbu. Abychom Vám pomohli
-            vytvořit osobní a důstojný obřad, nabízíme možnost přizpůsobit si
-            hudbu a vzpomínkovou fotografii dle Vašich přání.
+            Pro ty, kteří by rádi vzdali hold zesnulé/mu, nabízíme možnost
+            profesionální řečnice, která může promluvit nejen o obecných
+            tématech, ale přizpůsobit svou řeč konkrétním vztahům, studiu,
+            zaměstnání nebo zálibám zemřelé/ho.
           </p>
           <p className="text-left py-2 text-xl">
-            Obřad má standardní délku 30 minut, z toho 10 minut je vyhrazeno pro
-            řeč. To znamená, že můžete vybrat až 5 skladeb, ale může to být
-            samozřejmě méně. Poté, co vyberete hudbu z našeho seznamu skladeb,
-            nás prosím kontaktujte telefonicky nebo emailem nejpozději dva dny
-            před plánovaným obřadem.
+            Pokud upřednostňujete, abychom my nebo ostatní z pozůstalých či
+            přátel, neprojevovali kondolenci, Vaše přání budeme plně ctít.
+            <br />
+            Chápeme, že každý prožívá smutek a vyjadřuje soustrast různými
+            způsoby.
           </p>
           <p className="text-left py-2 text-xl">
-            V případě, že žádná ze skladeb z našeho seznamu nevyhovuje Vašim
-            představám a chtěli byste vlastní hudbu, doneste nám jednotlivé
-            skladby ve formátu mp3, v dobré kvalitě a bez rušivých zvuků na
-            flash disku či zašlete emailem.
+            Samozřejmostí je i tzv. církevní obřad s přítomností důstojného
+            pána, kněze.
           </p>
         </div>
         <div class="flex flex-col text-center w-full mb-12">
