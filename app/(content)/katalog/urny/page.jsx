@@ -11,6 +11,24 @@ export default function Rakve() {
   const plast = [
     {
       title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672042/pohrebniustavcibulka/urny/DSC_0033.JPG_oy4dwi.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672041/pohrebniustavcibulka/urny/DSC_0030.JPG_skzffq.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672040/pohrebniustavcibulka/urny/DSC_0028.JPG_qc1jod.webp",
+    },
+    {
+      title: "",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672035/pohrebniustavcibulka/urny/DSC_0012.JPG_cnzoha.webp",
+    },
+  ];
+  const kov = [
+    {
+      title: "",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672058/pohrebniustavcibulka/urny/DSC_0070.JPG_qaiucq.webp",
     },
     {
@@ -69,72 +87,6 @@ export default function Rakve() {
       title: "",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672044/pohrebniustavcibulka/urny/DSC_0037.JPG_gxvlno.webp",
     },
-    {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672043/pohrebniustavcibulka/urny/DSC_0034.JPG_x1fina.webp",
-    },
-    {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672042/pohrebniustavcibulka/urny/DSC_0033.JPG_oy4dwi.webp",
-    },
-    {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672041/pohrebniustavcibulka/urny/DSC_0030.JPG_skzffq.webp",
-    },
-    {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672040/pohrebniustavcibulka/urny/DSC_0028.JPG_qc1jod.webp",
-    },
-    {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672035/pohrebniustavcibulka/urny/DSC_0012.JPG_cnzoha.webp",
-    },
-  ];
-  const kov = [
-    {
-      title: "",
-      href: "https://dummyimage.com/400x600",
-    },
-    {
-      title: "",
-      href: "https://dummyimage.com/400x600",
-    },
-    {
-      title: "",
-      href: "https://dummyimage.com/400x600",
-    },
-    {
-      title: "",
-      href: "https://dummyimage.com/400x600",
-    },
-    {
-      title: "",
-      href: "https://dummyimage.com/400x600",
-    },
-    {
-      title: "",
-      href: "https://dummyimage.com/400x600",
-    },
-    {
-      title: "",
-      href: "https://dummyimage.com/400x600",
-    },
-    {
-      title: "",
-      href: "https://dummyimage.com/400x600",
-    },
-    {
-      title: "",
-      href: "https://dummyimage.com/400x600",
-    },
-    {
-      title: "",
-      href: "https://dummyimage.com/400x600",
-    },
-    {
-      title: "",
-      href: "https://dummyimage.com/400x600",
-    },
   ];
   const ostatni = [
     {
@@ -188,13 +140,13 @@ export default function Rakve() {
               }
               return (
                 <div className="xl:w-1/4 md:w-1/3 p-4" key={item.href}>
-                  <div className="">
+                  <div className="mb-8">
                     <img
                       className="rounded w-full"
                       src={item.href}
                       alt="content"
                     />
-                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+                    <h3 className="tracking-widest text-indigo-500 text-lg lg:text-xl font-medium title-font">
                       {counter}
                     </h3>
                   </div>
@@ -225,13 +177,13 @@ export default function Rakve() {
               }
               return (
                 <div className="xl:w-1/4 md:w-1/3 p-4 " key={item.href}>
-                  <div className="">
+                  <div className="mb-8">
                     <img
                       className="rounded w-full"
                       src={item.href}
                       alt="content"
                     />
-                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+                    <h3 className="tracking-widest text-indigo-500 text-lg lg:text-xl font-medium title-font">
                       {counter}
                     </h3>
                   </div>
@@ -251,16 +203,15 @@ export default function Rakve() {
             </div>
             <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
               V naší kanceláři nabízíme nejen vázy na květiny a lampičky, ale
-              také další produkty, které mohou být pro vás užitečné.
+              také další smuteční zboží.
               <br />
-              <br />
-              Například můžete zakoupit prosklenou vitrínu určenou na hroby, do
-              které lze umístit 1, 2 nebo 3 urny, podle velikosti vitríny.
-              <br />
+              Můžete u nás například zakoupit prosklenou vitrínu určenou na
+              hroby, do které lze umístit 1, 2 nebo 3 urny, podle velikosti
+              vitríny.
               <br />
               Dále máme k dispozici plastové boxy určené pro bezpečné uložení
               uren do hrobů a hrobek. Jsme zde, abychom vám pomohli vybrat ty
-              správné produkty pro vaše potřeby
+              správné produkty pro vaše potřeby.
             </p>
           </div>
           {/* <img
@@ -275,13 +226,13 @@ export default function Rakve() {
               }
               return (
                 <div className="xl:w-1/4 md:w-1/2 p-4" key={item.href}>
-                  <div className="">
+                  <div className="mb-8">
                     <img
                       className="rounded w-full"
                       src={item.href}
                       alt="content"
                     />
-                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+                    <h3 className="tracking-widest text-indigo-500 text-lg lg:text-xl font-medium title-font">
                       {counter}
                     </h3>
                     <h2 className="text-lg text-gray-900 title-font mb-4 text-center">

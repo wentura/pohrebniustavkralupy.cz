@@ -69,11 +69,11 @@ export default function ProPozustale() {
                 className="py-8 flex flex-wrap md:flex-nowrap"
                 key={info.nadpis}
               >
-                <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 md:flex md:flex-col hidden">
+                {/* <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 md:flex md:flex-col hidden">
                   <span className="font-semibold title-font text-gray-400">
                     {info.vlevo}
                   </span>
-                </div>
+                </div> */}
                 <div className="md:flex-grow">
                   <h2 className="text-2xl font-medium text-gray-900  mb-4 font-nadpis underline underline-offset-4">
                     {info.nadpis}

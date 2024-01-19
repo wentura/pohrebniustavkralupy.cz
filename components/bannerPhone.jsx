@@ -1,15 +1,20 @@
+import Logo3 from "@/components/logo3";
+
 export default function BannerContact() {
   return (
     <section className="bg-transparent body-font -mt-16 bg-gradient-to-t from-modra from-90% rounded-b-2xl">
       <div className="flex flex-col lg:flex-row flex-wrap text-center items-center ">
-        <div className="w-4/5 sm:w-1/2 my-10 mx-auto ">
+        <div className="my-10 mx-auto ">
+          {/* <div className="w-4/5 sm:w-1/2 my-10 mx-auto "> */}
           <h2 className="font-nadpis text-lg md:text-xl lg:text-3xl font-medium text-natyzlata md:mt-6 md:mb-3">
             Při úmrtí Vašeho blízkého a
             <br /> potřeby pomoci či podpory,
             <br /> nás kdykoliv kontaktujte.
           </h2>
         </div>
-        <div className="w-4/5 sm:w-1/2 flex flex-col justify-center align-middle items-center mx-auto mb-8 sm:mb-0">
+        <Logo3 />
+        <div className=" flex flex-col justify-center align-middle items-center mx-auto mb-8 sm:mb-0">
+          {/* <div className="w-4/5 sm:w-1/2 flex flex-col justify-center align-middle items-center mx-auto mb-8 sm:mb-0"> */}
           <h2 className="font-nadpis text-2xl md:text-4xl font-medium text-natyzlata mt-6 mb-3 flex items-center">
             <a
               href="tel:+420723192379"

@@ -17,10 +17,10 @@ export default function Rakve() {
       title: "",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672914/pohrebniustavcibulka/rakve/WEBP/P6_rubi%CC%81n_k_obr%CC%8Cadu_a_do_kop._hrobu_umijiu.webp",
     },
-    {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672907/pohrebniustavcibulka/rakve/WEBP/P6_c%CC%8Cerna%CC%81_k_obr%CC%8Cadu_a_do_kop._hrobu_jxaoxq.webp",
-    },
+    // {
+    //   title: "",
+    //   href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672907/pohrebniustavcibulka/rakve/WEBP/P6_c%CC%8Cerna%CC%81_k_obr%CC%8Cadu_a_do_kop._hrobu_jxaoxq.webp",
+    // },
     {
       title: "",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672906/pohrebniustavcibulka/rakve/WEBP/KR_vyr%CC%8Ceza%CC%81vana%CC%81_-_k_obr%CC%8Cadu_a_do_kop._hrobu_ufnxjr.webp",
@@ -140,11 +140,6 @@ export default function Rakve() {
               Při pohřbu do hrobu se na rakev přidávají madla pro snazší
               manipulaci. Na přání lze přidat na každou rakev kříž, což umožňuje
               projevení úcty k víře zesnulého.
-              <br />
-              <br />
-              Naše rakve nejsou pouhým nástrojem pro poslední rozloučení, ale
-              prostředkem, který pomáhá vyjádřit jedinečnost života, který jsme
-              společně sdíleli.
             </p>
           </div>
           <div className="flex flex-wrap -m-4  justify-center">
@@ -179,8 +174,8 @@ export default function Rakve() {
               </h1>
             </div>
             <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
-              Pro dostojné uložení do zděné hrobky nabízíme rakve vybavené
-              speciálními madly, která umožňují snadné spuštění do hrobu a
+              Pro důstojné uložení do zděné hrobky nabízíme rakve vybavené
+              speciálními madly, která umožňují snadné spuštění do hrobky a
               usnadňují manipulaci s rakví.
               <br />
               <br />
@@ -194,7 +189,7 @@ export default function Rakve() {
               rozloučení osobní a náboženský rozměr.
               <br />
               <br />
-              Pro ty, kdo preferují luxusní formu obřadu, nabízíme celokovou
+              Pro ty, kdo preferují luxusní formu obřadu, nabízíme celokovovou
               rakev &quot;Amerika - lila&quot;. Tato rakev splňuje nejen
               estetické nároky, ale i vysoké standardy pevnosti a bezpečnosti.
             </p>

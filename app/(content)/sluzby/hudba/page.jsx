@@ -206,8 +206,8 @@ export default function Hudba() {
           <p className="text-left py-2 text-xl">
             V případě, že žádná ze skladeb z našeho seznamu nevyhovuje Vašim
             představám a chtěli byste vlastní hudbu, doneste nám jednotlivé
-            skladby ve formátu mp3, v dobré kvalitě a bez rušivých zvuků na
-            flash disku či zašlete emailem.
+            skladby stažené ve formátu mp3, v dobré kvalitě a bez rušivých zvuků
+            na flash disku do kanceláře či zašlete emailem.
           </p>
         </div>
         <div class="flex flex-col text-center w-full mb-12">
@@ -304,7 +304,7 @@ export default function Hudba() {
             poslední rozloučení se bude odehrávat tak, jak by si to Váš zesnulý
             člen rodiny přál.
           </p>
-          <p className="text-left py-2 text-xl">
+          <p className="text-lg py-2 md:text-3xl mt-24 text-center">
             Děkujeme Vám za důvěru. S úctou, kolektiv Pohřebního ústavu Cibulka
           </p>
         </div>

@@ -11,7 +11,8 @@ export default function Header({ klas }) {
       <div className="flex-1">
         <a className="" href="/">
           <span className="md:ml-3 text-md md:text-xl text-natyzlata font-extrabold">
-            <span className="hidden">Kralupský</span> pohřební ústav Cibulka
+            <span className="hidden sm:inline-block">Kralupský</span> pohřební
+            ústav Cibulka
           </span>
         </a>{" "}
       </div>

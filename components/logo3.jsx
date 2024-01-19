@@ -1,13 +1,13 @@
 import React from "react";
 
-function Logo2() {
+function Logo3() {
   return (
     <svg
-      className="h-32 m-0"
+      className="xl:h-96 hidden xl:flex "
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      width="150"
-      height="150"
+      width="500"
+      height="500"
       version="1"
       viewBox="0 0 375 375"
     >
@@ -35,7 +35,10 @@ function Logo2() {
       </defs>
       <g clipPath="url(#876afedfa2)">
         <g clipPath="url(#f6ef2602ab)">
-          <path fill="#fff" d="M315.86 101.57v171.86H59.128V101.57zm0 0"></path>
+          <path
+            fill="transparent"
+            d="M315.86 101.57v171.86H59.128V101.57zm0 0"
+          ></path>
         </g>
       </g>
       <g clipPath="url(#b9288fd369)">
@@ -200,4 +203,4 @@ function Logo2() {
   );
 }
 
-export default Logo2;
+export default Logo3;

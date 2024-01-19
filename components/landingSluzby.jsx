@@ -11,27 +11,27 @@ export default function LandingSluzby() {
     {
       title: "Pohřeb bez obřadu",
       text: "Soukromější a osobnější způsob rozloučení se zesnulým, bez tradičních ceremonií či náboženských prvků.",
-      href: "/sluzby/pohrby#bezobradu",
+      href: "/sluzby/pohrbybezobradu",
       vice: "více o pohřebech bez obřadu",
     },
-    {
-      title: "Organizace obřadu",
-      text: "Profesionální a citlivá pomoc s organizací obřadu.",
-      href: "/sluzby/pohrby#organizaceobradu",
-      vice: "více o organizaci obřadu",
-    },
-    {
-      title: "Převoz a úprava zesnulého",
-      text: "Zajistíme transport zemřelého z celé ČR do místa pohřbu.",
-      href: "/sluzby/pohrby#prevozzesnuleho",
-      vice: "více o převozu a úpravě zesnulého",
-    },
-    {
-      title: "Pomoc s výběrem rakve / urny",
-      text: "Pomůžeme s výběrem rakve nebo obalu na urnu dle Vašich preferencí a potřeb.",
-      href: "/katalog/urny",
-      vice: "více ve smutečním katalogu",
-    },
+    // {
+    //   title: "Organizace obřadu",
+    //   text: "Profesionální a citlivá pomoc s organizací obřadu.",
+    //   href: "/sluzby/pohrby#organizaceobradu",
+    //   vice: "více o organizaci obřadu",
+    // },
+    // {
+    //   title: "Převoz a úprava zesnulého",
+    //   text: "Zajistíme transport zemřelého z celé ČR do místa pohřbu.",
+    //   href: "/sluzby/pohrby#prevozzesnuleho",
+    //   vice: "více o převozu a úpravě zesnulého",
+    // },
+    // {
+    //   title: "Pomoc s výběrem rakve / urny",
+    //   text: "Pomůžeme s výběrem rakve nebo obalu na urnu dle Vašich preferencí a potřeb.",
+    //   href: "/katalog/urny",
+    //   vice: "více ve smutečním katalogu",
+    // },
     {
       title: "Poradenství pro pozůstalé",
       text: "Poskytujeme pomoc s administrativními kroky a právními formalitami v obtížných časech ztráty.",
