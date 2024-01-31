@@ -46,14 +46,14 @@ export default function ProPozustale() {
           K zařízení pohřbu
         </span>
         <ul className="list-inside list-disc pt-4">
-          <li>Občanský průkaz objednavatele pohřbu</li>
-          <li>List o prohlídce zemřelého</li>
-          <li>Občanský průkaz zemřelého</li>
-          <li>Kartu pojištěnce</li>
+          <li key="1">Občanský průkaz objednavatele pohřbu</li>
+          <li key="2">List o prohlídce zemřelého</li>
+          <li key="3">Občanský průkaz zemřelého</li>
+          <li key="4">Kartu pojištěnce</li>
           <li>
             Oblečení pro zemřelého
             <ul className="pl-8">
-              <li>
+              <li key="5">
                 Může to být oblečení, které měl rád – není třeba, aby bylo tmavé
                 barvy.
               </li>

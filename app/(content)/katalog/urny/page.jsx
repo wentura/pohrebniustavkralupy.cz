@@ -25,6 +25,10 @@ export default function Rakve() {
       title: "",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672035/pohrebniustavcibulka/urny/DSC_0012.JPG_cnzoha.webp",
     },
+    {
+      title: "",
+      href: "    https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672038/pohrebniustavcibulka/urny/DSC_0026.JPG_cj4gpt.webp",
+    },
   ];
   const kov = [
     {
@@ -119,19 +123,29 @@ export default function Rakve() {
                 Plastové obaly
               </h1>
             </div>
-            <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
-              Rádi bychom Vám představili naši rozsáhlou nabídku urnových obalů,
-              zahrnující kovové (měď, hliník, nerez) a plastové varianty, včetně
-              těch s přidanou kameninou. Doporučujeme plastové obaly pro uložení
-              urny do hrobu pod desku nebo do okénka, zatímco kovové obaly jsou
-              ideální pro ty, kteří si přejí urnu ponechat doma nebo urnu s
-              obalem uloží na hřbitov do okénka, případně kolumbária..
-              Fotografie prezentované na našich webových stránkách zahrnují
-              pouze několik vybraných typů, které máme k dispozici v naší
-              kanceláři. Pro podrobnější informace a rozsáhlý výběr doporučujeme
-              osobní návštěvu naší kanceláře, kde Vám rádi představíme katalogy
-              od našich dodavatelů.
-            </p>
+            <div className="lg:w-1/2 w-full leading-relaxed text-gray-500">
+              <p className="mt-2">
+                Rádi bychom Vám představili naši rozsáhlou nabídku urnových
+                obalů, zahrnující kovové (měď, hliník, nerez) a plastové
+                varianty, včetně těch s přidanou kameninou.
+              </p>
+              <p className="mt-2">
+                Doporučujeme plastové obaly pro uložení urny do hrobu pod desku
+                nebo do okénka, zatímco kovové obaly jsou ideální pro ty, kteří
+                si přejí urnu ponechat doma nebo urnu s obalem uloží na hřbitov
+                do okénka, případně kolumbária.
+              </p>
+              <p className="mt-2">
+                Fotografie prezentované na našich webových stránkách zahrnují
+                pouze několik vybraných typů, které máme k dispozici v naší
+                kanceláři.
+              </p>
+              <p className="mt-2">
+                Pro podrobnější informace a rozsáhlý výběr doporučujeme osobní
+                návštěvu naší kanceláře, kde Vám rádi představíme katalogy od
+                našich dodavatelů.
+              </p>
+            </div>
           </div>
           <div className="flex flex-wrap -m-4  justify-center">
             {plast.map((item) => {
@@ -139,14 +153,14 @@ export default function Rakve() {
                 counter++;
               }
               return (
-                <div className="xl:w-1/4 md:w-1/3 p-4" key={item.href}>
+                <div className="xl:w-1/5 md:w-1/3 p-4" key={item.href}>
                   <div className="mb-8">
                     <img
                       className="rounded w-full"
                       src={item.href}
                       alt="content"
                     />
-                    <h3 className="tracking-widest text-indigo-500 text-lg lg:text-xl font-medium title-font">
+                    <h3 className="tracking-widest font-medium title-font">
                       {counter}
                     </h3>
                   </div>
@@ -163,11 +177,10 @@ export default function Rakve() {
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 font-nadpis">
                 Kovové obaly
                 <br />
-                (hliník, mosaz, nerez, meď)
               </h1>
             </div>
             <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
-              &nbsp;
+              Hliník, mosaz, nerez, meď.
             </p>
           </div>
           <div className="flex flex-wrap -m-4 justify-center">
@@ -176,14 +189,14 @@ export default function Rakve() {
                 counter++;
               }
               return (
-                <div className="xl:w-1/4 md:w-1/3 p-4 " key={item.href}>
+                <div className="xl:w-1/5 md:w-1/3 p-4 " key={item.href}>
                   <div className="mb-8">
                     <img
                       className="rounded w-full"
                       src={item.href}
                       alt="content"
                     />
-                    <h3 className="tracking-widest text-indigo-500 text-lg lg:text-xl font-medium title-font">
+                    <h3 className="tracking-widest font-medium title-font">
                       {counter}
                     </h3>
                   </div>
@@ -201,18 +214,22 @@ export default function Rakve() {
                 Vázy, lucerny,...
               </h1>
             </div>
-            <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
-              V naší kanceláři nabízíme nejen vázy na květiny a lampičky, ale
-              také další smuteční zboží.
-              <br />
-              Můžete u nás například zakoupit prosklenou vitrínu určenou na
-              hroby, do které lze umístit 1, 2 nebo 3 urny, podle velikosti
-              vitríny.
-              <br />
-              Dále máme k dispozici plastové boxy určené pro bezpečné uložení
-              uren do hrobů a hrobek. Jsme zde, abychom vám pomohli vybrat ty
-              správné produkty pro vaše potřeby.
-            </p>
+            <div className="lg:w-1/2 w-full leading-relaxed text-gray-500">
+              <p className="mt-2">
+                V naší kanceláři nabízíme nejen vázy na květiny a lampičky, ale
+                také další smuteční zboží.
+              </p>
+              <p className="mt-2">
+                Můžete u nás například zakoupit prosklenou vitrínu určenou na
+                hroby, do které lze umístit 1, 2 nebo 3 urny, podle velikosti
+                vitríny.
+              </p>
+              <p className="mt-2">
+                Dále máme k dispozici plastové boxy určené pro bezpečné uložení
+                uren do hrobů a hrobek. Jsme zde, abychom vám pomohli vybrat ty
+                správné produkty pro vaše potřeby.
+              </p>
+            </div>
           </div>
           {/* <img
             className="rounded w-full pb-12"
@@ -225,14 +242,14 @@ export default function Rakve() {
                 counter++;
               }
               return (
-                <div className="xl:w-1/4 md:w-1/2 p-4" key={item.href}>
+                <div className="xl:w-1/5 md:w-1/2 p-4" key={item.href}>
                   <div className="mb-8">
                     <img
                       className="rounded w-full"
                       src={item.href}
                       alt="content"
                     />
-                    <h3 className="tracking-widest text-indigo-500 text-lg lg:text-xl font-medium title-font">
+                    <h3 className="tracking-widest font-medium title-font">
                       {counter}
                     </h3>
                     <h2 className="text-lg text-gray-900 title-font mb-4 text-center">

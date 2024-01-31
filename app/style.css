@@ -23,3 +23,15 @@ ol.parte {
 .parte > li {
   margin-top: 1em;
 }
+.menuParent {
+  /* background-color: red; */
+}
+.menuParent:hover {
+  /* background-color: blue; */
+}
+.menuKid {
+  display: none;
+}
+.menuParent:hover > .menuKid {
+  display: block !important;
+}

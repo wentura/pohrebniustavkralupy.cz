@@ -28,12 +28,12 @@ export default function Pohrby() {
             </p>
             <p className="font-bold leading-relaxed">Rozloučení</p>
             <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
-              <li>se širokou veřejností</li>
-              <li>v úzkém kruhu rodinném</li>
-              <li>v obřadní síni</li>
-              <li>na hrobě</li>
-              <li>v domě smutku</li>
-              <li>v kostele</li>
+              <li key="1">se širokou veřejností</li>
+              <li key="2">v úzkém kruhu rodinném</li>
+              <li key="3">v obřadní síni</li>
+              <li key="4">na hrobě</li>
+              <li key="5">v domě smutku</li>
+              <li key="6">v kostele</li>
             </ul>
             <p className="font-bold leading-relaxed">Pohřeb</p>
             <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
@@ -90,7 +90,7 @@ export default function Pohrby() {
           </div>
         </div>
 
-        <div className="container mx-auto flex md:px-5 py-24 md:flex-row-reverse flex-col items-center">
+        <div className="container mx-auto flex md:px-5 py-24 md:flex-row-reverse flex-col items-center scroll-mt-36">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               className="object-cover object-center rounded"
@@ -99,7 +99,7 @@ export default function Pohrby() {
             />
           </div>
           <div
-            className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left"
+            className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left  scroll-mt-36"
             // className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center  scroll-mt-36"
             id="organizaceobradu"
           >

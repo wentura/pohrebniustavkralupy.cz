@@ -161,61 +161,61 @@ let counter = 1;
 export default function Hudba() {
   return (
     <section className="px-4">
-      <div class="container px-2 sm:px-12 py-24 mx-auto flex flex-wrap">
-        <div class="flex flex-col text-center w-full mb-44">
-          <h1 class="sm:text-3xl text-2xl font-medium font-nadpis mb-4 text-gray-900">
+      <div className="container px-2 sm:px-12 py-24 mx-auto flex flex-wrap text-gray-600 body-font">
+        <div className="flex flex-col text-center w-full mb-44">
+          <h1 className="sm:text-3xl text-2xl font-medium font-nadpis mb-4 text-gray-900">
             Smuteční řeč
           </h1>
-          <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
-          <p className="text-left py-2 text-xl">
+          <hr className="w-48 h-1 mx-auto my-2  border-0 rounded md:mt-2 md:mb-8" />
+          <p className="text-left py-2">
             Pro ty, kteří by rádi vzdali hold zesnulé/mu, nabízíme možnost
             profesionální řečnice, která může promluvit nejen o obecných
             tématech, ale přizpůsobit svou řeč konkrétním vztahům, studiu,
             zaměstnání nebo zálibám zemřelé/ho.
           </p>
-          <p className="text-left py-2 text-xl">
+          <p className="text-left py-2">
             Pokud upřednostňujete, abychom my nebo ostatní z pozůstalých či
             přátel, neprojevovali kondolenci, Vaše přání budeme plně ctít.
             <br />
             Chápeme, že každý prožívá smutek a vyjadřuje soustrast různými
             způsoby.
           </p>
-          <p className="text-left py-2 text-xl">
+          <p className="text-left py-2">
             Samozřejmostí je i tzv. církevní obřad s přítomností důstojného
             pána, kněze.
           </p>
         </div>
-        <div class="flex flex-col text-center w-full mb-12">
-          <h1 class="sm:text-3xl text-2xl font-medium font-nadpis mb-4 text-gray-900">
+        <div className="flex flex-col text-center w-full mb-12">
+          <h1 className="sm:text-3xl text-2xl font-medium font-nadpis mb-4 text-gray-900">
             Smuteční hudba
           </h1>
           <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
-          <p className="text-left py-2 text-xl">
+          <p className="text-left py-2">
             V těžkých chvílích, kdy se loučíte s blízkým člověkem, se snažíme
             Vám co nejvíce ulehčit organizaci pohřbu. Abychom Vám pomohli
             vytvořit osobní a důstojný obřad, nabízíme možnost přizpůsobit si
             hudbu a vzpomínkovou fotografii dle Vašich přání.
           </p>
-          <p className="text-left py-2 text-xl">
+          <p className="text-left py-2">
             Obřad má standardní délku 30 minut, z toho 10 minut je vyhrazeno pro
             řeč. To znamená, že můžete vybrat až 5 skladeb, ale může to být
             samozřejmě méně. Poté, co vyberete hudbu z našeho seznamu skladeb,
             nás prosím kontaktujte telefonicky nebo emailem nejpozději dva dny
             před plánovaným obřadem.
           </p>
-          <p className="text-left py-2 text-xl">
+          <p className="text-left py-2">
             V případě, že žádná ze skladeb z našeho seznamu nevyhovuje Vašim
             představám a chtěli byste vlastní hudbu, doneste nám jednotlivé
             skladby stažené ve formátu mp3, v dobré kvalitě a bez rušivých zvuků
             na flash disku do kanceláře či zašlete emailem.
           </p>
         </div>
-        <div class="flex flex-col text-center w-full mb-12">
-          {/* <h1 class="sm:text-3xl text-2xl font-medium font-nadpis mb-4 text-gray-900">
+        <div className="flex flex-col text-center w-full mb-12">
+          {/* <h1 className="sm:text-3xl text-2xl font-medium font-nadpis mb-4 text-gray-900">
             Verše na parte
           </h1>
           <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" /> */}
-          <p>
+          <div>
             <h2 className="text-center md:text-left text-xl md:text-2xl pt-4 pb-2 font-obsah">
               Populární a moderní skladby
             </h2>
@@ -226,10 +226,10 @@ export default function Hudba() {
                 return <li key={item}>{item}</li>;
               })}
             </ol>
-          </p>
+          </div>
 
           <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-8 dark:bg-gray-700" />
-          <p>
+          <div>
             <h2 className="text-center md:text-left text-xl md:text-2xl pt-4 pb-2 font-obsah">
               Vážná hudba
             </h2>
@@ -243,10 +243,10 @@ export default function Hudba() {
                 return <li key={item}>{item}</li>;
               })}
             </ol>
-          </p>
+          </div>
 
           <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-8 dark:bg-gray-700" />
-          <p>
+          <div>
             <h2 className="text-center md:text-left text-xl md:text-2xl pt-4 pb-2 font-obsah">
               Soundtrack - hudba ze známých filmů
             </h2>
@@ -260,9 +260,9 @@ export default function Hudba() {
                 return <li key={item}>{item}</li>;
               })}
             </ol>
-          </p>
+          </div>
           <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-8 dark:bg-gray-700" />
-          <p>
+          <div>
             <h2 className="text-center md:text-left text-xl md:text-2xl pt-4 pb-2 font-obsah">
               Lidové skladby
             </h2>
@@ -275,37 +275,34 @@ export default function Hudba() {
                 return <li key={item}>{item}</li>;
               })}
             </ol>
-          </p>
+          </div>
         </div>
         <div
-          class="flex flex-col text-center w-full my-44 scroll-mt-44"
+          className="flex flex-col text-center w-full my-44 scroll-mt-44"
           id="foto"
         >
-          <h1 class="sm:text-3xl text-2xl font-medium font-nadpis mb-4 text-gray-900">
+          <h1 className="sm:text-3xl text-2xl font-medium font-nadpis mb-4 text-gray-900">
             Smuteční fotografie
           </h1>
           <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
-          <p className="text-left py-2 text-xl">
+          <p className="text-left py-2">
             Fotografii, ve formátu A4, A3 nebo A2, můžete donést do kanceláře
             pohřebního ústavu Cibulka, nebo je přinést přímo na místo konání
             obřadu.
           </p>
-          <p className="text-left py-2 text-xl">
+          <p className="text-left py-2">
             V případě, že se rozhodnete přinést fotografii přímo k obřadu,
             prosíme Vás, abyste nám tuto informaci předem sdělili. Fotografie
             nemusí být v rámečku.
           </p>
-          <p className="text-left py-2 text-xl">
+          <p className="text-left py-2">
             Chápeme, že každé rozloučení je jedinečné, a proto se s Vámi snažíme
             spolupracovat a přizpůsobit se Vašim potřebám.
           </p>
-          <p className="text-left py-2 text-xl">
+          <p className="text-left py-2">
             S námi můžete mít jistotu, že Vaše přání budou respektována a
             poslední rozloučení se bude odehrávat tak, jak by si to Váš zesnulý
             člen rodiny přál.
-          </p>
-          <p className="text-lg py-2 md:text-3xl mt-24 text-center">
-            Děkujeme Vám za důvěru. S úctou, kolektiv Pohřebního ústavu Cibulka
           </p>
         </div>
       </div>

@@ -6,7 +6,4 @@
   .odkaz-bila {
     @apply hover:underline hover:underline-offset-2 hover:decoration-natyzlata hover:text-natyzlata transition ease-in-out delay-150;
   }
-  .sluzby {
-    /* @apply text-lg text-gray-900 font-medium title-font mb-2 underline-offset-4 underline; */
-  }
 }

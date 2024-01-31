@@ -18,15 +18,15 @@ export default function Katalog() {
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671218/pohrebniustavcibulka/vazba/2_jgswyz.webp",
     },
     {
-      title: "",
+      title: "věnec",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671218/pohrebniustavcibulka/vazba/3_sxroa0.webp",
     },
     {
-      title: "",
+      title: "věnec",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671218/pohrebniustavcibulka/vazba/4_obstfx.webp",
     },
     {
-      title: "",
+      title: "věnec",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671218/pohrebniustavcibulka/vazba/5_rywgsu.webp",
     },
     {
@@ -58,31 +58,31 @@ export default function Katalog() {
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671220/pohrebniustavcibulka/vazba/12_ujxyed.webp",
     },
     {
-      title: "",
+      title: "věnec",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671221/pohrebniustavcibulka/vazba/13_rzqttk.webp",
     },
     {
-      title: "",
+      title: "věnec",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671221/pohrebniustavcibulka/vazba/14_p1o5z5.webp",
     },
     {
-      title: "",
+      title: "věnec",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671221/pohrebniustavcibulka/vazba/15_qsldkl.webp",
     },
     {
-      title: "",
+      title: "věnec",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671222/pohrebniustavcibulka/vazba/16_fnfvxi.webp",
     },
     {
-      title: "",
+      title: "věnec",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671223/pohrebniustavcibulka/vazba/17_fm4uff.webp",
     },
     {
-      title: "",
+      title: "věnec",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671223/pohrebniustavcibulka/vazba/18_kmfa4o.webp",
     },
     {
-      title: "",
+      title: "věnec",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703671223/pohrebniustavcibulka/vazba/19_tsw0fz.webp",
     },
     {
@@ -192,7 +192,7 @@ export default function Katalog() {
                       alt="content"
                     />
                     <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                      {counter}
+                      {counter} {item.title}
                     </h3>
                   </div>
                 </div>

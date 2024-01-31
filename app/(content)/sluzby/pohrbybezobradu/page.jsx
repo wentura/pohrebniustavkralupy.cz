@@ -29,12 +29,12 @@ export default function Pohrbybezobradu() {
 
             <p className="font-bold leading-relaxed mt-8">Pohřeb</p>
             <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
-              <li>kremace (zpopelnění)</li>
-              <li>možnost tzv. identifikace</li>
-              <li>uložení do kopaného hrobu nebo hrobky</li>
+              <li key="1">kremace (zpopelnění)</li>
+              <li key="2">možnost tzv. identifikace</li>
+              <li key="3">uložení do kopaného hrobu nebo hrobky</li>
             </ul>
             <p className="mb-2 leading-relaxed">
-              Služba pohřb bez obřadu, zahrnuje sestavení smutečního oznámení a
+              Služba pohřeb bez obřadu zahrnuje sestavení smutečního oznámení a
               přípravu zesnulého v oblečení dle Vašeho výběru.
             </p>
             <p className="font-bold leading-relaxed mt-8">
@@ -54,10 +54,10 @@ export default function Pohrbybezobradu() {
             </p>
             <p className="leading-relaxed">Můžete vybrat:</p>
             <ul className="pl-4 list-disc">
-              <li>ponožky,</li>
-              <li>kalhoty, sukni,</li>
-              <li>tričko, halenku,</li>
-              <li>šaty se silonkami,</li>
+              <li key="a">ponožky,</li>
+              <li key="b">kalhoty, sukni,</li>
+              <li key="c">tričko, halenku,</li>
+              <li key="d">šaty se silonkami,</li>
             </ul>
             <p className="mb-2 leading-relaxed">
               tak aby to co nejvíce odpovídalo jejich osobnosti.
@@ -75,7 +75,8 @@ export default function Pohrbybezobradu() {
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left  scroll-mt-36">
             <p className="mb-2 leading-relaxed">
-              Běžně se doporučuje nedávat zesnulému do rakve boty. To je z
+              Běžně se doporučuje{" "}
+              <strong>nedávat zesnulému do rakve boty</strong>. To je z
               ekologických důvodů – obuv je většinou vyrobena z materiálů, které
               by při zpopelnění vypouštěly do ovzduší nechtěné zplodiny.
             </p>
@@ -95,6 +96,14 @@ export default function Pohrbybezobradu() {
             <p className="mb-2 leading-relaxed">
               K pohřbu kremací bez obřadu můžeme doporučit rakev bez přízdob,
               pokud to odpovídá Vašim představám.
+            </p>
+            <p className="mb-2 leading-relaxed">
+              <Link
+                href="/katalog/rakve"
+                className="underline-offset-4 underline"
+              >
+                více k výběru rakve ...
+              </Link>
             </p>
             <p className="font-bold leading-relaxed mt-8">Identifikace</p>
             <p className="mb-2 leading-relaxed">
