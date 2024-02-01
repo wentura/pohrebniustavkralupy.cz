@@ -14,7 +14,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="bg-white">
+    <html lang="en" className="bg-white scroll-smooth">
       <body className="container mx-auto">
         {/* <Header klass="transparent" /> */}
         {/* <Hero /> */}

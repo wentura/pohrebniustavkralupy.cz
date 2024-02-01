@@ -11,7 +11,6 @@ export const menuItems = [
         id: 6,
         link: "/sluzby/pohrby/#prevozzesnuleho",
         text: "Převoz zesnulého",
-        scroll: true,
       },
       // { id: 4, link: "/sluzby/parte", text: "Smuteční oznámení" },
       {

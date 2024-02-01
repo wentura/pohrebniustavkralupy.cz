@@ -53,7 +53,7 @@ export default function MobileMenu() {
           {menuItems.map((menuItem) => {
             return menuItem.children ? (
               <li key={menuItem.id}>
-                <span className="font-bold">{menuItem.text}</span>
+                <span className="font-bold text-lg">{menuItem.text}</span>
                 <ul>
                   {menuItem.children.map((menuChildren) => {
                     return (
@@ -62,7 +62,7 @@ export default function MobileMenu() {
                           key={menuChildren.id}
                           rel="noopener noreferrer"
                           href={menuChildren.link}
-                          className="odkaz-bila text-left underline"
+                          className="odkaz-bila text-left underline text-lg"
                         >
                           {menuChildren.text}
                         </Link>
@@ -76,7 +76,7 @@ export default function MobileMenu() {
                 <Link
                   rel="noopener noreferrer"
                   href={menuItem.link}
-                  className="odkaz-bila link link-hover text-left font-bold underline"
+                  className="odkaz-bila link link-hover text-left font-bold underline text-lg"
                 >
                   {menuItem.text}
                 </Link>

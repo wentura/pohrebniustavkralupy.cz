@@ -11,7 +11,7 @@ export default function Pohrby() {
     <div>
       <Breadcrumbs breads={breads} />
       <section className="text-gray-600 body-font">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex px-5 pt-12 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               className="object-cover object-center rounded"
@@ -26,7 +26,7 @@ export default function Pohrby() {
             <p className="mb-2 leading-relaxed">
               Profesionální péče a respekt v těžkých chvílích ztráty blízkého.
             </p>
-            <p className="font-bold leading-relaxed">Rozloučení</p>
+            <p className="text-xl font-bold leading-relaxed">Rozloučení</p>
             <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
               <li key="1">se širokou veřejností</li>
               <li key="2">v úzkém kruhu rodinném</li>
@@ -35,12 +35,12 @@ export default function Pohrby() {
               <li key="5">v domě smutku</li>
               <li key="6">v kostele</li>
             </ul>
-            <p className="font-bold leading-relaxed">Pohřeb</p>
+            <p className="text-xl font-bold leading-relaxed">Pohřeb</p>
             <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
               <li>kremace (zpopelnění)</li>
               <li>uložení do rodinného hrobu nebo hrobky</li>
             </ul>
-            <p className="font-bold leading-relaxed">
+            <p className="text-xl font-bold leading-relaxed">
               Převoz a úprava zesnulého
             </p>
             <p className="mb-2 leading-relaxed">
@@ -90,7 +90,7 @@ export default function Pohrby() {
           </div>
         </div>
 
-        <div className="container mx-auto flex md:px-5 py-24 md:flex-row-reverse flex-col items-center scroll-mt-36">
+        <div className="container mx-auto flex px-5 pt-12 md:flex-row-reverse flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               className="object-cover object-center rounded"
@@ -99,6 +99,7 @@ export default function Pohrby() {
             />
           </div>
           <div
+            // className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left"
             className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left  scroll-mt-36"
             // className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center  scroll-mt-36"
             id="organizaceobradu"
@@ -147,7 +148,7 @@ export default function Pohrby() {
               zesnulého a je-li to Vaším přáním, promluví náš profesionální
               řečník.
             </p>
-            <p className="font-bold leading-relaxed">
+            <p className="text-xl font-bold leading-relaxed">
               Zajištění květinového aranžmá včetně stuh:
             </p>
             <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
@@ -182,7 +183,7 @@ export default function Pohrby() {
         </div>
 
         <div
-          className="container mx-auto flex md:flex-row px-5 py-24  flex-col items-center scroll-mt-36"
+          className="container mx-auto flex md:flex-row px-5 pt-12  flex-col items-center scroll-mt-36"
           id="prevozzesnuleho"
         >
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
@@ -233,7 +234,7 @@ export default function Pohrby() {
           </div>
         </div>
 
-        <div className="container mx-auto flex px-5 py-24 md:flex-row-reverse flex-col items-center">
+        <div className="container mx-auto flex px-5 pt-12 md:flex-row-reverse flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               className="object-cover object-center rounded"

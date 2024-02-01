@@ -23,7 +23,7 @@ export default function Menu({ klas }) {
                           rel="noopener noreferrer"
                           href={menuChildren.link}
                           className="odkaz-bila"
-                          scroll={menuChildren.scroll}
+                          // scroll={menuChildren.scroll}
                         >
                           {menuChildren.text}
                         </Link>

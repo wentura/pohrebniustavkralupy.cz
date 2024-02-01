@@ -20,8 +20,8 @@ export default function Home() {
             </p>
             <p className="md:w-4/5 w-full text-center font-nadpis text-xl md:text-2xl leading-relaxed text-modra pt-4 pb-12">
               S úctou, empatií a zkušeností Vám pomůžeme se záležitostmi,
-              <br className="hidden md:block" />
-              které nastávají po úmrtí blízkého člověka.
+              <br className="hidden md:block" /> které nastávají po úmrtí
+              blízkého člověka.
             </p>
             {/* <button className="btn btn-primary">Hello daisyUI!</button> */}
 

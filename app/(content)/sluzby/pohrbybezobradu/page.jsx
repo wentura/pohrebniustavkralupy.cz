@@ -11,7 +11,7 @@ export default function Pohrbybezobradu() {
     <div>
       <Breadcrumbs breads={breads} />
       <section className="text-gray-600 body-font text-left">
-        <div className="container mx-auto flex md:flex-row px-5 py-24  flex-col items-center">
+        <div className="container mx-auto flex md:flex-row px-5 pt-12  flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               className="object-cover object-center rounded"
@@ -27,7 +27,7 @@ export default function Pohrbybezobradu() {
               Pohřeb bez obřadu
             </h1>
 
-            <p className="font-bold leading-relaxed mt-8">Pohřeb</p>
+            <p className="text-xl font-bold leading-relaxed mt-8">Pohřeb</p>
             <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
               <li key="1">kremace (zpopelnění)</li>
               <li key="2">možnost tzv. identifikace</li>
@@ -37,7 +37,7 @@ export default function Pohrbybezobradu() {
               Služba pohřeb bez obřadu zahrnuje sestavení smutečního oznámení a
               přípravu zesnulého v oblečení dle Vašeho výběru.
             </p>
-            <p className="font-bold leading-relaxed mt-8">
+            <p className="text-xl font-bold leading-relaxed mt-8">
               Převoz a úprava zesnulého
             </p>
             <p className="mb-2 leading-relaxed">
@@ -65,7 +65,7 @@ export default function Pohrbybezobradu() {
           </div>
         </div>
 
-        <div className="container mx-auto flex px-5 py-24 md:flex-row-reverse flex-col items-center">
+        <div className="container mx-auto flex px-5 pt-12 md:flex-row-reverse flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               className="object-cover object-center rounded"
@@ -105,7 +105,9 @@ export default function Pohrbybezobradu() {
                 více k výběru rakve ...
               </Link>
             </p>
-            <p className="font-bold leading-relaxed mt-8">Identifikace</p>
+            <p className="text-xl font-bold leading-relaxed mt-8">
+              Identifikace
+            </p>
             <p className="mb-2 leading-relaxed">
               Identifikace značí soukromé a intimní rozloučení, které je určeno
               pouze pro nejbližší pozůstalé a příbuzné. Tato forma rozloučení
@@ -121,7 +123,7 @@ export default function Pohrbybezobradu() {
             <p className="mb-2 leading-relaxed">
               Poté dochází ke zpopelnění (kremaci).
             </p>
-            <p className="font-bold leading-relaxed mt-8">Urna</p>
+            <p className="text-xl font-bold leading-relaxed mt-8">Urna</p>
             <p className="mb-2 leading-relaxed">
               Urnu s popelem následně přepravíme zpět do naší kanceláře v
               Kralupech nad Vltavou.

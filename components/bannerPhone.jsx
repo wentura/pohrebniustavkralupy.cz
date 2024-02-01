@@ -2,7 +2,7 @@ import Logo3 from "@/components/logo3";
 
 export default function BannerContact() {
   return (
-    <section className="bg-transparent body-font -mt-16 bg-gradient-to-t from-modra from-90% rounded-b-2xl">
+    <section className="bg-transparent body-font -mt-16 bg-gradient-to-t from-modra from-90%">
       <div className="flex flex-col md:flex-row flex-wrap w-full  items-center justify-center">
         <div className="my-10 mx-auto">
           {/* <div className="w-4/5 sm:w-1/2 my-10 mx-auto "> */}
