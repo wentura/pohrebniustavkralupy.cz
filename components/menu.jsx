@@ -14,11 +14,11 @@ export default function Menu({ klas }) {
                 <summary>
                   {menuItem.text} <span className="text-xs">&darr;</span>{" "}
                 </summary>
-                <ul className="p-6 w-64 bg-modra menuKid absolute">
+                <ul className="p-2 w-64 bg-modra menuKid absolute">
                   {/* {menuItem.children.length} */}
                   {menuItem.children.map((menuChildren) => {
                     return (
-                      <li key={menuChildren.id}>
+                      <li key={menuChildren.id} className="p-3">
                         <Link
                           rel="noopener noreferrer"
                           href={menuChildren.link}
