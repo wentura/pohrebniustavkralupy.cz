@@ -19,13 +19,13 @@ export default function Menu({ klas }) {
                   {menuItem.children.map((menuChildren) => {
                     return (
                       <li key={menuChildren.id}>
-                        <Link
+                        <a
                           rel="noopener noreferrer"
                           href={menuChildren.link}
                           className="odkaz-bila"
                         >
                           {menuChildren.text}
-                        </Link>
+                        </a>
                       </li>
                     );
                   })}
