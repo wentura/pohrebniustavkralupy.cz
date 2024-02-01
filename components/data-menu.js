@@ -9,13 +9,13 @@ export const menuItems = [
       { id: 3, link: "/sluzby/pohrbybezobradu", text: "Pohřeb bez obřadu" },
       {
         id: 6,
-        link: "/sluzby/pohrby#prevozzesnuleho",
+        link: "/sluzby/pohrby/#prevozzesnuleho",
         text: "Převoz zesnulého",
       },
       // { id: 4, link: "/sluzby/parte", text: "Smuteční oznámení" },
       {
         id: 5,
-        link: "/sluzby/pohrby#organizaceobradu",
+        link: "/sluzby/pohrby/#organizaceobradu",
         text: "Organizace obřadu",
       },
 
