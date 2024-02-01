@@ -36,6 +36,7 @@ module.exports = {
       fontFamily: {
         nadpis: "Libre Baskerville",
         obsah: "Montserrat",
+        logo: "Charm",
       },
     },
   },

@@ -12,7 +12,10 @@ export default function Header({ klas }) {
         <a className="" href="/">
           <span className="md:ml-3 text-md md:text-xl text-natyzlata font-extrabold">
             <span className="hidden sm:inline-block">Kralupský</span> pohřební
-            ústav Cibulka
+            ústav{" "}
+            <span className="font-logo font-bold text-xl md:text-2xl">
+              Cibulka
+            </span>
           </span>
         </a>{" "}
       </div>

@@ -3,10 +3,10 @@ import Logo3 from "@/components/logo3";
 export default function BannerContact() {
   return (
     <section className="bg-transparent body-font -mt-16 bg-gradient-to-t from-modra from-90% rounded-b-2xl">
-      <div className="flex flex-col lg:flex-row flex-wrap text-center items-center ">
-        <div className="my-10 mx-auto ">
+      <div className="flex flex-col md:flex-row flex-wrap w-full  items-center justify-center">
+        <div className="my-10 mx-auto">
           {/* <div className="w-4/5 sm:w-1/2 my-10 mx-auto "> */}
-          <h2 className="font-nadpis text-lg md:text-xl lg:text-3xl font-medium text-natyzlata md:mt-6 md:mb-3">
+          <h2 className="font-nadpis text-md xl:text-3xl font-medium text-natyzlata md:mt-6 md:mb-3">
             Při úmrtí Vašeho blízkého a
             <br /> potřeby pomoci či podpory,
             <br /> nás kdykoliv kontaktujte.
