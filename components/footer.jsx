@@ -4,7 +4,7 @@ import Signature from "./signature";
 export default function Footer() {
   return (
     <div className="text-center my-4 text-neutral-700">
-      <footer className="footer py-16 px-6 bg-modra text-neutral-300 text-xs">
+      <footer className="footer py-16 px-6 bg-modra text-neutral-300 text-md">
         {menuItems.map((menuItem) => {
           return menuItem.children ? (
             <nav key={menuItem.id}>
