@@ -7,9 +7,15 @@ export default function DetailContact() {
       <p className="leading-relaxed mb-12 text-gray-600 text-right text-xs">
         Rodinná tradice od roku 1914
       </p>
-      <div className="relative flex flex-wrap justify-between text-lg">
-        <a href="tel:+420723192379">+420 723 192 379</a>
-        <a href="tel:+420315726961">+420 315 726 961</a>
+      <div className="relative flex flex-wrap flex-row-reverse justify-between text-lg">
+        <div className="flex-col flex items-center">
+          <a href="tel:+420723192379">+420 723 192 379</a>
+          <span className="text-sm">non-stop linka</span>
+        </div>
+        <div className="flex-col flex items-center">
+          <a href="tel:+420315726961">+420 315 726 961</a>
+          <span className="text-sm">linka do kanceláře</span>
+        </div>
       </div>
       <div className="relative mb-4"></div>
       <div className="relative mb-4">

@@ -5,8 +5,8 @@ export const menuItems = [
     link: "/sluzby",
     text: "Služby",
     children: [
-      { id: 2, link: "/sluzby/pohrby", text: "Pohřeb s obřadem" },
       { id: 3, link: "/sluzby/pohrbybezobradu", text: "Pohřeb bez obřadu" },
+      { id: 2, link: "/sluzby/pohrby", text: "Pohřeb s obřadem" },
       {
         id: 6,
         link: "/sluzby/pohrby/#prevozzesnuleho",
