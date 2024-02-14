@@ -20,7 +20,7 @@ export default function Menu({ klas }) {
                     return (
                       <li key={menuChildren.id} className="p-3">
                         <Link
-                          rel="noopener noreferrer"
+                          rel=""
                           href={menuChildren.link}
                           className="odkaz-bila"
                           // scroll={menuChildren.scroll}
@@ -35,11 +35,7 @@ export default function Menu({ klas }) {
             </li>
           ) : (
             <li key={menuItem.id}>
-              <Link
-                rel="noopener noreferrer"
-                href={menuItem.link}
-                className="odkaz-bila"
-              >
+              <Link rel="" href={menuItem.link} className="odkaz-bila">
                 {menuItem.text}
               </Link>
             </li>
