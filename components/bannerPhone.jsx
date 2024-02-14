@@ -12,8 +12,10 @@ export default function BannerContact() {
             <br /> nás kdykoliv kontaktujte.
           </h2>
         </div>
-        <Logo3 />
-        <div className=" flex flex-col justify-center align-middle items-center mx-auto mb-8 sm:mb-0">
+        <div className="hidden md:inline-block">
+          <Logo3 />
+        </div>
+        <div className="flex flex-col justify-center align-middle items-center mx-auto mb-8 sm:mb-0">
           {/* <div className="w-4/5 sm:w-1/2 flex flex-col justify-center align-middle items-center mx-auto mb-8 sm:mb-0"> */}
           <h2 className="font-nadpis text-2xl md:text-4xl font-medium text-natyzlata mt-6 mb-3 flex items-center">
             <a
