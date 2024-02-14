@@ -24,6 +24,7 @@ export default function Menu({ klas }) {
                           href={menuChildren.link}
                           className="odkaz-bila"
                           // scroll={menuChildren.scroll}
+                          scroll={true}
                         >
                           {menuChildren.text}
                         </Link>
