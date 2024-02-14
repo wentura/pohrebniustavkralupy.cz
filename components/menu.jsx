@@ -23,7 +23,7 @@ export default function Menu({ klas }) {
                   return (
                     // <li key={menuChildren.id} className="p-3">
                     <li key={i} className="p-3">
-                      <a
+                      <Link
                         rel=""
                         href={menuChildren.link}
                         className="odkaz-bila"
@@ -31,7 +31,7 @@ export default function Menu({ klas }) {
                         // scroll={true}
                       >
                         {menuChildren.text}
-                      </a>
+                      </Link>
                     </li>
                   );
                 })}
