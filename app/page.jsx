@@ -3,14 +3,16 @@ import BannerPhone from "@/components/bannerPhone";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import LandingSluzby from "@/components/landingSluzby";
+import SmallHero from "@/components/smallHero";
 export default function Home() {
   return (
     <div>
       <Header klass="transparent" />
-      <Hero />
+      <SmallHero />
+      {/* <Hero /> */}
       <BannerPhone klas="" />
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-4 md:py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
             <h1 className="sm:text-4xl text-2xl font-black font-nadpis mb-2 text-natyzlata">
               Kralupský pohřební ústav Cibulka

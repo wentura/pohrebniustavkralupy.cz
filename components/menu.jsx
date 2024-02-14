@@ -6,7 +6,7 @@ export default function Menu({ klas }) {
   klas ? klas : "";
   return (
     <div>
-      <ul className="flex px-1 gap-6">
+      <ul className="flex px-1 gap-6 text-base">
         {menuItems.map((menuItem) => {
           return menuItem.children ? (
             <li key={menuItem.id}>

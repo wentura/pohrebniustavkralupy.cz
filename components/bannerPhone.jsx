@@ -17,7 +17,7 @@ export default function BannerContact() {
         </div>
         <div className="flex flex-col justify-center align-middle items-center mx-auto mb-8 sm:mb-0">
           {/* <div className="w-4/5 sm:w-1/2 flex flex-col justify-center align-middle items-center mx-auto mb-8 sm:mb-0"> */}
-          <h2 className="font-nadpis text-2xl md:text-4xl font-medium text-natyzlata mt-6 mb-3 flex items-center">
+          <h2 className="font-nadpis text-2xl md:text-4xl font-medium text-natyzlata sm:mt-6 mb-3 flex items-center">
             <a
               href="tel:+420723192379"
               className="no-underline underline-offset-4  decoration-2 inline-flex hover:underline hover:underline-offset-4 hover:decoration-natyzlata transition ease-in-out delay-150"
@@ -33,7 +33,7 @@ export default function BannerContact() {
             </a>
             <span className="pl-4 text-sm">nonstop</span>
           </h2>
-          <h2 className="font-nadpis text-2xl md:text-4xl font-medium text-natyzlata mt-6 mb-3 flex items-center">
+          <h2 className="font-nadpis text-2xl md:text-4xl font-medium text-natyzlata sm:mt-6 sm:mb-3 flex items-center">
             <a
               href="tel:+420315726961"
               className="no-underline underline-offset-4  decoration-2 inline-flex hover:underline hover:underline-offset-4 hover:decoration-natyzlata transition ease-in-out delay-150"

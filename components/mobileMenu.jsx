@@ -10,7 +10,7 @@ export default function MobileMenu() {
     setIsOpen(!isOpen);
   }
   return (
-    <div className="text-center justify-center align-middle">
+    <div className="text-center justify-center align-middle z-20">
       <button className="flex justify-end p-4 xl:hidden" onClick={toggleMenu}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -49,20 +49,20 @@ export default function MobileMenu() {
           </svg>
         </button>
 
-        <ul className="menu max-w-2xl">
+        <ul className="text-left max-w-xl">
           {menuItems.map((menuItem) => {
             return menuItem.children ? (
-              <li key={menuItem.id}>
-                <span className="font-bold text-lg">{menuItem.text}</span>
+              <li key={menuItem.id} className="py-3">
+                {/* <span className="font-bold text-base">{menuItem.text}</span> */}
                 <ul>
                   {menuItem.children.map((menuChildren) => {
                     return (
-                      <li key={menuChildren.id}>
+                      <li key={menuChildren.id} className="py-1">
                         <Link
                           key={menuChildren.id}
                           rel="noopener noreferrer"
                           href={menuChildren.link}
-                          className="odkaz-bila text-left underline text-lg"
+                          className="odkaz-bila text-left underline text-base"
                         >
                           {menuChildren.text}
                         </Link>
@@ -76,7 +76,7 @@ export default function MobileMenu() {
                 <Link
                   rel="noopener noreferrer"
                   href={menuItem.link}
-                  className="odkaz-bila link link-hover text-left font-bold underline text-lg"
+                  className="odkaz-bila link link-hover text-left underline text-base"
                 >
                   {menuItem.text}
                 </Link>

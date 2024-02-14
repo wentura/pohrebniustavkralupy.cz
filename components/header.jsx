@@ -6,7 +6,7 @@ export default function Header({ klas }) {
 
   return (
     <header
-      className={`container flex flex-wrap flex-row mx-auto items-center header justify-between pt-2 pb-8 px-4 top-0 sticky {klas} text-white bg-gradient-to-b from-modra from-60% navbar`}
+      className={`container flex flex-wrap flex-row mx-auto items-center header justify-between pt-2 pb-12 px-4 top-0 sticky {klas} text-white bg-gradient-to-b from-modra from-60% navbar`}
     >
       <div className="flex-1">
         <a className="" href="/">
