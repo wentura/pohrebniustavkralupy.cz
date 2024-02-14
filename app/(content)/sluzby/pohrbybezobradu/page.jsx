@@ -37,7 +37,8 @@ export default function Pohrbybezobradu() {
               Služba pohřeb bez obřadu zahrnuje sestavení smutečního oznámení a
               přípravu zesnulého v oblečení dle Vašeho výběru.
             </p>
-            <p className="text-xl font-bold leading-relaxed mt-8">
+            {/* <p className="text-xl font-bold leading-relaxed mt-8"> */}
+            <p className="title-font sm:text-4xl text-3xl mt-8  mb-4 font-medium text-gray-900 font-nadpis">
               Převoz a úprava zesnulého
             </p>
             <p className="mb-2 leading-relaxed">
@@ -105,7 +106,8 @@ export default function Pohrbybezobradu() {
                 více k výběru rakve ...
               </Link>
             </p>
-            <p className="text-xl font-bold leading-relaxed mt-8">
+            {/* <p className="text-xl font-bold leading-relaxed mt-8"> */}
+            <p className="title-font sm:text-4xl text-3xl mt-8  mb-4 font-medium text-gray-900 font-nadpis">
               Identifikace
             </p>
             <p className="mb-2 leading-relaxed">
@@ -123,7 +125,10 @@ export default function Pohrbybezobradu() {
             <p className="mb-2 leading-relaxed">
               Poté dochází ke zpopelnění (kremaci).
             </p>
-            <p className="text-xl font-bold leading-relaxed mt-8">Urna</p>
+            {/* <p className="text-xl font-bold leading-relaxed mt-8"> */}
+            <p className="title-font sm:text-4xl text-3xl mt-8  mb-4 font-medium text-gray-900 font-nadpis">
+              Urna
+            </p>
             <p className="mb-2 leading-relaxed">
               Urnu s popelem následně přepravíme zpět do naší kanceláře v
               Kralupech nad Vltavou.
