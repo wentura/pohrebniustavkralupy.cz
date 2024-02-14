@@ -3,6 +3,8 @@
 body,
 html {
   background-color: #fff;
+  scroll-behavior: smooth !important;
+  --scroll-behavior: smooth !important;
 }
 .menu :focus {
   color: #fff !important;
