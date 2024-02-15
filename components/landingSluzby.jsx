@@ -3,17 +3,25 @@ import ADozvedetSeVic from "./aDozvedetSeVic";
 export default function LandingSluzby() {
   const sluzby = [
     {
-      title: "Pohřeb s obřadem",
-      text: "Vyjadření úcty k zesnulému prostřednictvím formálních či rituálních prvků. Poskytuje prostor pro projevení poslední úcty, vzpomínání na život zesnulého a důstojného rozloučení rodiny a přátel.",
-      href: "/sluzby/pohrby",
-      vice: "více o pohřbech s obřadem",
+      title: "Poradenství pro pozůstalé",
+      text: "Poskytujeme pomoc s administrativními kroky a právními formalitami v obtížných časech ztráty.",
+      href: "/pro-pozustale",
+      vice: "více o poradenství",
     },
+
     {
       title: "Pohřeb bez obřadu",
       text: "Soukromější a osobnější způsob rozloučení se zesnulým, bez tradičních ceremonií či náboženských prvků.",
       href: "/sluzby/pohrbybezobradu",
       vice: "více o pohřebech bez obřadu",
     },
+    {
+      title: "Pohřeb s obřadem",
+      text: "Vyjadření úcty k zesnulému prostřednictvím formálních či rituálních prvků. Poskytuje prostor pro projevení poslední úcty, vzpomínání na život zesnulého a důstojného rozloučení rodiny a přátel.",
+      href: "/sluzby/pohrby",
+      vice: "více o pohřbech s obřadem",
+    },
+
     // {
     //   title: "Organizace obřadu",
     //   text: "Profesionální a citlivá pomoc s organizací obřadu.",
@@ -33,18 +41,6 @@ export default function LandingSluzby() {
     //   vice: "více ve smutečním katalogu",
     // },
     {
-      title: "Poradenství pro pozůstalé",
-      text: "Poskytujeme pomoc s administrativními kroky a právními formalitami v obtížných časech ztráty.",
-      href: "/pro-pozustale",
-      vice: "více o poradenství",
-    },
-    {
-      title: "Smuteční květinová vazba",
-      text: "Široká nabídka kytic a věnců, které mohou být symbolickým vyjádřením lásky a vzpomínek na ztraceného blízkého.",
-      href: "/katalog/kvetiny",
-      vice: "více ve smutečním katalogu",
-    },
-    {
       title: "Smuteční řeč, hudba a fotografie",
       text: "Profesionální řečník, který přizpůsobí svůj projev konkrétním vztahům, zájmům či práci zemřelého. Zajišťujeme církevní obřady s knězem a hudbu dle vašeho výběru.",
       href: "/sluzby/hudba",
@@ -55,6 +51,12 @@ export default function LandingSluzby() {
       text: "Standardem našich služeb je tvorba personalisovaného smutečního oznámení (parte).",
       href: "/sluzby/parte",
       vice: "více o smutečních oznámeních",
+    },
+    {
+      title: "Smuteční květinová vazba",
+      text: "Široká nabídka kytic a věnců, které mohou být symbolickým vyjádřením lásky a vzpomínek na ztraceného blízkého.",
+      href: "/katalog/kvetiny",
+      vice: "více ve smutečním katalogu",
     },
   ];
   return (
