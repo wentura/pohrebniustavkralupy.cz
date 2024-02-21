@@ -48,7 +48,7 @@ const breads = [{ link: "/pro-pozustale", title: "Informace pro pozůstalé" }];
 export default function ProPozustale() {
   return (
     <section className="text-gray-600 body-font overflow-hidden">
-      <Breadcrumbs breads={breads} />;
+      <Breadcrumbs breads={breads} />
       <div className="mt-12">
         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
           Informace pro pozůstalé
