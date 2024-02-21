@@ -11,6 +11,12 @@ export default function Pohrbybezobradu() {
     <div>
       <Breadcrumbs breads={breads} />
       <section className="text-gray-600 body-font text-left">
+        <div className="mt-12">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
+            Pohřeb bez obřadu
+          </h1>
+          <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
+        </div>
         <div className="container mx-auto flex md:flex-row px-5 pt-12  flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
@@ -23,10 +29,6 @@ export default function Pohrbybezobradu() {
             className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left   scroll-mt-36"
             // className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center scroll-mt-36"
           >
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88">
-              Pohřeb bez obřadu
-            </h1>
-
             <p className="text-xl font-bold leading-relaxed mt-8">Pohřeb</p>
             <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
               <li key="1">kremace (zpopelnění)</li>

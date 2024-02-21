@@ -1,113 +1,18 @@
+import Breadcrumbs from "@/components/breadcrumbs";
 import ObrazkyNaParte from "@/components/obrazkyNaParte";
-
+import ObrazkyOnas from "@/components/obrazkyOnas";
+const breads = [{ link: "/o-nas/fotogalerie", title: "Fotogalerie" }];
 export default function Fotogalerie() {
   return (
     <section className="py-6 ">
-      <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">
-        <img
-          src="https://source.unsplash.com/random/301x301/"
-          alt=""
-          className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square"
-        />
-        <img
-          alt=""
-          className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-          src="https://source.unsplash.com/random/200x200/?0"
-        />
-        <img
-          alt=""
-          className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-          src="https://source.unsplash.com/random/200x200/?1"
-        />
-        <img
-          alt=""
-          className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-          src="https://source.unsplash.com/random/200x200/?2"
-        />
-        <img
-          alt=""
-          className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-          src="https://source.unsplash.com/random/200x200/?3"
-        />
-        <img
-          alt=""
-          className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-          src="https://source.unsplash.com/random/200x200/?4"
-        />
-        <img
-          alt=""
-          className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-          src="https://source.unsplash.com/random/200x200/?5"
-        />
-        <img
-          alt=""
-          className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-          src="https://source.unsplash.com/random/200x200/?6"
-        />
-        <img
-          alt=""
-          className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-          src="https://source.unsplash.com/random/200x200/?7"
-        />
-        <img
-          src="https://source.unsplash.com/random/302x302/"
-          alt=""
-          className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-1 md:row-start-3 dark:bg-gray-500 aspect-square"
-        />
+      <Breadcrumbs breads={breads} />;
+      <div className="mt-12">
+        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
+          Fotogalerie
+        </h1>
+        <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
       </div>
-      {/* dalsi */}
-      <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">
-        <img
-          src="https://source.unsplash.com/random/301x301/"
-          alt=""
-          className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square"
-        />
-        <img
-          alt=""
-          className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-          src="https://source.unsplash.com/random/200x200/?0"
-        />
-        <img
-          alt=""
-          className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-          src="https://source.unsplash.com/random/200x200/?1"
-        />
-        <img
-          alt=""
-          className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-          src="https://source.unsplash.com/random/200x200/?2"
-        />
-        <img
-          alt=""
-          className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-          src="https://source.unsplash.com/random/200x200/?3"
-        />
-        <img
-          alt=""
-          className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-          src="https://source.unsplash.com/random/200x200/?4"
-        />
-        <img
-          alt=""
-          className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-          src="https://source.unsplash.com/random/200x200/?5"
-        />
-        <img
-          alt=""
-          className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-          src="https://source.unsplash.com/random/200x200/?6"
-        />
-        <img
-          alt=""
-          className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square"
-          src="https://source.unsplash.com/random/200x200/?7"
-        />
-        <img
-          src="https://source.unsplash.com/random/302x302/"
-          alt=""
-          className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-1 md:row-start-3 dark:bg-gray-500 aspect-square"
-        />
-      </div>
+      <ObrazkyOnas />
     </section>
   );
 }

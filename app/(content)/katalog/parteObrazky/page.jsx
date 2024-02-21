@@ -1,5 +1,6 @@
 import Breadcrumbs from "@/components/breadcrumbs";
 import LandingSluzby from "@/components/landingSluzby";
+import Parte from "../../sluzby/parte/page";
 const breads = [
   {
     link: "/katalog/parteObrazky",
@@ -98,23 +99,17 @@ export default function NaSmutecniOznameni() {
   return (
     <div>
       <Breadcrumbs breads={breads} />
+      <Parte />
       {/* <LandingSluzby /> */}
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20">
-            <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 font-nadpis">
+            <div className=" w-full mb-6 lg:mb-0">
+              <h1 class="sm:text-3xl text-2xl font-medium font-nadpis mb-4 text-gray-900 text-center">
                 Smuteční oznámení{" "}
               </h1>
+              <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
             </div>
-            <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
-              {/* Na našich webových stránkách nyní naleznete jen malý výběr
-              obrázků, které mohou posloužit k inspiraci pro vytvoření oznámení.
-              V kanceláři Vám rádi představíme náš rozsáhlý katalog, který
-              obsahuje ještě širší spektrum ilustrací. Věříme, že v našem
-              katalogu najdete vhodný obrázek pro vytvoření oznámení, které
-              důstojně a citlivě odrazí jedinečný život zemřelé(ho). */}
-            </p>
           </div>
           <div className="flex flex-wrap -m-4  justify-center">
             {obrazky.map((item) => {

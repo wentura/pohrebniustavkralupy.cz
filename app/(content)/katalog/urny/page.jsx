@@ -116,14 +116,20 @@ export default function Rakve() {
       <Breadcrumbs breads={breads} />
       {/* <LandingSluzby /> */}
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-wrap w-full mb-20">
-            <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+        <div className="mt-12">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
+            Obaly na urny
+          </h1>
+          <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
+        </div>
+        <div className="container px-5 py-12 mx-auto">
+          <div className="flex flex-wrap w-full mb-20 flex-col">
+            <div className="w-full mb-6 lg:mb-0">
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 font-nadpis">
                 Plastové obaly
               </h1>
             </div>
-            <div className="lg:w-1/2 w-full leading-relaxed text-gray-500">
+            <div className="w-full leading-relaxed text-gray-500">
               <p className="mt-2">
                 Rádi bychom Vám představili naši rozsáhlou nabídku urnových
                 obalů, zahrnující kovové (měď, hliník, nerez) a plastové
@@ -172,14 +178,14 @@ export default function Rakve() {
       </section>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-wrap w-full mb-20">
-            <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+          <div className="flex flex-wrap w-full mb-20 flex-col">
+            <div className="w-full mb-6 lg:mb-0">
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 font-nadpis">
                 Kovové obaly
                 <br />
               </h1>
             </div>
-            <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
+            <p className="w-full leading-relaxed text-gray-500">
               Hliník, mosaz, nerez, meď.
             </p>
           </div>
@@ -208,13 +214,13 @@ export default function Rakve() {
       </section>
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-wrap w-full mb-20">
-            <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+          <div className="flex flex-wrap w-full mb-20 flex-col">
+            <div className="w-full mb-6 lg:mb-0">
               <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 font-nadpis">
                 Vázy, lucerny,...
               </h1>
             </div>
-            <div className="lg:w-1/2 w-full leading-relaxed text-gray-500">
+            <div className="w-full leading-relaxed text-gray-500">
               <p className="mt-2">
                 V naší kanceláři nabízíme nejen vázy na květiny a lampičky, ale
                 také další smuteční zboží.

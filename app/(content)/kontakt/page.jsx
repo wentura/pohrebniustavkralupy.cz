@@ -3,7 +3,7 @@ import BannerContact from "@/components/bannerContact";
 
 export default function Kontakt() {
   return (
-    <section className="mt-12">
+    <section className="mt-24 bg-red-200">
       <BannerContact />
     </section>
   );

@@ -11,7 +11,13 @@ export default function Pohrby() {
     <div>
       <Breadcrumbs breads={breads} />
       <section className="text-gray-600 body-font">
-        <div className="container mx-auto flex px-5 pt-12 md:flex-row flex-col items-center">
+        <div className="mt-12">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
+            Pohřeb s obřadem
+          </h1>
+          <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
+        </div>
+        <div className="container mx-auto flex px-5 pt-12 md:flex-row flex-col items-center lg:items-stretch">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               className="object-cover object-center rounded"
@@ -20,9 +26,6 @@ export default function Pohrby() {
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis">
-              Pohřeb s obřadem
-            </h1>
             <p className="mb-2 leading-relaxed">
               Profesionální péče a respekt v těžkých chvílích ztráty blízkého.
             </p>

@@ -3,7 +3,7 @@ import ADozvedetSeVic from "./aDozvedetSeVic";
 export default function LandingSluzby() {
   const sluzby = [
     {
-      title: "Poradenství pro pozůstalé",
+      title: "Informace pro pozůstalé",
       text: "Poskytujeme pomoc s administrativními kroky a právními formalitami v obtížných časech ztráty.",
       href: "/pro-pozustale",
       vice: "více o poradenství",

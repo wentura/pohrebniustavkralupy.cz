@@ -57,7 +57,7 @@ export const menuItems = [
     children: [
       // { id: 14, link: "/o-nas/pohrebni-ustav", text: "O nás" },
       { id: 15, link: "/o-nas/historie", text: "O nás" },
-      // { id: 16, link: "/o-nas/fotogalerie", text: "Fotogalerie" },
+      { id: 16, link: "/o-nas/fotogalerie", text: "Fotogalerie" },
       { id: 17, link: "/o-nas/recenze", text: "Recenze klientů" },
     ],
   },

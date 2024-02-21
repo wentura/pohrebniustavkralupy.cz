@@ -1,3 +1,4 @@
+import Breadcrumbs from "@/components/breadcrumbs";
 import ObrazkyNaParte from "@/components/obrazkyNaParte";
 const moderni = [
   "Ave Maria – J. Smolík",
@@ -158,15 +159,22 @@ const lidove = [
   "Zelení hájové",
 ];
 let counter = 1;
+const breads = [
+  { link: "/sluzby", title: "Služby" },
+  { link: "/sluzby/hudba", title: "Smuteční řeč" },
+];
 export default function Hudba() {
   return (
     <section className="px-4">
-      <div className="container px-2 sm:px-12 py-24 mx-auto flex flex-wrap text-gray-600 body-font">
+      <Breadcrumbs breads={breads} />
+      <div className="mt-12">
+        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
+          Smuteční řeč
+        </h1>
+        <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
+      </div>
+      <div className="container px-2 sm:px-12 py-8 mx-auto flex flex-wrap text-gray-600 body-font">
         <div className="flex flex-col text-center w-full mb-44">
-          <h1 className="sm:text-3xl text-2xl font-medium font-nadpis mb-4 text-gray-900">
-            Smuteční řeč
-          </h1>
-          <hr className="w-48 h-1 mx-auto my-2  border-0 rounded md:mt-2 md:mb-8" />
           <p className="text-left py-2">
             Pro ty, kteří by rádi vzdali hold zesnulé/mu, nabízíme možnost
             profesionální řečnice, která může promluvit nejen o obecných

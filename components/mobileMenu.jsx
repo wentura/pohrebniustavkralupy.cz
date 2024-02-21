@@ -11,7 +11,7 @@ export default function MobileMenu() {
   }
   return (
     <div className="text-center justify-center align-middle z-20">
-      <button className="flex justify-end p-4 xl:hidden" onClick={toggleMenu}>
+      <button className="flex justify-end p-4 lg:hidden" onClick={toggleMenu}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

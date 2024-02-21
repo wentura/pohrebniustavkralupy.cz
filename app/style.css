@@ -6,6 +6,9 @@ html {
   scroll-behavior: smooth !important;
   --scroll-behavior: smooth !important;
 }
+header {
+  z-index: 2 !important;
+}
 .menu :focus {
   color: #fff !important;
 }

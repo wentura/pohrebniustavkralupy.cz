@@ -1,41 +1,46 @@
+import Breadcrumbs from "@/components/breadcrumbs";
+const reviews = [
+  {
+    text: "Když jsme se museli vypořádat s nečekanou ztrátou naší drahé osoby ,byl pro nás profesionální přístup a empatie nepostradatelné. Mohli jsme projít tímto smutným obdobím s klidem a důstojností. Ještě jednou děkujeme.",
+    kdo: "Denisa T.",
+  },
+  {
+    text: "Ještě jednou děkuji za profesionální a vstřícný přístup a vypravení důstojného pohřbu.",
+    kdo: "Dagmar H.",
+  },
+  {
+    text: "Chtěla bych moc poděkovat za Vaši skvělou práci. Citlivý přístup a podporu během mého nejtěžšího životního období. Vaše práce rozhodně není lehká, o to více si vážím Vaší vstřícnosti.",
+    kdo: "Jitka H.",
+  },
+  {
+    text: "Děkuji moc za citlivý přístup a pomoc v té nejtěžší chvíli. Opravdu profesionální, citlivé chování zaměstnanců. Děkuji moc.",
+    kdo: "Stana B.",
+  },
+  {
+    text: "Výborný přístup! Vše perfektně vysvětleno a zařízeno.",
+    kdo: "Antonín H.",
+  },
+  {
+    text: "Chtěl bych moc poděkovat za pomoc a hlavně profesionální práci kterou odvádíte.",
+    kdo: "Václav V",
+  },
+  {
+    text: "Děkuji za veškerou pomoc při organizaci pohřbu nešeho tatínka Antonína P. Perfektní komunikace od začátku až do konce a veškeré objednané položky bezchybně zajištěné. Přesně takovou pomoc člověk v tomto období potřebuje.",
+    kdo: "Josef a Renáta K.",
+  },
+];
+const breads = [{ link: "/o-nas/recenze", title: "Recenze našich klientů" }];
 export default function Recenze() {
-  const reviews = [
-    {
-      text: "Když jsme se museli vypořádat s nečekanou ztrátou naší drahé osoby ,byl pro nás profesionální přístup a empatie nepostradatelné. Mohli jsme projít tímto smutným obdobím s klidem a důstojností. Ještě jednou děkujeme.",
-      kdo: "Denisa T.",
-    },
-    {
-      text: "Ještě jednou děkuji za profesionální a vstřícný přístup a vypravení důstojného pohřbu.",
-      kdo: "Dagmar H.",
-    },
-    {
-      text: "Chtěla bych moc poděkovat za Vaši skvělou práci. Citlivý přístup a podporu během mého nejtěžšího životního období. Vaše práce rozhodně není lehká, o to více si vážím Vaší vstřícnosti.",
-      kdo: "Jitka H.",
-    },
-    {
-      text: "Děkuji moc za citlivý přístup a pomoc v té nejtěžší chvíli. Opravdu profesionální, citlivé chování zaměstnanců. Děkuji moc.",
-      kdo: "Stana B.",
-    },
-    {
-      text: "Výborný přístup! Vše perfektně vysvětleno a zařízeno.",
-      kdo: "Antonín H.",
-    },
-    {
-      text: "Chtěl bych moc poděkovat za pomoc a hlavně profesionální práci kterou odvádíte.",
-      kdo: "Václav V",
-    },
-    {
-      text: "Děkuji za veškerou pomoc při organizaci pohřbu nešeho tatínka Antonína P. Perfektní komunikace od začátku až do konce a veškeré objednané položky bezchybně zajištěné. Přesně takovou pomoc člověk v tomto období potřebuje.",
-      kdo: "Josef a Renáta K.",
-    },
-  ];
-
   return (
     <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
-        <h1 className="text-3xl title-font text-gray-900 mb-12 text-center font-nadpis">
+      <Breadcrumbs breads={breads} />
+      <div className="mt-12">
+        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
           Recenze našich klientů
         </h1>
+        <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
+      </div>
+      <div className="container px-5 py-12 mx-auto">
         <div className="flex flex-wrap -m-4">
           {reviews.map((review) => {
             return (

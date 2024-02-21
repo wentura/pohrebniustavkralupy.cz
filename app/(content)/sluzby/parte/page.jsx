@@ -3,12 +3,14 @@ import ObrazkyNaParte from "@/components/obrazkyNaParte";
 export default function Parte() {
   return (
     <section className="px-4">
-      <div class="container px-2 sm:px-12 py-24 mx-auto flex flex-wrap">
+      <div className="mt-12">
+        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
+          Parte, smuteční oznámení
+        </h1>
+        <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
+      </div>
+      <div class="container px-2 sm:px-12  mx-auto flex flex-wrap">
         <div class="flex flex-col text-center w-full mb-12">
-          <h1 class="sm:text-3xl text-2xl font-medium font-nadpis mb-4 text-gray-900">
-            Parte, smuteční oznámení
-          </h1>
-          <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
           <p className="text-left py-2 text-xl">
             Parte je nejen formálním informačním dokumentem, ale také
             příležitostí vyjádřit respekt, vzpomínku a lásku k zesnulému.
@@ -437,7 +439,7 @@ export default function Parte() {
           </p>
         </div>
       </div>
-      <ObrazkyNaParte />
+      {/* <ObrazkyNaParte /> */}
     </section>
   );
 }

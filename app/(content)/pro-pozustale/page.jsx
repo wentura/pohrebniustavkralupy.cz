@@ -1,5 +1,5 @@
+import Breadcrumbs from "@/components/breadcrumbs";
 import { isSupported, sanitize } from "isomorphic-dompurify";
-
 const infos = [
   {
     vlevo: "Úmrtní list",
@@ -7,6 +7,8 @@ const infos = [
     text: "Úmrtní list je vyhotoven příslušnou matrikou na základě místa úmrtí zemřelého.<br />V případě, že jste poskytli občanský průkaz a kartu zdravotního pojištění zesnulého, byly tyto dokumenty odeslány na příslušnou matriku a zdravotní pojišťovnu.<br />Na vyhotovení úmrtního listu má matrika stanoveno 30 dní jako lhůtu, kterou většinou dodržuje.<br />Úmrtní list bude doručen na vaši adresu, kterou jste uvedli při objednávání pohřbu, doporučeně poštou. Matrika má povinnost ohlásit úmrtí orgánům sociálního zabezpečení, zdravotní pojišťovně a do evidence trvalého pobytu.<br />O tyto administrativní záležitosti se nemusíte starat.<br />V případě, že zesnulý pobíral speciální příspěvky, jako je péče či náhrada za zdravotní pomůcky, je <strong>NUTNÉ</strong> je odhlásit na příslušném úřadu práce.",
     link: "",
     linkText: "link test text",
+    image:
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1708540489/pohrebniustavcibulka/informace_pro_pozustale/list_vpzpwy.webp",
   },
   {
     vlevo: "Notář",
@@ -14,6 +16,9 @@ const infos = [
     text: "Notář je jmenován soudem v souladu s místem trvalého bydliště zemřelého.<br />Předvolání k notáři obdržíte zhruba 2 až 3 měsíce po úmrtí.<br />První osobou, kterou notář pozve ke konzultaci, je objednatel pohřbu.<br />Mezi požadované dokumenty patří faktura za pohřeb a doklady o zaplacení (včetně stvrzenek nebo dokladu o bezhotovostním převodu).<br />Do dědictví lze zahrnout nejen náklady spojené s pohřbem samotným, ale také další výdaje, například související s kamenickými pracemi - jako je výroba pomníku nebo vytesání písma na něm.<br />Toto období může být administrativně náročné, a proto je důležité postupovat s pečlivostí a důsledností.<br />Pokud budete potřebovat další rady a pomoc, neváhejte se obrátit na zaměstnance naší pohřební služby, kteří vám mohou poskytnout potřebné informace a podporu.<br />Vašemu zemřelému a vám samým přejeme klid v této náročné době.<br />",
     link: "",
     linkText: "link test text",
+    imageReverse: "ano",
+    image:
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1708540489/pohrebniustavcibulka/informace_pro_pozustale/notar_gok7ll.webp",
   },
   {
     vlevo: "Pracovní volno",
@@ -28,6 +33,8 @@ const infos = [
     text: "<strong>Zaměstnanec, kterému zemřel blízký člen rodiny</strong><br />To zahrnuje manžela/ku, dítě, rodiče, prarodiče a sourozence.<br />Délka volna se může lišit v závislosti na vztahu k zemřelé osobě a může být stanovena v pracovních právních předpisech nebo kolektivní smlouvě.<br />Obvykle se jedná o 2 až 4 pracovní dny, avšak v některých případech může být délka volna delší.<br /><br /><strong>Zaměstnanec, který je blízkým příbuzným zesnulého</strong><br />Zaměstnanec může mít nárok na pracovní volno při úmrtí jiné osoby, se kterou měl blízký vztah, například přítele, blízkého přítele nebo člena rodiny.<br />Délka volna se může lišit v závislosti na dohodě se zaměstnavatelem.<br />Obvykle je to však 1 až 2 pracovní dny.<br /><br /><strong>Zaměstnanec, který je kolegou zesnulého</strong><br />Dle nařízení vlády je možná náhrada mzdy nebo platu spolupracovníkům zesnulého.<br />Zaměstnanci tedy mohou získat placené volno na nezbytně dlouhou dobu, během které se mají dostat na smuteční obřad, zúčastnit se jej a poté se vrátit do práce.<br />Tento nárok nevzniká automaticky, a účastníky pohřbu si může zvolit sám zaměstnavatel.<br /><br /><strong>Domluva se zaměstnavatelem</strong><br />Pokud i přesto potřebujete volno na pohřeb, jedinou možností je domluva se zaměstnavatelem a čerpání dovolené nebo neplaceného volna.<br />Je důležité si uvědomit, že nárok na placené pracovní volno může být zrušen, pokud zaměstnanec měl v měsíci pohřbu neomluvenou absenci v práci.<br />V takovém případě může zaměstnavatel odmítnout poskytnutí pracovního volna.<br />Během tohoto volna má zaměstnanec nárok na svou plnou mzdu, a to bez ohledu na to, zda pracuje ve státní nebo soukromé sféře.<br />Tento nárok na volno je upraven v pracovním právu a zaměstnavatel je povinen ho respektovat.<br />Je důležité si uvědomit, že existují stanovené podmínky, co lze považovat za pohřeb a co ne. Pohřbení zahrnuje uložení ostatků do hrobu, urny nebo rozptylu popela. V případě, že se smuteční událost, jako je rozloučení s blízkými nebo smuteční kar, koná v jiný pracovní den, není nárok na volno automatický.<br /><br />",
     link: "",
     linkText: "link test text",
+    image:
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1708540489/pohrebniustavcibulka/informace_pro_pozustale/kvetina_zknpav.webp",
   },
   {
     vlevo: "Pracovní volno",
@@ -37,13 +44,20 @@ const infos = [
     linkText: "link test text",
   },
 ];
-
+const breads = [{ link: "/pro-pozustale", title: "Informace pro pozůstalé" }];
 export default function ProPozustale() {
   return (
     <section className="text-gray-600 body-font overflow-hidden">
+      <Breadcrumbs breads={breads} />;
+      <div className="mt-12">
+        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
+          Informace pro pozůstalé
+        </h1>
+        <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
+      </div>
       <div className="container mt-2 md:mt-12 px-5 md:px-24">
         <span className="text-2xl font-medium text-gray-900 font-nadpis underline underline-offset-4">
-          K zařízení pohřbu
+          K zařízení pohřbu potřebujete
         </span>
         <ul className="list-inside list-disc pt-4">
           <li key="1">Občanský průkaz objednavatele pohřbu</li>
@@ -62,29 +76,41 @@ export default function ProPozustale() {
         </ul>
       </div>
       <div className="container px-5 py-24 mx-auto">
-        <div className="-my-8 divide-y-2 divide-gray-100">
-          {infos.map((info) => {
-            return (
-              <div
-                className="py-8 flex flex-wrap md:flex-nowrap"
-                key={info.nadpis}
-              >
-                {/* <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 md:flex md:flex-col hidden">
-                  <span className="font-semibold title-font text-gray-400">
-                    {info.vlevo}
-                  </span>
-                </div> */}
-                <div className="md:flex-grow">
-                  <h2 className="text-2xl font-medium text-gray-900  mb-4 font-nadpis underline underline-offset-4">
-                    {info.nadpis}
-                  </h2>
-                  <p
-                    className="leading-relaxed"
-                    dangerouslySetInnerHTML={{
-                      __html: DOMPurify.sanitize(info.text),
-                    }}
-                  ></p>
-                  {info.link ? (
+        {infos.map((info) => {
+          return (
+            <div
+              className="py-8 flex flex-wrap md:flex-nowrap"
+              key={info.nadpis}
+            >
+              <div className="md:flex-grow">
+                <h2 className="text-2xl font-medium text-gray-900  mb-4 font-nadpis underline underline-offset-4">
+                  {info.nadpis}
+                </h2>
+                <div
+                  className={`${
+                    info.imageReverse ? "lg:flex-row-reverse" : "lg:flex-row"
+                  } flex flex-col `}
+                >
+                  <div className={`${info.image ? "lg:w-1/2" : ""} `}>
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: DOMPurify.sanitize(info.text),
+                      }}
+                    ></p>
+                  </div>
+                  {info.image ? (
+                    <div className="lg:w-1/2">
+                      <img
+                        src={info.image}
+                        alt={info.nadpis}
+                        className="max-w-1/2 pt-12 lg:pt-0 lg:px-12"
+                      />
+                    </div>
+                  ) : (
+                    ""
+                  )}
+                </div>
+                {/* {info.link ? (
                     <a
                       className={`text-indigo-500 inline-flex items-center mt-4`}
                       href={info.link}
@@ -105,12 +131,11 @@ export default function ProPozustale() {
                     </a>
                   ) : (
                     ""
-                  )}
-                </div>
+                  )} */}
               </div>
-            );
-          })}
-        </div>
+            </div>
+          );
+        })}
       </div>
     </section>
   );
