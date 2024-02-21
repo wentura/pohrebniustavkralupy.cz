@@ -118,7 +118,7 @@ export default function Onas() {
           </div>
         </div>
       </section>
-      <ObrazkyOnas />
+      {/* <ObrazkyOnas /> */}
     </div>
   );
 }
