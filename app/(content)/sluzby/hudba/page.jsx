@@ -165,7 +165,7 @@ const breads = [
 ];
 export default function Hudba() {
   return (
-    <section className="px-4">
+    <section className="">
       <Breadcrumbs breads={breads} />
       <div className="mt-12">
         <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
