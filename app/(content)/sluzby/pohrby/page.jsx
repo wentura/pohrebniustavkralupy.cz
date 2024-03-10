@@ -29,6 +29,16 @@ export default function Pohrby() {
             <p className="mb-2 leading-relaxed">
               Profesionální péče a respekt v těžkých chvílích ztráty blízkého.
             </p>
+            <p className="text-xl font-bold leading-relaxed">
+              K zajištění pohřbu s obřadem předložte:
+            </p>
+            <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
+              <li key="1">list o prohlídce zemřelého</li>
+              <li key="2">občanský průkaz zemřelého</li>
+              <li key="3">kartu pojištěnce zemřelého</li>
+              <li key="4">občanský průkaz objednatele pohřbu</li>
+              <li key="5">oblečení pro zemřelého (vizte níže)</li>
+            </ul>
             <p className="text-xl font-bold leading-relaxed">Rozloučení</p>
             <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
               <li key="1">se širokou veřejností</li>
@@ -43,21 +53,29 @@ export default function Pohrby() {
               <li>kremace (zpopelnění)</li>
               <li>uložení do rodinného hrobu nebo hrobky</li>
             </ul>
+          </div>
+        </div>
+
+        <div className="container mx-auto flex px-5 pt-12 md:flex-row flex-col items-center lg:items-stretch">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+            <img
+              className="object-cover object-center rounded"
+              alt="hero"
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1710081286/pohrebniustavcibulka/prevozZemreleho2_w1u672.webp"
+            />
+          </div>
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left">
             <p className="text-xl font-bold leading-relaxed">
               Převoz a úprava zesnulého
             </p>
             <p className="mb-2 leading-relaxed">
               Zajišťujeme převoz zemřelých z různých částí České republiky.
-              Soustředíme se na oblast Kralupska a okolí.
             </p>
             <p className="mb-2 leading-relaxed">
               Prosíme, abyste nám předali oblečení, ve kterém chcete, aby byl
               Váš drahý nebo drahá obléknut(a).
             </p>
-            <p className="mb-2 leading-relaxed">
-              Může to být oblečení, které měl(a) rád(a) – není třeba, aby bylo
-              tmavé barvy.
-            </p>
+
             <p className="leading-relaxed">Můžete vybrat:</p>
             <ul className="pl-4 list-disc">
               <li>ponožky,</li>
@@ -68,27 +86,22 @@ export default function Pohrby() {
             <p className="mb-2 leading-relaxed">
               tak aby to co nejvíce odpovídalo jejich osobnosti.
             </p>
-            <p className="mb-2 leading-relaxed">
-              Běžně se doporučuje nedávat zesnulému do rakve boty. To je z
-              ekologických důvodů – obuv je většinou vyrobena z materiálů, které
-              by při zpopelnění vypouštěly do ovzduší nechtěné zplodiny.
+
+            <p className="text-xl font-bold leading-relaxed">
+              Smuteční oznámení
             </p>
             <p className="mb-2 leading-relaxed">
-              V případě, že zemřelý neměl k dispozici vhodné oblečení pro
-              pohřeb, jsme připraveni nabídnout použití tzv. rubáše.
-            </p>
-            <p className="mb-2 leading-relaxed">
-              S ohledem na přísný zákon týkající se pohřebnictví, se zesnulý
-              stává předmětem důstojné péče, omytí, oblečení a úpravy, pokud to
-              situace dovoluje.
-            </p>
-            <p className="mb-2 leading-relaxed">
-              V případě vysoce infekční nemoci nebo jiného důvodu jsme nuceni
-              zemřelého uchovat v hygienickém vaku.
-            </p>
-            <p className="mb-2 leading-relaxed">
-              K pohřbu kremací bez obřadu můžeme doporučit rakev bez přízdob,
-              pokud to odpovídá Vašim představám.
+              Na základě Vašeho přání společně sestavíme text na parte, vybereme
+              verš a obrázek.
+              <br />
+              Na oznámení může být i fotografie zesnulého.
+              <br />
+              <Link
+                href="/katalog/parteObrazky"
+                className="underline-offset-2 underline"
+              >
+                více o smutečním oznámení
+              </Link>
             </p>
           </div>
         </div>
@@ -107,7 +120,7 @@ export default function Pohrby() {
             // className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center  scroll-mt-36"
             id="organizaceobradu"
           >
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis">
+            <h1 className="text-xl font-bold leading-relaxed">
               Organizace obřadu
             </h1>
             <p className="mb-2 leading-relaxed">

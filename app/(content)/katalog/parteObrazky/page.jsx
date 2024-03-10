@@ -12,87 +12,87 @@ export default function NaSmutecniOznameni() {
   const obrazky = [
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693654/pohrebniustavcibulka/parte/1_agwcge.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082793/pohrebniustavcibulka/parte/1_epil7n.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693654/pohrebniustavcibulka/parte/2_olssc7.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082794/pohrebniustavcibulka/parte/2_ht99iv.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693654/pohrebniustavcibulka/parte/3_pokagl.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082794/pohrebniustavcibulka/parte/3_z38lda.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693654/pohrebniustavcibulka/parte/4_pdpthu.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082795/pohrebniustavcibulka/parte/4_hukkxg.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693654/pohrebniustavcibulka/parte/5_cc17hu.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082795/pohrebniustavcibulka/parte/5_lkhukt.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693654/pohrebniustavcibulka/parte/6_chmvae.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082796/pohrebniustavcibulka/parte/6_fltnhm.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693654/pohrebniustavcibulka/parte/6_chmvae.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082804/pohrebniustavcibulka/parte/7_vzt6cm.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693655/pohrebniustavcibulka/parte/8_zvodop.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082797/pohrebniustavcibulka/parte/8_icc22k.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693655/pohrebniustavcibulka/parte/9_rcthkz.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082797/pohrebniustavcibulka/parte/9_nfordl.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693655/pohrebniustavcibulka/parte/10_e5hz0a.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082797/pohrebniustavcibulka/parte/9_nfordl.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693655/pohrebniustavcibulka/parte/10_e5hz0a.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082803/pohrebniustavcibulka/parte/11_carftn.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693657/pohrebniustavcibulka/parte/12_gsndvo.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082801/pohrebniustavcibulka/parte/12_ndm1zl.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693656/pohrebniustavcibulka/parte/13_tgyezw.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082798/pohrebniustavcibulka/parte/13_yp1dli.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693656/pohrebniustavcibulka/parte/14_zusmdr.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082799/pohrebniustavcibulka/parte/14_mbxogl.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693657/pohrebniustavcibulka/parte/15_cvqkqk.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082800/pohrebniustavcibulka/parte/15_axn89x.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693658/pohrebniustavcibulka/parte/16_cwmf5e.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082805/pohrebniustavcibulka/parte/16_grztqt.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693658/pohrebniustavcibulka/parte/17_xuurvx.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082807/pohrebniustavcibulka/parte/17_c4bmll.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693656/pohrebniustavcibulka/parte/18_txg02v.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082802/pohrebniustavcibulka/parte/18_e0hasf.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693656/pohrebniustavcibulka/parte/19_knnogs.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082800/pohrebniustavcibulka/parte/19_co2de1.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693658/pohrebniustavcibulka/parte/20_jervcm.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082806/pohrebniustavcibulka/parte/20_mzhhwj.webp",
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1705693657/pohrebniustavcibulka/parte/21_b3wka5.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082806/pohrebniustavcibulka/parte/21_gcenrx.webp",
     },
   ];
   let counter = 0;
