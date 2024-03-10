@@ -10,165 +10,166 @@ const breads = [
 export default function Katalog() {
   const kvetiny = [
     {
-      title: "1",
+      title: "1. žluté a vínové karafiáty",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406782/pohrebniustavcibulka/kytice/1karafiaty-zlutavinova_z8cb4i.webp",
     },
     {
-      title: "2",
+      title: "2. žluté a oranžové karafiáty",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406782/pohrebniustavcibulka/kytice/2karafiaty-oranzovazluta_xsc52v.webp",
     },
     {
-      title: "3",
+      title: "3. červené karafiáty",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406782/pohrebniustavcibulka/kytice/3karafiaty-cervena_vdahlp.webp",
     },
     {
-      title: "4",
+      title: "4. červené a bílé karafiáty",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406782/pohrebniustavcibulka/kytice/4karafiatycervenobile_lfgzg0.webp",
     },
     {
-      title: "5",
+      title: "5. vínové karafiáty a bílé chryzantémy",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406782/pohrebniustavcibulka/kytice/5karafiatychryzantemy_nwbtwm.webp",
     },
     {
-      title: "6",
+      title: "6. růžové karafiáty a žluté chryzantémy",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406782/pohrebniustavcibulka/kytice/6karafiatychryzantemy_czsjem.webp",
     },
     {
-      title: "7",
+      title: "7. žluté karafiáty a bílé chryzantémy",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406782/pohrebniustavcibulka/kytice/7karafiatychryzantemy_mgurvm.webp",
     },
     {
-      title: "8",
+      title: "8. (chvojí) bílé karafiáty a žíhané fialové chryzantémy",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406783/pohrebniustavcibulka/kytice/8karafiatychryzantemy_dqatvq.webp",
     },
     {
-      title: "9",
+      title: "9. bílé chryzantémy",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406782/pohrebniustavcibulka/kytice/9chryzantemy_zdsy4o.webp",
     },
     {
-      title: "10",
+      title: "10. bílé a růžové chryzantémy",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406783/pohrebniustavcibulka/kytice/10chryzantemy_vn4s2g.webp",
     },
     {
-      title: "11",
+      title: "11. růžové  chryzantémy a bílé růže",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406783/pohrebniustavcibulka/kytice/11chryzantemy_pv9eaa.webp",
     },
     {
-      title: "12",
+      title: "12. žluté chryzantémy a červené růže",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406783/pohrebniustavcibulka/kytice/12chryzantemy_louem8.webp",
     },
     {
-      title: "13",
+      title: "13. bílé chryzantémy",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406783/pohrebniustavcibulka/kytice/13smetanoveruzeruzovechryzantemy_kmsavc.webp",
     },
     {
-      title: "14",
+      title: "14. bílé a červené chryzantémy",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406783/pohrebniustavcibulka/kytice/14zlutechryzantemycerveneruze_my1se4.webp",
     },
     {
-      title: "15",
+      title: "15. červené chryzantémy a bílé růže",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406783/pohrebniustavcibulka/kytice/15cervenechryzantemybileruze_fztfr8.webp",
     },
     {
-      title: "16",
+      title: "16. vínové chryzantémy a žluté růže",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406783/pohrebniustavcibulka/kytice/16fialovechryzantemyzluteruze_sumrei.webp",
     },
     {
-      title: "17",
+      title: "17. bílé růže",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406783/pohrebniustavcibulka/kytice/17bileruze_fjsxdz.webp",
     },
     {
-      title: "18",
+      title: "18. růžové růže",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406784/pohrebniustavcibulka/kytice/18ruzoveruze_iaohru.webp",
     },
     {
-      title: "19",
+      title: "19. červené růžé",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406784/pohrebniustavcibulka/kytice/19cerveneruze_nliv7p.webp",
     },
     {
-      title: "20",
+      title: "20. žluté růže",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406784/pohrebniustavcibulka/kytice/20zluteruze_bwbocr.webp",
     },
     {
-      title: "21",
+      title: "21. bílé chryzantémy, růže lilie",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406784/pohrebniustavcibulka/kytice/21ruzoveliliebilechryzantemy_tdivq3.webp",
     },
     {
-      title: "22",
+      title: "22.  červené růže, bílé lilie",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406784/pohrebniustavcibulka/kytice/22bileliliecerveneruze_zulimz.webp",
     },
     {
-      title: "23",
+      title: "23. žluté chryzantémy, oranžové gerbery",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406784/pohrebniustavcibulka/kytice/23oranzovegerberyzlutechryzantemy_tdoiik.webp",
     },
     {
-      title: "24",
+      title: "24. bílé a červené gerbery",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406784/pohrebniustavcibulka/kytice/23oranzovegerberyzlutechryzantemy_tdoiik.webp",
     },
   ];
   const vence = [
     {
-      title: "1",
+      title: "25. hlava: červené karafiáty spodek: žluté karafiáty",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407480/pohrebniustavcibulka/vence/1_j9n62h.webp",
     },
     {
-      title: "2",
+      title: "26. hlava vínové karafiáty spodek žluté karafiáty ",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407480/pohrebniustavcibulka/vence/2_jgrbrq.webp",
     },
     {
-      title: "3",
+      title: "27. proložené žluté chryzantémy a červené karafiáty",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407480/pohrebniustavcibulka/vence/3_hm1qq9.webp",
     },
     {
-      title: "4",
+      title: "28. proložené bílé karafiáty a červené chryzantémy",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407481/pohrebniustavcibulka/vence/4_ombfv3.webp",
     },
     {
-      title: "5",
+      title: "29. proložené bílé a žluté chryzantémy",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407481/pohrebniustavcibulka/vence/5_bnv48e.webp",
     },
     {
-      title: "6",
+      title: "30. žluté chryzantémy",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407481/pohrebniustavcibulka/vence/6_h22rmy.webp",
     },
     {
-      title: "7",
+      title: "31. bílé chryzantémy a červené růže",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407481/pohrebniustavcibulka/vence/7_bmoiut.webp",
     },
     {
-      title: "8",
+      title: "32. vínové chryzantémy a žluté růže",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407481/pohrebniustavcibulka/vence/8_z4g6a9.webp",
     },
     {
-      title: "9",
+      title: "33. červené růže",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407482/pohrebniustavcibulka/vence/9_gnfxmw.webp",
     },
     {
-      title: "10",
+      title: "34. žluté růže",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407482/pohrebniustavcibulka/vence/10_acggmd.webp",
     },
     {
-      title: "11",
+      title: "35. hlava růžové růže spodek: růžové gerbery",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407483/pohrebniustavcibulka/vence/11_gr6pec.webp",
     },
     {
-      title: "12",
+      title: "36. proložené bílé růže a bílé gerbery",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407483/pohrebniustavcibulka/vence/12_jis3u0.webp",
     },
     {
-      title: "13",
+      title: "37. žluté gerbery",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407483/pohrebniustavcibulka/vence/13_dma003.webp",
     },
     {
-      title: "14",
+      title: "38. růžové gerbery",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407483/pohrebniustavcibulka/vence/14_upiz6m.webp",
     },
     {
-      title: "15",
+      title:
+        "39. hlava: červené karafiáty, spodek: oranž. a čajové růže, světle žl. karafiáty",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407484/pohrebniustavcibulka/vence/15_iufpsx.webp",
     },
     {
-      title: "16",
+      title: "40. hlava: růžové, bílé chryzantémy spodek: žluté gerbery",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407484/pohrebniustavcibulka/vence/16_stgbnm.webp",
     },
   ];
@@ -299,7 +300,7 @@ export default function Katalog() {
                   <div className="h-[480px] md:h-[450px] xl:h-[380px]  overflow-hidden rounded">
                     <img className="w-full" src={item.href} alt="kvetiny" />
                   </div>
-                  <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+                  <h3 className="tracking-widest  font-medium title-font text-center">
                     {/* {counter}  */}
 
                     {item.title}
@@ -328,7 +329,7 @@ export default function Katalog() {
                   <div className="h-[520px] md:h-[450px] xl:h-[380px]  overflow-hidden rounded">
                     <img className="w-full" src={item.href} alt="kvetiny" />
                   </div>
-                  <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+                  <h3 className="tracking-widest  font-medium title-font text-center">
                     {/* {counter}  */}
 
                     {item.title}
@@ -381,7 +382,7 @@ export default function Katalog() {
                   <div className="h-[400px] md:h-[600px] xl:h-[380px]  overflow-hidden rounded">
                     <img className="w-full" src={item.href} alt="kvetiny" />
                   </div>
-                  <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+                  <h3 className="tracking-widest  font-medium title-font text-center">
                     {/* {counter}  */}
 
                     {item.title}
@@ -463,10 +464,9 @@ export default function Katalog() {
                   <div className="h-[560px] md:h-[470px] xl:h-[380px]  overflow-hidden rounded">
                     <img className="w-full" src={item.href} alt="kvetiny" />
                   </div>
-                  <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+                  <h3 className="tracking-widest  font-medium title-font text-center">
                     {/* {counter}  */}
-
-                    {item.title}
+                    Věnec č. {item.title}
                   </h3>
                 </div>
               );
