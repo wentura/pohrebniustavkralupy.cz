@@ -295,19 +295,15 @@ export default function Katalog() {
                 counter++;
               }
               return (
-                <div className="xl:w-1/4 md:w-1/2 p-4" key={item.href}>
-                  <div className="">
-                    <img
-                      className="rounded w-full"
-                      src={item.href}
-                      alt="content"
-                    />
-                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                      {/* {counter}  */}
-
-                      {item.title}
-                    </h3>
+                <div className="xl:w-1/4 md:w-1/2 p-4 mx-auto" key={item.href}>
+                  <div className="h-[480px] md:h-[450px] xl:h-[380px]  overflow-hidden rounded">
+                    <img className="w-full" src={item.href} alt="kvetiny" />
                   </div>
+                  <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+                    {/* {counter}  */}
+
+                    {item.title}
+                  </h3>
                 </div>
               );
             })}
@@ -328,19 +324,15 @@ export default function Katalog() {
                 counter++;
               }
               return (
-                <div className="xl:w-1/4 md:w-1/2 p-4" key={item.href}>
-                  <div className="">
-                    <img
-                      className="rounded w-full"
-                      src={item.href}
-                      alt="content"
-                    />
-                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                      {/* {counter}  */}
-
-                      {item.title}
-                    </h3>
+                <div className="xl:w-1/4 md:w-1/2 p-4 mx-auto" key={item.href}>
+                  <div className="h-[520px] md:h-[450px] xl:h-[380px]  overflow-hidden rounded">
+                    <img className="w-full" src={item.href} alt="kvetiny" />
                   </div>
+                  <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+                    {/* {counter}  */}
+
+                    {item.title}
+                  </h3>
                 </div>
               );
             })}
@@ -374,7 +366,7 @@ export default function Katalog() {
               alt="silon vence"
             />
             <img
-              className="rounded w-full md:w-1/2 py-2 px-2"
+              className="rounded w-full md:w-1/2 py-2 px-2 "
               src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1709408069/pohrebniustavcibulka/silon/1_wfkmbw.webp"
               alt="silon vence"
             />
@@ -385,19 +377,15 @@ export default function Katalog() {
                 counter++;
               }
               return (
-                <div className="xl:w-1/4 md:w-1/2 p-4" key={item.href}>
-                  <div className="">
-                    <img
-                      className="rounded w-full"
-                      src={item.href}
-                      alt="content"
-                    />
-                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                      {/* {counter}  */}
-
-                      {item.title}
-                    </h3>
+                <div className="xl:w-1/4 md:w-1/2 p-4 mx-auto" key={item.href}>
+                  <div className="h-[400px] md:h-[600px] xl:h-[380px]  overflow-hidden rounded">
+                    <img className="w-full" src={item.href} alt="kvetiny" />
                   </div>
+                  <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+                    {/* {counter}  */}
+
+                    {item.title}
+                  </h3>
                 </div>
               );
             })}
@@ -471,19 +459,15 @@ export default function Katalog() {
                 counter++;
               }
               return (
-                <div className="xl:w-1/4 md:w-1/2 p-4" key={item.href}>
-                  <div className="">
-                    <img
-                      className="rounded w-full"
-                      src={item.href}
-                      alt="content"
-                    />
-                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                      {/* {counter}  */}
-
-                      {item.title}
-                    </h3>
+                <div className="xl:w-1/4 md:w-1/2 p-4 mx-auto" key={item.href}>
+                  <div className="h-[560px] md:h-[470px] xl:h-[380px]  overflow-hidden rounded">
+                    <img className="w-full" src={item.href} alt="kvetiny" />
                   </div>
+                  <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+                    {/* {counter}  */}
+
+                    {item.title}
+                  </h3>
                 </div>
               );
             })}
