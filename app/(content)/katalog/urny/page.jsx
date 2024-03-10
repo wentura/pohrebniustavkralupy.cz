@@ -10,104 +10,97 @@ const breads = [
 export default function Rakve() {
   const plast = [
     {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672042/pohrebniustavcibulka/urny/DSC_0033.JPG_oy4dwi.webp",
-    },
-    {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672041/pohrebniustavcibulka/urny/DSC_0030.JPG_skzffq.webp",
-    },
-    {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672040/pohrebniustavcibulka/urny/DSC_0028.JPG_qc1jod.webp",
-    },
-    {
-      title: "",
+      title: "UH těžký - černý (s přidanou kameninou)",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672035/pohrebniustavcibulka/urny/DSC_0012.JPG_cnzoha.webp",
     },
     {
-      title: "",
+      title: "UH lehký - pískový s listem",
       href: "    https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672038/pohrebniustavcibulka/urny/DSC_0026.JPG_cj4gpt.webp",
+    },
+    {
+      title: "UH lehký - měděný (hnědý) s listem",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672042/pohrebniustavcibulka/urny/DSC_0033.JPG_oy4dwi.webp",
+    },
+    {
+      title: "UH lehký - cobalt (modrý) s listem",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672041/pohrebniustavcibulka/urny/DSC_0030.JPG_skzffq.webp",
+    },
+    {
+      title: "UH lehký - černý s listem",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672040/pohrebniustavcibulka/urny/DSC_0028.JPG_qc1jod.webp",
     },
   ];
   const kov = [
     {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672058/pohrebniustavcibulka/urny/DSC_0070.JPG_qaiucq.webp",
-    },
-    {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672057/pohrebniustavcibulka/urny/DSC_0069.JPG_eezlcz.webp",
-    },
-    {
-      title: "",
+      title: "Nerez zlatá růže",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672056/pohrebniustavcibulka/urny/DSC_0068.JPG_vcpyjt.webp",
     },
     {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672055/pohrebniustavcibulka/urny/DSC_0060.JPG_yq5tpo.webp",
-    },
-    {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672054/pohrebniustavcibulka/urny/DSC_0057.JPG_hfwwni.webp",
-    },
-    {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672053/pohrebniustavcibulka/urny/DSC_0054.JPG_wsisj3.webp",
-    },
-    {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672052/pohrebniustavcibulka/urny/DSC_0052.JPG_ifvcs6.webp",
-    },
-    {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672051/pohrebniustavcibulka/urny/DSC_0050.JPG_cauwqx.webp",
-    },
-    {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672050/pohrebniustavcibulka/urny/DSC_0049.JPG_mhvt21.webp",
-    },
-    {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672049/pohrebniustavcibulka/urny/DSC_0047.JPG_waacuy.webp",
-    },
-    {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672048/pohrebniustavcibulka/urny/DSC_0045.JPG_p7jlnd.webp",
-    },
-    {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672047/pohrebniustavcibulka/urny/DSC_0042.JPG_domihx.webp",
-    },
-    {
-      title: "",
+      title: "Hliník, červený s liliemi (ploché víko)",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672046/pohrebniustavcibulka/urny/DSC_0040.JPG_qtreec.webp",
     },
     {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672045/pohrebniustavcibulka/urny/DSC_0039.JPG_br279z.webp",
+      title: "Hliník (kulaté víko) s ručně malovanou růží",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672055/pohrebniustavcibulka/urny/DSC_0060.JPG_yq5tpo.webp",
     },
     {
-      title: "",
+      title: "Hliník, 2 černo-zlatá s kalou",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672053/pohrebniustavcibulka/urny/DSC_0054.JPG_wsisj3.webp",
+    },
+    {
+      title: "Hliník, černo-stříbrná s kalou",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672044/pohrebniustavcibulka/urny/DSC_0037.JPG_gxvlno.webp",
     },
+    {
+      title: "Hliník, 4 fialová",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672050/pohrebniustavcibulka/urny/DSC_0049.JPG_mhvt21.webp",
+    },
+    {
+      title: "Hliník, hnědý se zlatým pruhem (545 701 AL zlatý pruh)",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672051/pohrebniustavcibulka/urny/DSC_0050.JPG_cauwqx.webp",
+    },
+    {
+      title: "Měď, hnědý (554 700 CU)",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672052/pohrebniustavcibulka/urny/DSC_0052.JPG_ifvcs6.webp",
+    },
+    {
+      title: "Měď, modrý (554 CU-měď)",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672054/pohrebniustavcibulka/urny/DSC_0057.JPG_hfwwni.webp",
+    },
+    {
+      title: "Měď, s ručně rytou růží",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672047/pohrebniustavcibulka/urny/DSC_0042.JPG_domihx.webp",
+    },
+    {
+      title: "Měď, zdobený s křížem",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672049/pohrebniustavcibulka/urny/DSC_0047.JPG_waacuy.webp",
+    },
+    // {
+    //   title: "",
+    //   href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672048/pohrebniustavcibulka/urny/DSC_0045.JPG_p7jlnd.webp",
+    // },
+
+    // {
+    //   title: "",
+    //   href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672045/pohrebniustavcibulka/urny/DSC_0039.JPG_br279z.webp",
+    // },
   ];
   const ostatni = [
     {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672039/pohrebniustavcibulka/urny/DSC_0025.JPG_xoxp6z.webp",
-    },
-    {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672037/pohrebniustavcibulka/urny/DSC_0022.JPG_dbtqvm.webp",
-    },
-    {
-      title: "",
+      title: "lucerna nerez černá malá a velká",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672036/pohrebniustavcibulka/urny/DSC_0020.JPG_al2awz.webp",
     },
     {
-      title: "",
+      title: "lucerna nerez malá a velká",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672036/pohrebniustavcibulka/urny/DSC_0016.JPG_ntrh2h.webp",
+    },
+    {
+      title: "váza nerez malá a velká",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672039/pohrebniustavcibulka/urny/DSC_0025.JPG_xoxp6z.webp",
+    },
+    {
+      title: "sklo na svíčku malé a velké",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1703672037/pohrebniustavcibulka/urny/DSC_0022.JPG_dbtqvm.webp",
     },
   ];
   let counter = 0;
@@ -166,9 +159,9 @@ export default function Rakve() {
                       src={item.href}
                       alt="content"
                     />
-                    <h3 className="tracking-widest font-medium title-font">
-                      {counter}
-                    </h3>
+                    <p className="tracking-widest font-medium title-font text-center">
+                      {item.title}
+                    </p>
                   </div>
                 </div>
               );
@@ -202,9 +195,10 @@ export default function Rakve() {
                       src={item.href}
                       alt="content"
                     />
-                    <h3 className="tracking-widest font-medium title-font">
-                      {counter}
-                    </h3>
+                    <p className="tracking-widest font-medium title-font text-center">
+                      {/* {counter} */}
+                      {item.title}
+                    </p>
                   </div>
                 </div>
               );
@@ -220,7 +214,7 @@ export default function Rakve() {
                 Vázy, lucerny,...
               </h1>
             </div>
-            <div className="w-full leading-relaxed text-gray-500">
+            <div className="  w-full leading-relaxed text-gray-500">
               <p className="mt-2">
                 V naší kanceláři nabízíme nejen vázy na květiny a lampičky, ale
                 také další smuteční zboží.
@@ -255,12 +249,12 @@ export default function Rakve() {
                       src={item.href}
                       alt="content"
                     />
-                    <h3 className="tracking-widest font-medium title-font">
+                    {/* <h3 className="tracking-widest font-medium title-font">
                       {counter}
-                    </h3>
-                    <h2 className="text-lg text-gray-900 title-font mb-4 text-center">
+                    </h3> */}
+                    <p className="tracking-widest font-medium title-font text-center">
                       {item.title}
-                    </h2>
+                    </p>
                   </div>
                 </div>
               );
