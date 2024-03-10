@@ -199,6 +199,74 @@ export default function Katalog() {
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709408073/pohrebniustavcibulka/silon/8_t5dxun.webp",
     },
   ];
+  const zapujceniKytice = [
+    {
+      title: "Kytice č. 1 bílá oválná",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710089898/pohrebniustavcibulka/zapujcka1/1_uon2ny.webp",
+    },
+    {
+      title: "Kytice č. 2 bílá",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710089898/pohrebniustavcibulka/zapujcka1/2_zryw0b.webp",
+    },
+    {
+      title: "Kytice č. 3 do žluta",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710089898/pohrebniustavcibulka/zapujcka1/3_gkg9lg.webp",
+    },
+    {
+      title: "Kytice č. 4 růžovo - bílá",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710089899/pohrebniustavcibulka/zapujcka1/4_ndanxb.webp",
+    },
+    {
+      title: "Kytice č. 5 růžovo - bílá",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710089899/pohrebniustavcibulka/zapujcka1/5_ieg8nz.webp",
+    },
+    {
+      title: "Kytice č. 6 růžová",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710089899/pohrebniustavcibulka/zapujcka1/6_jrvhjh.webp",
+    },
+    {
+      title: "Kytice č. 7 růžovo - červená",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710089900/pohrebniustavcibulka/zapujcka1/7_z0kqbl.webp",
+    },
+    {
+      title: "Kytice č. 8 rudá",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710089900/pohrebniustavcibulka/zapujcka1/8_vq1jpg.webp",
+    },
+    {
+      title: "Kytice č. 9 oranžová",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710089901/pohrebniustavcibulka/zapujcka1/9_dpvdcs.webp",
+    },
+    {
+      title: "Kytice č. 10 žlutá",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710089901/pohrebniustavcibulka/zapujcka1/10_u53hh0.webp",
+    },
+    {
+      title: "Kytice č. 11 žlutá",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710089901/pohrebniustavcibulka/zapujcka1/11_tponui.webp",
+    },
+    {
+      title: "Kytice č. 12 žlutá",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710089902/pohrebniustavcibulka/zapujcka1/12_fycxkj.webp",
+    },
+    {
+      title: "Kytice č. 13 fialová",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710089902/pohrebniustavcibulka/zapujcka1/13_pj5blh.webp",
+    },
+  ];
+  const zapujceniKyticeMale = [
+    {
+      title: "Kytice č. 14 malá",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710089903/pohrebniustavcibulka/zapujcka1/k1_qm1xyu.webp",
+    },
+    {
+      title: "Kytice č. 15 malá",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710089903/pohrebniustavcibulka/zapujcka1/k2_y6hasm.webp",
+    },
+    {
+      title: "Kytice č. 16 malá",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710089904/pohrebniustavcibulka/zapujcka1/k3_sd3n85.webp",
+    },
+  ];
   const zapujceniVence = [
     {
       title: "1",
@@ -267,7 +335,7 @@ export default function Katalog() {
   ];
   let counter = 0;
   return (
-    <div>
+    <>
       <Breadcrumbs breads={breads} />
       {/* <LandingSluzby /> */}
       <section className="text-gray-600 body-font">
@@ -410,32 +478,55 @@ export default function Katalog() {
         <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-wrap w-full mb-20">
             <p className=" w-full leading-relaxed text-gray-500">
-              musim vymyslet jak nejlepe spojit dodane obrazky (2) do jednoho
-              aby to nejak vypadalo...
+              Tyto umělé věnce nebo kytice zůstávají v obřadní síni a propůjčují
+              se pro potřeby obřadu.
+              <br />
+              Možnost výběru konkrétních typů květin není možná, stuhy z této
+              vazby si můžete ponechat.
             </p>
           </div>
-          {/* <div className="flex flex-wrap -m-4">
-            {silon.map((item) => {
+          <div className="flex flex-wrap -m-4">
+            {zapujceniKytice.map((item) => {
               {
                 counter++;
               }
               return (
-                <div className="xl:w-1/4 md:w-1/2 p-4" key={item.href}>
+                <div className="w-full p-4" key={item.href}>
                   <div className="">
                     <img
                       className="rounded w-full"
                       src={item.href}
                       alt="content"
                     />
-                    <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-
+                    <p className="tracking-widest text-center font-medium title-font">
                       {item.title}
-                    </h3>
+                    </p>
                   </div>
                 </div>
               );
             })}
-          </div> */}
+          </div>
+          <div className="flex flex-wrap -m-4">
+            {zapujceniKyticeMale.map((item) => {
+              {
+                counter++;
+              }
+              return (
+                <div className="w-full md:w-1/3 p-4" key={item.href}>
+                  <div className="">
+                    <img
+                      className="rounded w-full"
+                      src={item.href}
+                      alt="content"
+                    />
+                    <p className="tracking-widest text-center font-medium title-font">
+                      {item.title}
+                    </p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </section>
 
@@ -474,6 +565,6 @@ export default function Katalog() {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }
