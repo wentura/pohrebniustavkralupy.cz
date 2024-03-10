@@ -10,106 +10,110 @@ const breads = [
 export default function Rakve() {
   const sirokeDlouheRakve = [
     {
-      title: "široká, dlouhá",
+      title: "R - ASTRA ANTURIE AŠ + ADL mahagon",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707379/pohrebniustavcibulka/rakve/R_-_ANTURIE_AS%CC%8C_ADL_mahagon_nfyeoj.webp",
     },
     {
-      title: "široká, dlouhá",
+      title: "R - ASTRA světlá AŠ + ADL",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707378/pohrebniustavcibulka/rakve/R_ASTRA-_sve%CC%8Cla%CC%81_AS%CC%8C_ADL_lo1ihm.webp",
     },
     {
-      title: "široká, dlouhá",
+      title: "R - ASTRA AŠ + ADL tm. hnědá",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707377/pohrebniustavcibulka/rakve/R_-_ASTRA_AS%CC%8C_ADL_tm._hne%CC%8Cda%CC%81_-_k_obr%CC%8Cadu_a_do_kop._hrobu_-_dlouha%CC%81_-_kopie_dswmuj.webp",
     },
   ];
   const dlouheRakve = [
     {
-      title: "dlouhá",
+      title: "R - ASTRA ADL tm. hnědá",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707377/pohrebniustavcibulka/rakve/R_-_ASTRA_ADL_tm._hne%CC%8Cda%CC%81_-_k_obr%CC%8Cadu_a_do_kop._hrobu_-_dlouha%CC%81_qbtamv.webp",
     },
 
     {
-      title: "dlouhá",
+      title: "R - ASTRA ADL světlá",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707377/pohrebniustavcibulka/rakve/R_-_ASTRA_ADL_sve%CC%8Ctla%CC%81_-_k_obr%CC%8Cadu_a_do_kop._hrobu_-_dlouha%CC%81_l2wy44.webp",
     },
     {
-      title: "dlouhá",
+      title: "R - ADL mahagon BEGONIE",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707375/pohrebniustavcibulka/rakve/R_-_ADL_mahagon_BEGONIE_icypy2.webp",
     },
     {
-      title: "dlouhá",
+      title: "R - ADL hnědá BEGONIE",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707375/pohrebniustavcibulka/rakve/R_-_ADL_hne%CC%8Cda%CC%81_BEGONIE_xc3vtg.webp",
     },
     {
-      title: "dlouhá",
+      title: "M - vyřezávaná růže ADL",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707373/pohrebniustavcibulka/rakve/Moser_vyr%CC%8Ceta%CC%81vana%CC%81_ru%CC%8Az%CC%8Ce_ADL_nni66u.webp",
     },
   ];
   const sirokeRakve = [
     {
-      title: "široká",
+      title: "KR zlatý pruh AŠ ",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707374/pohrebniustavcibulka/rakve/KR_zlaty%CC%81_pruh_AS%CC%8C_-_k_obr%CC%8Cadu_a_do_kop._hrobu_-_s%CC%8Ciroka%CC%81_few0ve.webp",
     },
     {
-      title: "široká",
+      title: "KR zlatý pruh mahagon AŠ",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707375/pohrebniustavcibulka/rakve/KR_zlaty%CC%81_pruh_mahagon_AS%CC%8C_-_k_obr%CC%8Cadu_a_do_kop._hrobu_-_s%CC%8Ciroka%CC%81_-_kopie_lk3x8r.webp",
     },
     {
-      title: "široká",
+      title: "R - ASTRA světlá AŠ",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707378/pohrebniustavcibulka/rakve/R_ASTRA-_sve%CC%8Cla%CC%81_AS%CC%8C_lwtfzq.webp",
     },
   ];
   const rakve = [
     {
-      title: "",
+      title: "KR 2 hnědá",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707373/pohrebniustavcibulka/rakve/KR_2_hne%CC%8Cda%CC%81_-_k_obr%CC%8Cadu_ke_kremaci_trmijp.webp",
     },
     {
-      title: "",
+      title: "P6 rubín",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707373/pohrebniustavcibulka/rakve/P6_rubi%CC%81n_k_obr%CC%8Cadu_a_do_kop._hrobu_v6p8v7.webp",
     },
     {
-      title: "",
+      title: "KR zdobená ",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707373/pohrebniustavcibulka/rakve/KR_zdobena%CC%81_-_k_obr%CC%8Cadu_a_do_kop._hrobu_ff2xxn.webp",
     },
     {
-      title: "",
+      title: "KR vyřezávaná",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707373/pohrebniustavcibulka/rakve/KR_vyr%CC%8Ceza%CC%81vana%CC%81_-_k_obr%CC%8Cadu_a_do_kop._hrobu_icrekq.webp",
     },
     {
-      title: "",
+      title: "KR zlatý pruh ",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707374/pohrebniustavcibulka/rakve/KR_zlaty%CC%81_pruh_-_k_obr%CC%8Cadu_a_do_kop._hrobu_prve9s.webp",
     },
     {
-      title: "",
+      title: "SE - P hnědá",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707374/pohrebniustavcibulka/rakve/SE_-_P_hne%CC%8Cda%CC%81_k_obr%CC%8Cadu_a_do_kop._hrobu_fu6e17.webp",
     },
     {
-      title: "",
+      title: "SE - P bílá",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707376/pohrebniustavcibulka/rakve/SE_-_P_bi%CC%81la%CC%81_k_obr%CC%8Cadu_a_do_kop._hrobu_fmrl25.webp",
     },
   ];
   const rakve2 = [
     {
-      title: "",
+      title: "KR 55 s kov. vložkou",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707375/pohrebniustavcibulka/rakve/KR_55_dub_-_do_hrobky_hth4ye.webp",
     },
     {
-      title: "",
+      title: "Moser dub s kov. vložkou",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707373/pohrebniustavcibulka/rakve/Moser_dub_s_vloz%CC%8Ckou_-_do_hrobek_lnmsjy.webp",
     },
     {
-      title: "",
+      title: "KR 40 třešeň s kov. vložkou CEKAM NA FOKTU",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707373/pohrebniustavcibulka/rakve/Moser_dub_s_vloz%CC%8Ckou_-_do_hrobek_lnmsjy.webp",
+    },
+    {
+      title: "Amerika - lila",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707376/pohrebniustavcibulka/rakve/Amerika_-_kov_-_do_hrobek_kx80lr.webp",
     },
   ];
   const rakve3 = [
     {
-      title: "1",
+      title: "kremační bezobřadá",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707379/pohrebniustavcibulka/rakve/Kremac%CC%8Cni%CC%81_BO_-_bez_obr%CC%8Cadu_fsyrh5.webp",
     },
     {
-      title: "2",
+      title: "kremační bezobřadá (široká)",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707379/pohrebniustavcibulka/rakve/Kremac%CC%8Cni%CC%81_BO_AS%CC%8C_-_bez_obr%CC%8Cadu_f471al.webp",
     },
   ];
@@ -176,9 +180,9 @@ export default function Rakve() {
                       src={item.href}
                       alt="content"
                     />
-                    <h3 className="tracking-widest text-indigo-500 text-md font-medium title-font">
-                      {counter}
-                    </h3>
+                    <p className="tracking-widest font-medium title-font text-center">
+                      {item.title}
+                    </p>
                     <h2 className="text-lg text-gray-900 title-font mb-4 text-center">
                       {/* {item.title} */}
                     </h2>
@@ -234,9 +238,9 @@ export default function Rakve() {
                       src={item.href}
                       alt="content"
                     />
-                    <h3 className="tracking-widest text-indigo-500 text-md font-medium title-font">
-                      {counter}
-                    </h3>
+                    <p className="tracking-widest text-center font-medium title-font">
+                      {item.title}
+                    </p>
                   </div>
                 </div>
               );
@@ -266,9 +270,9 @@ export default function Rakve() {
                       src={item.href}
                       alt="content"
                     />
-                    <h3 className="tracking-widest text-indigo-500 text-md font-medium title-font">
-                      {counter}
-                    </h3>
+                    <p className="tracking-widest text-center font-medium title-font">
+                      {item.title}
+                    </p>
                   </div>
                 </div>
               );
@@ -298,8 +302,8 @@ export default function Rakve() {
                       src={item.href}
                       alt="content"
                     />
-                    <h3 className="tracking-widest text-indigo-500 text-md font-medium title-font">
-                      {counter}
+                    <h3 className="tracking-widest text-center font-medium title-font">
+                      {item.title}
                     </h3>
                   </div>
                 </div>
@@ -330,9 +334,9 @@ export default function Rakve() {
                       src={item.href}
                       alt="content"
                     />
-                    <h3 className="tracking-widest text-indigo-500 text-md font-medium title-font">
-                      {counter}
-                    </h3>
+                    <p className="tracking-widest text-center font-medium title-font">
+                      {item.title}
+                    </p>
                   </div>
                 </div>
               );
@@ -385,9 +389,9 @@ export default function Rakve() {
                       src={item.href}
                       alt="content"
                     />
-                    <h3 className="tracking-widest text-indigo-500 text-md font-medium title-font">
-                      {counter}
-                    </h3>
+                    <p className="tracking-widest text-center font-medium title-font">
+                      {item.title}
+                    </p>
                   </div>
                 </div>
               );
