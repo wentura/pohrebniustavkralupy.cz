@@ -7,19 +7,19 @@ export const menuItems = [
     children: [
       { id: 3, link: "/sluzby/pohrbybezobradu", text: "Pohřeb bez obřadu" },
       { id: 2, link: "/sluzby/pohrby", text: "Pohřeb s obřadem" },
-      {
-        id: 6,
-        link: "/sluzby/pohrby#prevozzesnuleho",
-        text: "Převoz zesnulého",
-        // scroll: false,
-      },
+      // {
+      //   id: 6,
+      //   link: "/sluzby/pohrby#prevozzesnuleho",
+      //   text: "Převoz zesnulého",
+      
+      // },
       // { id: 4, link: "/sluzby/parte", text: "Smuteční oznámení" },
-      {
-        id: 5,
-        link: "/sluzby/pohrby#organizaceobradu",
-        text: "Organizace obřadu",
-        // scroll: false,
-      },
+      // {
+      //   id: 5,
+      //   link: "/sluzby/pohrby#organizaceobradu",
+      //   text: "Organizace obřadu",
+      
+      // },
 
       {
         id: 7,

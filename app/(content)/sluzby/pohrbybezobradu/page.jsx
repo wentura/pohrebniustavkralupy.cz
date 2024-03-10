@@ -25,11 +25,18 @@ export default function Pohrbybezobradu() {
               src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705689200/pohrebniustavcibulka/2_uhgulv.webp"
             />
           </div>
-          <div
-            className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left   scroll-mt-36"
-            // className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center scroll-mt-36"
-          >
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left scroll-mt-36">
             <p className="text-xl font-bold leading-relaxed mt-8">Pohřeb</p>
+            <p className=" leading-relaxed my-2">
+              Nabízíme službu pohřeb bez obřadu, která zahrnuje i{" "}
+              <Link
+                href="/katalog/parteObrazky"
+                className="underline underline-offset-2"
+              >
+                sestavení smutečního oznámení
+              </Link>{" "}
+              a úpravu zesnulého v obleření dle Vašeho výběru.
+            </p>
             <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
               <li key="1">kremace (zpopelnění)</li>
               <li key="2">možnost tzv. identifikace</li>
