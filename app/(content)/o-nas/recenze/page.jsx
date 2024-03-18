@@ -1,6 +1,14 @@
 import Breadcrumbs from "@/components/breadcrumbs";
 const reviews = [
   {
+    text: "Chtěla jsme Vám všem mnohokrát poděkovat za 100% profesionalitu  a velmi citlivý a ochotný přístup. V těch nejtěžších chvílích mi bylo vše velmi dobře vysvětleno a provedeno a to i přesto, že jsem nebyla osobně přítomna a vše proběhlo přes telefon a email. Slova nemohou vyjádřit mou vděčnost. Jsou nejlepší v Kralupech a rozhodně je doporučuji. Lepší servis nikde nedostanete!! Děkuji z celého srdce!!",
+    kdo: "Slávka J.",
+  },
+  {
+    text: "Velice si cením Vašeho empatického a profesionálního přístupu při zajišťování smutečního obřadu a věcí s tím spojených. Velké díky za Vaši ochotu, vstřícnost a podporu.",
+    kdo: "Renata R.",
+  },
+  {
     text: "Když jsme se museli vypořádat s nečekanou ztrátou naší drahé osoby ,byl pro nás profesionální přístup a empatie nepostradatelné. Mohli jsme projít tímto smutným obdobím s klidem a důstojností. Ještě jednou děkujeme.",
     kdo: "Denisa T.",
   },
@@ -63,6 +71,14 @@ export default function Recenze() {
             );
           })}
         </div>
+        <p className="text-right w-full">
+          <a
+            href="https://www.google.com/maps/place/Poh%C5%99ebn%C3%AD+%C3%BAstav+Cibulka,+Kralupy+nad+Vltavou/@50.2382314,14.3047708,17z/data=!4m14!1m7!3m6!1s0x470bc3897358a263:0x8323b0ca7736d040!2sPoh%C5%99ebn%C3%AD+%C3%BAstav+Cibulka,+Kralupy+nad+Vltavou!8m2!3d50.2382314!4d14.3073457!16s%2Fg%2F11xgsh1tv!3m5!1s0x470bc3897358a263:0x8323b0ca7736d040!8m2!3d50.2382314!4d14.3073457!16s%2Fg%2F11xgsh1tv?entry=ttu"
+            className="pt-4 underline underline-offset-2"
+          >
+            Rezenze z google.com{" "}
+          </a>
+        </p>
       </div>
     </section>
   );

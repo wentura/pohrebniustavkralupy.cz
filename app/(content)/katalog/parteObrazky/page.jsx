@@ -48,7 +48,7 @@ export default function NaSmutecniOznameni() {
     },
     {
       title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082797/pohrebniustavcibulka/parte/9_nfordl.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082803/pohrebniustavcibulka/parte/10_rnpo78.webp",
     },
     {
       title: "",
@@ -90,10 +90,10 @@ export default function NaSmutecniOznameni() {
       title: "",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082806/pohrebniustavcibulka/parte/20_mzhhwj.webp",
     },
-    {
-      title: "",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082806/pohrebniustavcibulka/parte/21_gcenrx.webp",
-    },
+    // {
+    //   title: "",
+    //   href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082806/pohrebniustavcibulka/parte/21_gcenrx.webp",
+    // },
   ];
   let counter = 0;
   return (
@@ -101,14 +101,16 @@ export default function NaSmutecniOznameni() {
       <Breadcrumbs breads={breads} />
       <Parte />
       {/* <LandingSluzby /> */}
-      <section className="text-gray-600 body-font">
+      <section className="body-font ">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20">
-            <div className=" w-full mb-6 lg:mb-0">
-              <h1 class="sm:text-3xl text-2xl font-medium font-nadpis mb-4 text-gray-900 text-center">
-                Smuteční oznámení{" "}
-              </h1>
-              <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
+            <div className="w-full mb-6 lg:mb-0">
+              <h1 className="hajednicka">Smuteční oznámení </h1>
+              <p className="pt-4 text-leading-relaxed">
+                Naše stránky zobrazují pouze malý výběr z naší bohaté nabídky, a
+                to s cílem poskytnout inspiraci a podnět k osobitému rozhodnutí.
+              </p>
+              {/* <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" /> */}
             </div>
           </div>
           <div className="flex flex-wrap -m-4  justify-center">
@@ -124,7 +126,7 @@ export default function NaSmutecniOznameni() {
                       src={item.href}
                       alt="content"
                     />
-                    <h3 className="tracking-widest text-indigo-500 text-lg lg:text-xl font-medium title-font -m-2">
+                    <h3 className="font-medium title-font -m-2 text-center">
                       {counter}
                     </h3>
                   </div>

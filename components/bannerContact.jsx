@@ -2,7 +2,7 @@ import DetailContact from "./detailContact";
 
 export default function BannerContact() {
   return (
-    <section className="text-gray-600 body-font relative overflow-hidden rounded-2xl">
+    <section className=" body-font relative overflow-hidden rounded-2xl">
       <div className="absolute inset-0 ">
         <iframe
           width="100%"

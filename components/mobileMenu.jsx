@@ -52,14 +52,14 @@ export default function MobileMenu() {
         <ul className="text-left max-w-xl">
           {menuItems.map((menuItem) => {
             return menuItem.children ? (
-              <li key={menuItem.id} className="py-3">
+              <li key={menuItem.link} className="py-3">
                 {/* <span className="font-bold text-base">{menuItem.text}</span> */}
                 <ul>
                   {menuItem.children.map((menuChildren) => {
                     return (
-                      <li key={menuChildren.id} className="py-1">
+                      <li key={menuChildren.link} className="py-1">
                         <Link
-                          key={menuChildren.id}
+                          // key={menuChildren.id}
                           rel="noopener noreferrer"
                           href={menuChildren.link}
                           className="odkaz-bila text-left underline text-base"
@@ -72,7 +72,7 @@ export default function MobileMenu() {
                 </ul>
               </li>
             ) : (
-              <li key={menuItem.id} className="text-left justify-items-start">
+              <li key={menuItem.link} className="text-left justify-items-start">
                 <Link
                   rel="noopener noreferrer"
                   href={menuItem.link}

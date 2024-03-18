@@ -29,9 +29,7 @@ export default function Pohrby() {
             <p className="mb-2 leading-relaxed">
               Profesionální péče a respekt v těžkých chvílích ztráty blízkého.
             </p>
-            <p className="text-xl font-bold leading-relaxed">
-              K zajištění pohřbu s obřadem předložte:
-            </p>
+            <p className="hadvojka">K zajištění pohřbu s obřadem předložte:</p>
             <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
               <li key="1">list o prohlídce zemřelého</li>
               <li key="2">občanský průkaz zemřelého</li>
@@ -39,7 +37,7 @@ export default function Pohrby() {
               <li key="4">občanský průkaz objednatele pohřbu</li>
               <li key="5">oblečení pro zemřelého (vizte níže)</li>
             </ul>
-            <p className="text-xl font-bold leading-relaxed">Rozloučení</p>
+            <p className="hadvojka">Rozloučení</p>
             <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
               <li key="1">se širokou veřejností</li>
               <li key="2">v úzkém kruhu rodinném</li>
@@ -48,7 +46,7 @@ export default function Pohrby() {
               <li key="5">v domě smutku</li>
               <li key="6">v kostele</li>
             </ul>
-            <p className="text-xl font-bold leading-relaxed">Pohřeb</p>
+            <p className="hadvojka">Pohřeb</p>
             <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
               <li>kremace (zpopelnění)</li>
               <li>uložení do rodinného hrobu nebo hrobky</li>
@@ -65,9 +63,7 @@ export default function Pohrby() {
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left">
-            <p className="text-xl font-bold leading-relaxed">
-              Převoz a úprava zesnulého
-            </p>
+            <p className="hadvojka">Převoz a úprava zesnulého</p>
             <p className="mb-2 leading-relaxed">
               Zajišťujeme převoz zemřelých z různých částí České republiky.
             </p>
@@ -87,10 +83,8 @@ export default function Pohrby() {
               tak aby to co nejvíce odpovídalo jejich osobnosti.
             </p>
 
-            <p className="text-xl font-bold leading-relaxed">
-              Smuteční oznámení
-            </p>
-            <p className="mb-2 leading-relaxed">
+            <p className="hadvojka">Smuteční oznámení</p>
+            <p className="mb-4 leading-relaxed">
               Na základě Vašeho přání společně sestavíme text na parte, vybereme
               verš a obrázek.
               <br />
@@ -120,9 +114,36 @@ export default function Pohrby() {
             // className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center  scroll-mt-36"
             id="organizaceobradu"
           >
-            <h1 className="text-xl font-bold leading-relaxed">
-              Organizace obřadu
-            </h1>
+            <h3 className="hadvojka">
+              Pomůžeme Vám s výběrem rakve, dle ukládání:
+            </h3>
+            <ul className="pl-4 list-disc">
+              <li>
+                <strong>Kremace (zpopelnění)</strong> - celodřevěné rakve,
+                vybavené vnitřním saténovým čalouněním.
+              </li>
+              <li>
+                <strong>Ukládání do kopaného hrobu</strong> - celodřevěné rakve,
+                vybavené vnitřním saténovým čalouněním, opatřené madly.
+              </li>
+              <li>
+                <strong>Ukládání do zděné hrobky</strong> - celodřevěné, dubové
+                rakve s kovovou vložkou, vybavené vnitřním saténovým čalouněním,
+                opatřené madly.
+              </li>
+            </ul>
+            <p className="mb-2 leading-relaxed">
+              Zesnulého poté uložíme do rakve dle Vašeho výběru.
+            </p>
+            <p className="mb-4 leading-relaxed">
+              <Link
+                href="/katalog/rakve"
+                className="underline-offset-4 underline"
+              >
+                katalog rakví k nahlédnutí zde...
+              </Link>
+            </p>
+            <h3 className="hadvojka">Organizace obřadu</h3>
             <p className="mb-2 leading-relaxed">
               Zajišťujeme kompletní organizaci rozloučení v souladu s Vašimi
               preferencemi a respektujeme individuální potřeby: od{" "}
@@ -157,14 +178,14 @@ export default function Pohrby() {
             </p>
             <p className="mb-2 leading-relaxed">
               Poskytujeme možnost posledního rozloučení se zesnulým včetně
-              identifikace a podpory během této náročné doby.
+              identifikace.
             </p>
-            <p className="mb-2 leading-relaxed">
-              Obřad trvá obvykle 30 minut, kdy zazní oblíbené skladby drahého
-              zesnulého a je-li to Vaším přáním, promluví náš profesionální
-              řečník.
+            <p className="mb-4 leading-relaxed">
+              Obřad trvá obvykle 30 minut, kdy zazní oblíbené skladby zesnulého
+              a je-li to Vaším přáním, promluví náš profesionální řečník
+              popřípadě zajistíme přítomnost kněze.
             </p>
-            <p className="text-xl font-bold leading-relaxed">
+            <p className="hadvojka">
               Zajištění květinového aranžmá včetně stuh:
             </p>
             <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
@@ -182,18 +203,14 @@ export default function Pohrby() {
               </Link>
             </p>
             <p className="mb-2 leading-relaxed">
-              <Link
-                href="/sluzby/hudba#foto"
-                className="underline underline-offset-4"
-              >
-                Fotografie
-              </Link>{" "}
-              zesnulého bude připravena a umístěna před samotným začátkem
-              obřadu. Prosíme tedy do kanceláře donést tuto fotografii ve
-              formátu A4, A3 či A2. Fotografie u obřadu je dobrovolná.
+              Fotografie u obřadu je dobrovolná.
             </p>
             <p className="mb-2 leading-relaxed">
               Nabízíme službu profesionálního řečníka i poradce pro pozůstalé.
+            </p>
+            <p className="mb-4 leading-relaxed">
+              V případě Vašeho zájmu, prosíme do kanceláře přinést fotografii ve
+              formátu A4, A3 nebo A2.
             </p>
           </div>
         </div>
@@ -214,42 +231,39 @@ export default function Pohrby() {
             // className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center"
             className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left scroll-mt-36"
           >
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis">
-              Převoz a úprava zesnulého
-            </h1>
+            <h3 className="hadvojka">Převoz a úprava zesnulého</h3>
             <p className="mb-2 leading-relaxed">
-              {" "}
               Po obřadu se postaráme o převoz zesnulého na hřbitov a následné
               uložení do hrobu či hrobky.
             </p>
-            <p className="mb-2 leading-relaxed">
-              {" "}
-              V případě zpopelnění - zkončení smutečního obřadu zesnulého do
-              krematoria, kde je zemřelý naposledy pečlivě zkontrolován.
-              Zaměstnanci krematoria, nebo důvěryhodná osoba, se ujistí, že
-              zemřelý je řádně oblečen, upraven a vše odpovídá dokumentaci.
+            <p className="mb-4 leading-relaxed">
+              V případě zpopelnění - po ukončení smutečního obřadu je zesnulý
+              převezen do krematoria.
             </p>
+            <p className="hadvojka">Urna</p>
             <p className="mb-2 leading-relaxed">
-              {" "}
-              Poté dochází ke zpopelnění (kremaci).
-            </p>
-            <p className="mb-2 leading-relaxed">
-              {" "}
               Urnu s popelem následně přepravíme zpět do naší kanceláře v
-              Kralupech nad Vltavou. V průběhu cca 10 - 14 dní kontaktujeme
-              objednavatele pohřbu a informujeme jej, že si urnu včetně Dokladu
-              o zpopelnění může vyzvednout v naší kanceláři.
+              Kralupech nad Vltavou.
             </p>
             <p className="mb-2 leading-relaxed">
-              {" "}
-              Na základě předloženého Dokladu k vyzvednutí urny nebo občanského
-              průkazu (v případě, že jste objednavatelem pohřbu), můžeme urnu
-              vydat. Objednavatel je poučen o správném postupu v souladu se
-              zákonem.
+              Do 14 dnů informujeme objednavatele pohřbu o možnosti vyzvednutí
+              urny včetně dokladu o zpopelnění v naší kanceláři.
+            </p>
+            <p className="mb-2 leading-relaxed">
+              Objednavatel bude poučen v souladu se zákonem o správném postupu
+              se zacházením s urnou.
+            </p>
+            <p className="mb-2 leading-relaxed">
+              <Link
+                href="/pro-pozustale"
+                className="underline-offset-4 underline"
+              >
+                více k Informacím pro objednavatele pohřbu ...
+              </Link>
             </p>
           </div>
         </div>
-
+        {/* 
         <div className="container mx-auto flex px-5 pt-12 md:flex-row-reverse flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
@@ -262,59 +276,8 @@ export default function Pohrby() {
             className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left"
             // className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center  scroll-mt-36"
             id="rakve"
-          >
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis">
-              Pomoc s výběrem rakve / urny
-            </h1>
-            <p className="mb-2 leading-relaxed">
-              Zesnulého uložíme do rakve dle Vašeho výběru. Katalog rakví k
-              nahlédnutí zde.
-            </p>
-            <p className="leading-relaxed">
-              Pomůžeme Vám s výběrem rakve, dle ukládání:
-            </p>
-            <ul className="pl-4 list-disc">
-              <li>
-                <strong>Kremace (zpopelnění)</strong> - celodřevěné rakve,
-                vybavené vnitřním saténovým čalouněním.
-              </li>
-              <li>
-                <strong>Ukládání do kopaného hrobu</strong> - celodřevěné rakve,
-                vybavené vnitřním saténovým čalouněním, opatřené madly.
-              </li>
-              <li>
-                <strong>Ukládání do zděné hrobky</strong> - celodřevěné, dubové
-                rakve s kovovou vložkou, vybavené vnitřním saténovým čalouněním,
-                opatřené madly.
-              </li>
-            </ul>
-            <p className="mb-2 leading-relaxed">
-              K pohřbu bez obřadu můžeme doporučit rakev bez přízdob, pokud to
-              odpovídá Vašim představám.
-            </p>
-            <p className="mb-2 leading-relaxed">
-              V případě zpopelnění - po přípravě zesnulého probíhá převoz do
-              krematoria, kde je zemřelý naposledy pečlivě zkontrolován.
-              Zaměstnanci krematoria, nebo důvěryhodná osoba, se ujistí, že
-              zemřelý je řádně oblečen, upraven a vše odpovídá dokumentaci.
-            </p>
-            <p className="mb-2 leading-relaxed">
-              Poté dochází ke zpopelnění (kremaci).
-            </p>
-            <p className="mb-2 leading-relaxed">
-              Urnu s popelem následně přepravíme zpět do naší kanceláře v
-              Kralupech nad Vltavou. V průběhu cca 10 - 14 dní kontaktujeme
-              objednavatele pohřbu a informujeme jej, že si urnu včetně Dokladu
-              o zpopelnění může vyzvednout v naší kanceláři.
-            </p>
-            <p className="mb-2 leading-relaxed">
-              Na základě předloženého Dokladu k vyzvednutí urny nebo občanského
-              průkazu (v případě, že jste objednavatelem pohřbu), můžeme urnu
-              vydat. Objednavatel je poučen o správném postupu v souladu se
-              zákonem.
-            </p>
-          </div>
-        </div>
+          ></div>
+        </div> */}
       </section>
     </div>
   );

@@ -108,9 +108,9 @@ export default function Rakve() {
     <div>
       <Breadcrumbs breads={breads} />
       {/* <LandingSluzby /> */}
-      <section className="text-gray-600 body-font">
+      <section className="">
         <div className="mt-12">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium  font-nadpis mt-88 text-center">
             Obaly na urny
           </h1>
           <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
@@ -118,9 +118,7 @@ export default function Rakve() {
         <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-wrap w-full mb-20 flex-col">
             <div className="w-full mb-6 lg:mb-0">
-              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 font-nadpis">
-                Plastové obaly
-              </h1>
+              <h1 className="hajednicka">Plastové obaly</h1>
             </div>
             <div className="w-full leading-relaxed text-gray-500">
               <p className="mt-2">
@@ -129,10 +127,9 @@ export default function Rakve() {
                 varianty, včetně těch s přidanou kameninou.
               </p>
               <p className="mt-2">
-                Doporučujeme plastové obaly pro uložení urny do hrobu pod desku
-                nebo do okénka, zatímco kovové obaly jsou ideální pro ty, kteří
-                si přejí urnu ponechat doma nebo urnu s obalem uloží na hřbitov
-                do okénka, případně kolumbária.
+                <strong>Doporučujeme plastové obaly</strong> pro uložení urny do
+                hrobu pod desku nebo do urnové schránky. Zatímco kovové obaly
+                jsou ideální pro uložení do kolumbária.
               </p>
               <p className="mt-2">
                 Fotografie prezentované na našich webových stránkách zahrnují
@@ -141,8 +138,12 @@ export default function Rakve() {
               </p>
               <p className="mt-2">
                 Pro podrobnější informace a rozsáhlý výběr doporučujeme osobní
-                návštěvu naší kanceláře, kde Vám rádi představíme katalogy od
-                našich dodavatelů.
+                návštěvu, kde jsou k nahlédnutí katalogy od našich dodavatelů.
+              </p>
+              <p className="mt-2">
+                Na přání zákazníka jsou urny dodávány i se štítky nebo
+                gravírováním, na kterém je uvedeno jméno zemřelého, datum
+                narození a datum úmrtí.
               </p>
             </div>
           </div>

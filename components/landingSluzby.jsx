@@ -65,7 +65,10 @@ export default function LandingSluzby() {
         return (
           <div className="xl:w-1/3 md:w-1/2 p-4" key={sluzba.title}>
             <div className="p-6">
-              <h2 className="text-lg text-gray-900 font-medium title-font mb-2 underline-offset-4 underline decoration-natyzlata decoration-4 font-nadpis">
+              <h2
+                className="text-lg font-medium title-font mb-2 underline-offset-4 underline decoration-natyzlata decoration-4 font-nadpis"
+                key={sluzba.title}
+              >
                 <Link href={sluzba.href}>{sluzba.title}</Link>
               </h2>
               <p className="leading-relaxed text-base">{sluzba.text}</p>

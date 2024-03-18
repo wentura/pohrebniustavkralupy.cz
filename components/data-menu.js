@@ -43,7 +43,7 @@ export const menuItems = [
       },
       {
         link: "/katalog/rakve",
-        text: "Rakve",
+        text: "Nabídka rakví",
       },
       { id: 10, link: "/katalog/kvetiny", text: "Smuteční květiny a věnce" },
 

@@ -8,7 +8,7 @@ const infos = [
     link: "",
     linkText: "link test text",
     image:
-      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1708540489/pohrebniustavcibulka/informace_pro_pozustale/list_vpzpwy.webp",
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710777594/pohrebniustavcibulka/informace_pro_pozustale/list_dzngpt.webp",
   },
   {
     vlevo: "Notář",
@@ -18,7 +18,7 @@ const infos = [
     linkText: "link test text",
     imageReverse: "ano",
     image:
-      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1708540489/pohrebniustavcibulka/informace_pro_pozustale/notar_gok7ll.webp",
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710777596/pohrebniustavcibulka/informace_pro_pozustale/notar_xoeaqp.webp",
   },
   {
     vlevo: "Pracovní volno",
@@ -34,7 +34,7 @@ const infos = [
     link: "",
     linkText: "link test text",
     image:
-      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1708540489/pohrebniustavcibulka/informace_pro_pozustale/kvetina_zknpav.webp",
+      "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710777592/pohrebniustavcibulka/informace_pro_pozustale/3_isufry.webp",
   },
   {
     vlevo: "Pracovní volno",
@@ -55,10 +55,8 @@ export default function ProPozustale() {
         </h1>
         <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
       </div>
-      <div className="container mt-2 md:mt-12 px-5 md:px-24">
-        <span className="text-2xl font-medium text-gray-900 font-nadpis underline underline-offset-4">
-          K zařízení pohřbu potřebujete
-        </span>
+      <div className="container mt-2 md:mt-12 px-5 mx-auto">
+        <span className="hajednicka">K zařízení pohřbu potřebujete</span>
         <ul className="list-inside list-disc pt-4">
           <li key="1">Občanský průkaz objednavatele pohřbu</li>
           <li key="2">List o prohlídce zemřelého</li>
@@ -83,15 +81,13 @@ export default function ProPozustale() {
               key={info.nadpis}
             >
               <div className="md:flex-grow">
-                <h2 className="text-2xl font-medium text-gray-900  mb-4 font-nadpis underline underline-offset-4">
-                  {info.nadpis}
-                </h2>
                 <div
                   className={`${
                     info.imageReverse ? "lg:flex-row-reverse" : "lg:flex-row"
                   } flex flex-col `}
                 >
                   <div className={`${info.image ? "lg:w-1/2" : ""} `}>
+                    <h2 className="hajednicka">{info.nadpis}</h2>
                     <p
                       dangerouslySetInnerHTML={{
                         __html: DOMPurify.sanitize(info.text),
@@ -110,28 +106,6 @@ export default function ProPozustale() {
                     ""
                   )}
                 </div>
-                {/* {info.link ? (
-                    <a
-                      className={`text-indigo-500 inline-flex items-center mt-4`}
-                      href={info.link}
-                    >
-                      {info.linkText}
-                      <svg
-                        className="w-4 h-4 ml-2"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        fill="none"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      >
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                      </svg>
-                    </a>
-                  ) : (
-                    ""
-                  )} */}
               </div>
             </div>
           );

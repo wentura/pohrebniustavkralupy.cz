@@ -7,15 +7,12 @@ export default function Footer() {
       <footer className="footer py-16 px-6 bg-modra text-neutral-300 text-md">
         {menuItems.map((menuItem) => {
           return menuItem.children ? (
-            <nav key={menuItem.id}>
-              <header className="footer-title  text-left">
-                {menuItem.text}
-              </header>
+            <div key={menuItem.link}>
+              <div className="footer-title  text-left">{menuItem.text}</div>
               {menuItem.children.map((menuChildren) => {
                 return (
                   <Link
-                    key={menuChildren.id}
-                    rel="noopener noreferrer"
+                    key={menuChildren.link}
                     href={menuChildren.link}
                     className="odkaz-bila text-left"
                   >
@@ -23,19 +20,18 @@ export default function Footer() {
                   </Link>
                 );
               })}
-            </nav>
+            </div>
           ) : (
-            <nav className="text-left justify-items-start">
-              <header className="footer-title">&nbsp;</header>
+            <div className="text-left justify-items-start">
+              <div className="footer-title">&nbsp;</div>
               <Link
-                key={menuItem.id}
-                rel="noopener noreferrer"
+                key={menuItem.link}
                 href={menuItem.link}
                 className="odkaz-bila link link-hover text-left"
               >
                 {menuItem.text}
               </Link>
-            </nav>
+            </div>
           );
         })}
       </footer>

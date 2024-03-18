@@ -11,7 +11,7 @@ export default function Home() {
       <SmallHero />
       {/* <Hero /> */}
       <BannerPhone klas="" />
-      <section className="text-gray-600 body-font">
+      <section className=" body-font">
         <div className="container px-5 py-4 md:py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
             <h1 className="sm:text-4xl text-2xl font-black font-nadpis mb-2 text-natyzlata">

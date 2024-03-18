@@ -10,9 +10,9 @@ export default function Pohrbybezobradu() {
   return (
     <div>
       <Breadcrumbs breads={breads} />
-      <section className="text-gray-600 body-font text-left">
+      <section className=" body-font text-left">
         <div className="mt-12">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium font-nadpis mt-88 text-center">
             Pohřeb bez obřadu
           </h1>
           <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
@@ -26,7 +26,7 @@ export default function Pohrbybezobradu() {
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left scroll-mt-36">
-            <p className="text-xl font-bold leading-relaxed mt-8">Pohřeb</p>
+            {/* <p className="text-xl font-bold leading-relaxed mt-8">Pohřeb</p> */}
             <p className=" leading-relaxed my-2">
               Nabízíme službu pohřeb bez obřadu, která zahrnuje i{" "}
               <Link
@@ -35,32 +35,28 @@ export default function Pohrbybezobradu() {
               >
                 sestavení smutečního oznámení
               </Link>{" "}
-              a úpravu zesnulého v obleření dle Vašeho výběru.
             </p>
-            <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
+            <p className="hadvojka">K zajištění pohřbu bez obřadu předložte:</p>
+            <ul className="list-outside list-disc pl-4">
+              <li>List o prohlídce zemřelého</li>
+              <li>Občanský průkaz zemřelého</li>
+              <li>Kartu pojištěnce zemřelého</li>
+              <li>Občanský průkaz objednavatele pohřbu</li>
+              <li>Oblečení pro zemřelého (viz níže)</li>
+            </ul>
+            <p className="pt-4 hadvojka">Pohřeb</p>
+            <ul className="mb-2 pl-4 leading-relaxed list-disc	list-outside">
               <li key="1">kremace (zpopelnění)</li>
               <li key="2">možnost tzv. identifikace</li>
               <li key="3">uložení do kopaného hrobu nebo hrobky</li>
             </ul>
+            <p className="hadvojka">Převoz a úprava zesnulého</p>
             <p className="mb-2 leading-relaxed">
-              Služba pohřeb bez obřadu zahrnuje sestavení smutečního oznámení a
-              přípravu zesnulého v oblečení dle Vašeho výběru.
-            </p>
-            {/* <p className="text-xl font-bold leading-relaxed mt-8"> */}
-            <p className="title-font sm:text-4xl text-3xl mt-8  mb-4 font-medium text-gray-900 font-nadpis">
-              Převoz a úprava zesnulého
+              Zajišťujeme převoz zemřelých z celé České republiky.
             </p>
             <p className="mb-2 leading-relaxed">
-              Zajišťujeme převoz zemřelých z různých částí České republiky.
-              Soustředíme se na oblast Kralupska a okolí.
-            </p>
-            <p className="mb-2 leading-relaxed">
-              Prosíme, abyste nám předali oblečení, ve kterém chcete, aby byl
-              Váš drahý nebo drahá obléknut(a).
-            </p>
-            <p className="mb-2 leading-relaxed">
-              Může to být oblečení, které měl(a) rád(a) – není třeba, aby bylo
-              tmavé barvy.
+              Prosíme, abyste nám předali oblečení pro zesnulého, které měl(a)
+              rád(a) – není třeba, aby bylo tmavé barvy.
             </p>
             <p className="leading-relaxed">Můžete vybrat:</p>
             <ul className="pl-4 list-disc">
@@ -80,29 +76,24 @@ export default function Pohrbybezobradu() {
             <img
               className="object-cover object-center rounded"
               alt="hero"
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705689200/pohrebniustavcibulka/3_bmkaa7.webp"
+              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1710777790/pohrebniustavcibulka/IMG-6207_za2t7m.webp"
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left  scroll-mt-36">
             <p className="mb-2 leading-relaxed">
-              Běžně se doporučuje{" "}
-              <strong>nedávat zesnulému do rakve boty</strong>. To je z
-              ekologických důvodů – obuv je většinou vyrobena z materiálů, které
-              by při zpopelnění vypouštěly do ovzduší nechtěné zplodiny.
-            </p>
-            <p className="mb-2 leading-relaxed">
               V případě, že zemřelý neměl k dispozici vhodné oblečení pro
               pohřeb, jsme připraveni nabídnout použití tzv. rubáše.
             </p>
+            {/* <p className="text-xl font-bold leading-relaxed mt-8"> */}
+            <p className="hadvojka">Identifikace</p>
             <p className="mb-2 leading-relaxed">
-              S ohledem na přísný zákon týkající se pohřebnictví, se zesnulý
-              stává předmětem důstojné péče, omytí, oblečení a úpravy, pokud to
-              situace dovoluje.
+              Identifikace značí soukromé a intimní rozloučení, které je určeno
+              pouze pro nejbližší pozůstalé a příbuzné. Tato forma rozloučení
+              umožňuje malému okruhu lidí naposledy se rozloučit se zemřelým v
+              klidné a soukromé atmosféře obřadní síně.
             </p>
-            <p className="mb-2 leading-relaxed">
-              V případě vysoce infekční nemoci nebo jiného důvodu jsme nuceni
-              zemřelého uchovat v hygienickém vaku.
-            </p>
+            <p className="hadvojka">Rakev</p>
+
             <p className="mb-2 leading-relaxed">
               K pohřbu kremací bez obřadu můžeme doporučit rakev bez přízdob,
               pokud to odpovídá Vašim představám.
@@ -115,45 +106,20 @@ export default function Pohrbybezobradu() {
                 více k výběru rakve ...
               </Link>
             </p>
+
             {/* <p className="text-xl font-bold leading-relaxed mt-8"> */}
-            <p className="title-font sm:text-4xl text-3xl mt-8  mb-4 font-medium text-gray-900 font-nadpis">
-              Identifikace
-            </p>
-            <p className="mb-2 leading-relaxed">
-              Identifikace značí soukromé a intimní rozloučení, které je určeno
-              pouze pro nejbližší pozůstalé a příbuzné. Tato forma rozloučení
-              umožňuje malému okruhu lidí naposledy se rozloučit se zemřelým v
-              klidné a soukromé atmosféře obřadní síně.
-            </p>
-            <p className="mb-2 leading-relaxed">
-              Po přípravě zesnulého probíhá převoz na hřbitov, kde je uložen do
-              hrobu či hrobky nebo do krematoria, kde je zemřelý naposledy
-              pečlivě zkontrolován - čili je řádně oblečen, upraven a vše
-              odpovídá dokumentaci.
-            </p>
-            <p className="mb-2 leading-relaxed">
-              Poté dochází ke zpopelnění (kremaci).
-            </p>
-            {/* <p className="text-xl font-bold leading-relaxed mt-8"> */}
-            <p className="title-font sm:text-4xl text-3xl mt-8  mb-4 font-medium text-gray-900 font-nadpis">
-              Urna
-            </p>
+            <p className="hadvojka">Urna</p>
             <p className="mb-2 leading-relaxed">
               Urnu s popelem následně přepravíme zpět do naší kanceláře v
               Kralupech nad Vltavou.
             </p>
             <p className="mb-2 leading-relaxed">
-              V průběhu cca 10 - 14 dní kontaktujeme objednavatele pohřbu a
-              informujeme jej, že si urnu včetně dokladu o zpopelnění může
-              vyzvednout v naší kanceláři.
+              Do 14 dnů informujeme objednavatele pohřbu o možnosti vyzvednutí
+              urny včetně dokladu o zpopelnění v naší kanceláři.
             </p>
             <p className="mb-2 leading-relaxed">
-              Na základě předloženého Dokladu k vyzvednutí urny nebo občanského
-              průkazu (v případě,že jste objednavatelem pohřbu), můžeme urnu
-              vydat.
-            </p>
-            <p className="mb-2 leading-relaxed">
-              Objednavatel je poučen o správném postupu v souladu se zákonem.
+              Objednavatel bude poučen v souladu se zákonem o správném postupu
+              se zacházením s urnou.
             </p>
 
             <p className="mb-2 leading-relaxed">

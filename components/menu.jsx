@@ -10,20 +10,17 @@ export default function Menu({ klas }) {
       <ul className="flex px-1 gap-6 text-base">
         {menuItems.map((menuItem) => {
           return menuItem.children ? (
-            <li key={menuItem.id} className="menuParent">
+            <li key={menuItem.link} className="menuParent">
               <summary>
-                {menuItem.text}{" "}
-                <span className="text-xs" key={menuItem.id}>
-                  &darr;
-                </span>{" "}
+                {menuItem.text} <span className="text-xs">&darr;</span>{" "}
               </summary>
               <ul className="p-2 w-64 bg-modra menuKid absolute">
                 {/* {menuItem.children.length} */}
                 {menuItem.children.map((menuChildren) => {
                   return (
-                    <li key={menuChildren.id} className="p-3">
+                    <li key={menuChildren.link} className="p-3">
                       <Link
-                        key={menuChildren.id}
+                        // key={menuChildren.id}
                         rel=""
                         href={menuChildren.link}
                         className="odkaz-bila"
@@ -38,10 +35,10 @@ export default function Menu({ klas }) {
               </ul>
             </li>
           ) : (
-            <li key={menuItem.id}>
+            <li key={menuItem.link}>
               <Link
                 rel=""
-                key={menuItem.id}
+                // key={menuItem.id}
                 href={menuItem.link}
                 className="odkaz-bila"
               >

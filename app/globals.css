@@ -6,4 +6,10 @@
   .odkaz-bila {
     @apply hover:underline hover:underline-offset-2 hover:decoration-natyzlata hover:text-natyzlata transition ease-in-out delay-150;
   }
+  .hajednicka {
+    @apply sm:text-3xl text-2xl font-medium font-nadpis mb-2 text-gray-900 mt-4;
+  }
+  .hadvojka {
+    @apply sm:text-xl text-2xl mb-4 font-medium text-gray-900 font-nadpis mt-4;
+  }
 }

@@ -3,7 +3,7 @@ import LandingSluzby from "@/components/landingSluzby";
 const breads = [
   {
     link: "/katalog/kvetiny",
-    title: "Smuteční katalog / Smuteční květiny a věnce",
+    title: "Smuteční katalog / Smuteční květinová vazba",
   },
 ];
 
@@ -103,7 +103,7 @@ export default function Katalog() {
     },
     {
       title: "24. bílé a červené gerbery",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406784/pohrebniustavcibulka/kytice/23oranzovegerberyzlutechryzantemy_tdoiik.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406785/pohrebniustavcibulka/kytice/24gerbery-cervenabila_ii8oas.webp",
     },
   ];
   const vence = [
@@ -188,7 +188,7 @@ export default function Katalog() {
     },
     {
       title: "4",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709408071/pohrebniustavcibulka/silon/5_d2hwpd.webp",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709408072/pohrebniustavcibulka/silon/6_swdlvr.webp",
     },
     {
       title: "5",
@@ -338,25 +338,42 @@ export default function Katalog() {
     <>
       <Breadcrumbs breads={breads} />
       {/* <LandingSluzby /> */}
-      <section className="text-gray-600 body-font">
+      <section className=" body-font">
         <div className="mt-12">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
-            Smuteční květiny
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium  font-nadpis mt-88 text-center">
+            Smuteční květinová vazba
           </h1>
           <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
         </div>
         <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-wrap w-full mb-20">
-            <p className=" w-full leading-relaxed text-gray-500">
-              Rostlé květiny a věnce, které jsou s pečlivostí vytvářeny podle
-              individuálních přání a vkusu klientů. Několik nejoblíbenějších
-              kombinací, pro Vaši inspiraci k vytvoření kytic či věnců. Jsme si
-              vědomi toho, že každý okamžik, který je vyjádřen květinami, je
-              jedinečný. Proto Vám rádi nabízíme možnost individuálního výběru
-              květin a vytvoření kytice či věnce přesně podle Vašich představ.
+            <p className=" w-full leading-relaxed">
+              Jsme si vědomi toho, že každý okamžik, který je vyjádřen
+              květinami, je jedinečný. Proto Vám rádi nabízíme možnost
+              individuálního výběru květin a vytvoření kytice či věnce přesně
+              podle Vašich představ.
+            </p>
+            <p className=" w-full leading-relaxed">
               Naše stránky zobrazují pouze malý výběr z naší bohaté nabídky, a
               to s cílem poskytnout inspiraci a podnět k osobitému rozhodnutí.
             </p>
+            <ul className="list-inside list-disc">
+              <li>živé (rostlé) kytice a věnce</li>
+              <li>umělé (silonové) kytice a věnce</li>
+              <li>zápůjční vazba - silonové kytice a věnce</li>
+            </ul>
+          </div>
+          <div className="flex flex-wrap w-full mb-20">
+            <h2 className="hajednicka">Rostlé (živé) kytice a věnce</h2>
+            <p className=" w-full leading-relaxed">
+              Rostlé kytice a věnce včetně stuh jsou s pečlivostí vytvářeny
+              podle přání a vkusu klientů.
+            </p>
+            <ul className="list-inside list-disc">
+              <li>Kytice na položení</li>
+              <li>Kytice na pověšení</li>
+              <li>Věnec Ø 40, Ø 50, Ø 60</li>
+            </ul>
           </div>
           <div className="flex flex-wrap -m-4">
             {kvetiny.map((item) => {
@@ -365,8 +382,12 @@ export default function Katalog() {
               }
               return (
                 <div className="xl:w-1/4 md:w-1/2 p-4 mx-auto" key={item.href}>
-                  <div className="h-[480px] md:h-[450px] xl:h-[380px]  overflow-hidden rounded">
-                    <img className="w-full" src={item.href} alt="kvetiny" />
+                  <div className="h-[480px]  overflow-hidden rounded">
+                    <img
+                      className="w-fit h-full mx-auto"
+                      src={item.href}
+                      alt="kvetiny"
+                    />
                   </div>
                   <h3 className="tracking-widest  font-medium title-font text-center">
                     {/* {counter}  */}
@@ -379,12 +400,9 @@ export default function Katalog() {
           </div>
         </div>
       </section>
-      <section className="text-gray-600 body-font">
+      <section className=" body-font">
         <div className="mt-12">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
-            Smuteční věnce
-          </h1>
-          <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
+          <h1 className="hajednicka">Smuteční věnce</h1>
         </div>
         <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-wrap -m-4">
@@ -394,8 +412,12 @@ export default function Katalog() {
               }
               return (
                 <div className="xl:w-1/4 md:w-1/2 p-4 mx-auto" key={item.href}>
-                  <div className="h-[520px] md:h-[450px] xl:h-[380px]  overflow-hidden rounded">
-                    <img className="w-full" src={item.href} alt="kvetiny" />
+                  <div className="h-[500px]   overflow-hidden rounded">
+                    <img
+                      className="w-fit h-full mx-auto"
+                      src={item.href}
+                      alt="kvetiny"
+                    />
                   </div>
                   <h3 className="tracking-widest  font-medium title-font text-center">
                     {/* {counter}  */}
@@ -410,22 +432,17 @@ export default function Katalog() {
       </section>
       <section>
         <div className="mt-12">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
-            Kytice a věnce ze silonu (umělé)
-          </h1>
-          <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
+          <h1 className="hajednicka">Kytice a věnce ze silonu (umělé)</h1>
         </div>
         <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-wrap w-full mb-20">
-            <p className=" w-full leading-relaxed text-gray-500">
-              Umělé kytice a věnce nejsou pouhým dekorem – jsou trvalým projevem
-              lásky a úcty. Díky jejich odolnosti zůstanou krásné i po dlouhých
-              měsích, připomínajíce Vám a Vašim blízkým krásné chvíle a
-              jedinečné památky.
-              <br />
+            <p className=" w-full leading-relaxed ">
+              Umělé kytice a věnce nejsou pouhým dekorem – jsou projevem lásky a
+              úcty. Díky jejich odolnosti zůstanou krásné delší dobu než živé
+              květiny.
               <br />
               Aktuální výběr silonových květin Vám nabídneme přímo v naší
-              kanceláři, kde Vám i porádíme s vhodnou kombinací.
+              kanceláři a rádi Vám poradíme s vhodnou kombinací.
             </p>
           </div>
           <div className="flex flex-wrap py-8">
@@ -446,9 +463,13 @@ export default function Katalog() {
                 counter++;
               }
               return (
-                <div className="xl:w-1/4 md:w-1/2 p-4 mx-auto" key={item.href}>
+                <div className="xl:w-1/3 md:w-1/2 p-4 mx-auto" key={item.href}>
                   <div className="h-[400px] md:h-[600px] xl:h-[380px]  overflow-hidden rounded">
-                    <img className="w-full" src={item.href} alt="kvetiny" />
+                    <img
+                      className="w-fit mx-auto "
+                      src={item.href}
+                      alt="kvetiny"
+                    />
                   </div>
                   <h3 className="tracking-widest  font-medium title-font text-center">
                     {/* {counter}  */}
@@ -470,19 +491,13 @@ export default function Katalog() {
       </section>
       <section>
         <div className="mt-12">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
-            Kytice k zapůjčení
-          </h1>
-          <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
+          <h1 className="hajednicka">Kytice k zapůjčení</h1>
         </div>
         <div className="container px-5 py-12 mx-auto">
           <div className="flex flex-wrap w-full mb-20">
-            <p className=" w-full leading-relaxed text-gray-500">
+            <p className=" w-full leading-relaxed ">
               Tyto umělé věnce nebo kytice zůstávají v obřadní síni a propůjčují
-              se pro potřeby obřadu.
-              <br />
-              Možnost výběru konkrétních typů květin není možná, stuhy z této
-              vazby si můžete ponechat.
+              se pro potřeby obřadu. Výběr konkrétních typů květin není možný.
             </p>
           </div>
           <div className="flex flex-wrap -m-4">
@@ -532,10 +547,9 @@ export default function Katalog() {
 
       <section>
         <div className="mt-12">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
+          <h1 className="hajednicka">
             Věnce k zapůjčení
           </h1>
-          <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
         </div>
         <div className="flex flex-wrap py-8">
           <img
@@ -552,8 +566,12 @@ export default function Katalog() {
               }
               return (
                 <div className="xl:w-1/4 md:w-1/2 p-4 mx-auto" key={item.href}>
-                  <div className="h-[560px] md:h-[470px] xl:h-[380px]  overflow-hidden rounded">
-                    <img className="w-full" src={item.href} alt="kvetiny" />
+                  <div className="h-[550px]   overflow-hidden rounded">
+                    <img
+                      className="w-fit h-full mx-auto"
+                      src={item.href}
+                      alt="kvetiny"
+                    />
                   </div>
                   <h3 className="tracking-widest  font-medium title-font text-center">
                     {/* {counter}  */}

@@ -3,7 +3,7 @@ import LandingSluzby from "@/components/landingSluzby";
 const breads = [
   {
     link: "/katalog/rakve",
-    title: "Smuteční katalog / Rakve",
+    title: "Smuteční katalog / Nabídka rakví",
   },
 ];
 
@@ -123,21 +123,54 @@ export default function Rakve() {
       <Breadcrumbs breads={breads} />
       {/* <LandingSluzby /> */}
       {/* RAKVE BEZOBRADE */}
-      <section className="text-gray-600 body-font">
+      <section className="body-font">
         <div className="mt-12">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
-            Rakve
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium font-nadpis mt-88 text-center">
+            Nabídka rakví
           </h1>
           <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
+          <div className="flex flex-wrap w-full mb-20 flex-col container px-5 mx-auto">
+            <div className="w-full leading-relaxed">
+              <p>
+                V našem webovém katalogu je pouze ukázka nejčastěji žádaných
+                rakví.
+              </p>
+              <p>
+                Všechny rakve jsou certifikované, což znamená, že splňují
+                veškeré zákonné normy a kvalitu.
+              </p>
+              <p className="pt-2 font-bold">Rakve, dle ukládání:</p>
+              <ul className="list-inside list-disc pb-4">
+                <li key="1">
+                  <strong>Kremace (zpopelnění) -</strong> celodřevěné rakve,
+                  vybavené vnitřním saténovým čalouněním
+                </li>
+                <li key="2">
+                  <strong>Ukládání do kopaného hrobu -</strong> taktéž
+                  celodřevěné rakve, vybavené vnitřním saténovým čalouněním,
+                  opatřené madly
+                </li>
+                <li key="3">
+                  <strong>Ukládání do zděné hrobky -</strong> celodřevěné,
+                  dubové rakve s kovovou vložkou, vybavené vnitřním saténovým
+                  čalouněním, opatřené madly
+                </li>
+              </ul>
+              <p>
+                Na přání lze přidat na každou rakev kříž, což umožňuje projevení
+                úcty k víře zesnulého.
+              </p>
+              <p>Vždy se snažíme klientům při jejich výběru vyjít vstříc.</p>
+            </div>
+          </div>
         </div>
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20 flex-col">
             <div className="w-full mb-6 lg:mb-0">
-              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 font-nadpis">
-                Rakve bezobřadé
-              </h1>
+              {/* <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 font-nadpis"> */}
+              <h1 className="hajednicka">Rakve bezobřadé</h1>
             </div>
-            <div className="w-full leading-relaxed text-gray-500">
+            <div className="w-full leading-relaxed">
               <p className="mb-2">
                 Ve chvílích těžkého loučení si každý zaslouží respekt a
                 důstojnost, a naše rakve určené k pohřbu bez obřadu jsou
@@ -183,7 +216,7 @@ export default function Rakve() {
                     <p className="tracking-widest font-medium title-font text-center">
                       {item.title}
                     </p>
-                    <h2 className="text-lg text-gray-900 title-font mb-4 text-center">
+                    <h2 className="text-lg title-font mb-4 text-center">
                       {/* {item.title} */}
                     </h2>
                   </div>
@@ -194,15 +227,15 @@ export default function Rakve() {
         </div>
       </section>
       {/* Rakve určené k obřadu ke kremaci, */}
-      <section className="text-gray-600 body-font">
+      <section className=" body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20 flex-col">
             <div className="w-full mb-6 lg:mb-0">
-              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 font-nadpis">
+              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 font-nadpis">
                 Rakve určené k obřadu ke kremaci, do kopaného hrobu
               </h1>
             </div>
-            <div className="w-full leading-relaxed text-gray-500">
+            <div className="w-full leading-relaxed">
               <p className="mb-2">
                 Rakve jsou klíčovým prvkem posledního rozloučení s našimi
                 blízkými, a my chápeme, jak důležité je, aby tyto rakve nejen
@@ -248,11 +281,11 @@ export default function Rakve() {
           </div>
         </div>
       </section>
-      <section className="text-gray-600 body-font">
+      <section className="body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20 flex-col">
             <div className="w-full mb-6 lg:mb-0">
-              <h1 className="sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900 font-nadpis">
+              <h1 className="sm:text-2xl text-xl font-medium title-font mb-2 font-nadpis">
                 Rakve široké
               </h1>
             </div>
@@ -284,7 +317,7 @@ export default function Rakve() {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20 flex-col">
             <div className="w-full mb-6 lg:mb-0">
-              <h1 className="sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900 font-nadpis">
+              <h1 className="sm:text-2xl text-xl font-medium title-font mb-2 font-nadpis">
                 Rakve dlouhé
               </h1>
             </div>
@@ -316,7 +349,7 @@ export default function Rakve() {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20 flex-col">
             <div className="w-full mb-6 lg:mb-0">
-              <h1 className="sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900 font-nadpis">
+              <h1 className="sm:text-2xl text-xl font-medium title-font mb-2 font-nadpis">
                 Rakve široké dlouhé
               </h1>
             </div>
@@ -349,11 +382,11 @@ export default function Rakve() {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20 flex-col">
             <div className="w-full mb-6 lg:mb-0">
-              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 font-nadpis">
+              <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 font-nadpis">
                 Rakve určené k obřadu k ukládání do hrobky
               </h1>
             </div>
-            <div className="w-full leading-relaxed text-gray-500">
+            <div className="w-full leading-relaxed">
               <p className="mb-2">
                 Pro důstojné uložení do zděné hrobky nabízíme rakve vybavené
                 speciálními madly, která umožňují snadné spuštění do hrobky a

@@ -4,7 +4,7 @@ export default function DetailContact() {
       <h2 className="text-modra text-xl mb-1 font-medium font-nadpis text-center underline-offset-2 underline decoration-1">
         Kralupský pohřební ústav Cibulka
       </h2>
-      <p className="leading-relaxed mb-12 text-gray-600 text-right text-xs">
+      <p className="leading-relaxed mb-12  text-right text-xs">
         Rodinná tradice od roku 1914
       </p>
       <div className="relative flex flex-wrap flex-row-reverse justify-between text-lg">

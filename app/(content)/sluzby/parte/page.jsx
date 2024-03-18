@@ -2,16 +2,16 @@ import ObrazkyNaParte from "@/components/obrazkyNaParte";
 
 export default function Parte() {
   return (
-    <section className="px-4">
+    <section className="">
       <div className="mt-12">
-        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
+        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium font-nadpis mt-88 text-center">
           Parte, smuteční oznámení
         </h1>
         <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
       </div>
-      <div class="container px-2 sm:px-12  mx-auto flex flex-wrap">
-        <div class="flex flex-col text-center w-full mb-12">
-          <p className="text-left py-2 text-xl">
+      <div class="mx-auto flex flex-wrap container px-5">
+        <div class="flex flex-col w-full mb-12">
+          <p className="text-left py-2">
             Parte je nejen formálním informačním dokumentem, ale také
             příležitostí vyjádřit respekt, vzpomínku a lásku k zesnulému.
           </p>
@@ -27,16 +27,14 @@ export default function Parte() {
             zesnulého milovali.
           </p>
         </div>
-        <div class="flex flex-col text-center w-full mb-12">
-          <h1 class="sm:text-3xl text-2xl font-medium font-nadpis mb-4 text-gray-900">
-            Verše na parte
-          </h1>
-          <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
+        <div class="flex flex-col w-full mb-12">
+          <h1 class="hajednicka">Verše na parte</h1>
+          {/* <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" /> */}
           <h2 className="text-center md:text-left text-xl md:text-2xl pt-4 pb-2 font-obsah">
             Pro ženu
           </h2>
 
-          <ol className="gap-8 gap-x-20 columns-1 sm:columns-2 md:columns-3 list-decimal text-left parte">
+          <ol className="gap-8 gap-x-20 columns-1 sm:columns-2 md:columns-3 list-decimal text-left parte list-outside ml-2">
             <li>Jak tiše žila, tak tiše zemřela...</li>
             <li>Očím ses ztratila, ale v srdcích zůstaneš navždy.</li>
             <li>
@@ -116,7 +114,7 @@ export default function Parte() {
           </h2>
 
           <ol
-            className="gap-8 gap-x-20 columns-1 sm:columns-2 md:columns-3 list-decimal text-left parte"
+            className="gap-8 gap-x-20 columns-1 sm:columns-2 md:columns-3 list-decimal text-left parte  ml-2"
             start={20}
           >
             <li>Jak tiše žil, tak tiše zemřel...</li>
@@ -183,7 +181,7 @@ export default function Parte() {
             Všeobecné{" "}
           </h2>
           <ol
-            className="gap-8 gap-x-20 columns-1 sm:columns-2 md:columns-3 list-decimal text-left parte"
+            className="gap-8 gap-x-20 columns-1 sm:columns-2 md:columns-3 list-decimal text-left parte  ml-2"
             start={37}
           >
             <li>Buď vůle Tvá…</li>
@@ -287,10 +285,10 @@ export default function Parte() {
 
           <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-8 dark:bg-gray-700" />
           <h2 className="text-left text-xl md:text-2xl pt-4 pb-2 font-obsah">
-            Ci﻿táty
+            Citáty
           </h2>
           <ol
-            className="gap-8 gap-x-20 columns-1 sm:columns-2 md:columns-3 list-decimal text-left parte"
+            className="gap-8 gap-x-20 columns-1 sm:columns-2 md:columns-3 list-decimal text-left parte  ml-2"
             start={67}
           >
             <li>
