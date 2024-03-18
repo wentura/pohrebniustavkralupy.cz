@@ -49,7 +49,7 @@ export default function LandingSluzby() {
     {
       title: "Výroba a tisk smutečních oznámení",
       text: "Standardem našich služeb je tvorba personalisovaného smutečního oznámení (parte).",
-      href: "/sluzby/parteObrazky",
+      href: "/katalog/parteObrazky",
       vice: "více o smutečních oznámeních",
     },
     {
