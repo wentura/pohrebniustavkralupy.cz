@@ -43,7 +43,7 @@ export default function Onas() {
               Historie pohřebního ústavu je plná význačných okamžiků, které jsme
               pečlivě zachovali v podobě fotografií a vzpomínek.
             </p>
-            <h3 className="hadvojka">Nová budova</h3>
+            <h3 className="hadvojka">Založení</h3>
             <p className="mb-2 leading-relaxed">
               V roce 1914 založil truhlář Antonín Macák pohřební službu. (O
               koncesi zažádal 15. listopadu 1913)

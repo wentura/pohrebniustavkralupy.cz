@@ -11,14 +11,14 @@ export const menuItems = [
       //   id: 6,
       //   link: "/sluzby/pohrby#prevozzesnuleho",
       //   text: "Převoz zesnulého",
-      
+
       // },
       // { id: 4, link: "/sluzby/parte", text: "Smuteční oznámení" },
       // {
       //   id: 5,
       //   link: "/sluzby/pohrby#organizaceobradu",
       //   text: "Organizace obřadu",
-      
+
       // },
 
       {
@@ -45,9 +45,9 @@ export const menuItems = [
         link: "/katalog/rakve",
         text: "Nabídka rakví",
       },
-      { id: 10, link: "/katalog/kvetiny", text: "Smuteční květiny a věnce" },
+      { id: 10, link: "/katalog/kvetiny", text: "Smuteční kytice a věnce" },
 
-      { id: 11, link: "/katalog/urny", text: "Obaly na urny" },
+      { id: 11, link: "/katalog/urny", text: "Obaly na urny a smuteční zboží" },
     ],
   },
   {

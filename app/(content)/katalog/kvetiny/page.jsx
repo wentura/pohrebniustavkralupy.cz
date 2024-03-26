@@ -50,19 +50,19 @@ export default function Katalog() {
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406783/pohrebniustavcibulka/kytice/10chryzantemy_vn4s2g.webp",
     },
     {
-      title: "11. růžové  chryzantémy a bílé růže",
+      title: "11. bílé a žluté chryzantémy",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406783/pohrebniustavcibulka/kytice/11chryzantemy_pv9eaa.webp",
     },
     {
-      title: "12. žluté chryzantémy a červené růže",
+      title: "12. bílé a červené chryzantémy",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406783/pohrebniustavcibulka/kytice/12chryzantemy_louem8.webp",
     },
     {
-      title: "13. bílé chryzantémy",
+      title: "13. růžové chryzantémy a bílé růže",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406783/pohrebniustavcibulka/kytice/13smetanoveruzeruzovechryzantemy_kmsavc.webp",
     },
     {
-      title: "14. bílé a červené chryzantémy",
+      title: "14. žluté chryzantémy a červené růže",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406783/pohrebniustavcibulka/kytice/14zlutechryzantemycerveneruze_my1se4.webp",
     },
     {
@@ -82,7 +82,7 @@ export default function Katalog() {
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406784/pohrebniustavcibulka/kytice/18ruzoveruze_iaohru.webp",
     },
     {
-      title: "19. červené růžé",
+      title: "19. červené růže",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406784/pohrebniustavcibulka/kytice/19cerveneruze_nliv7p.webp",
     },
     {
@@ -90,7 +90,7 @@ export default function Katalog() {
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406784/pohrebniustavcibulka/kytice/20zluteruze_bwbocr.webp",
     },
     {
-      title: "21. bílé chryzantémy, růže lilie",
+      title: "21. bílé chryzantémy a růžové lilie",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709406784/pohrebniustavcibulka/kytice/21ruzoveliliebilechryzantemy_tdivq3.webp",
     },
     {
@@ -108,11 +108,11 @@ export default function Katalog() {
   ];
   const vence = [
     {
-      title: "25. hlava: červené karafiáty spodek: žluté karafiáty",
+      title: "25. hlava: červené karafiáty<br />spodek: žluté karafiáty",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407480/pohrebniustavcibulka/vence/1_j9n62h.webp",
     },
     {
-      title: "26. hlava vínové karafiáty spodek žluté karafiáty ",
+      title: "26. hlava: vínové karafiáty<br />spodek: žluté karafiáty ",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407480/pohrebniustavcibulka/vence/2_jgrbrq.webp",
     },
     {
@@ -132,11 +132,11 @@ export default function Katalog() {
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407481/pohrebniustavcibulka/vence/6_h22rmy.webp",
     },
     {
-      title: "31. bílé chryzantémy a červené růže",
+      title: "31. proložené bílé chryzantémy a červené růže",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407481/pohrebniustavcibulka/vence/7_bmoiut.webp",
     },
     {
-      title: "32. vínové chryzantémy a žluté růže",
+      title: "32. proložené vínové chryzantémy a žluté růže",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407481/pohrebniustavcibulka/vence/8_z4g6a9.webp",
     },
     {
@@ -148,7 +148,7 @@ export default function Katalog() {
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407482/pohrebniustavcibulka/vence/10_acggmd.webp",
     },
     {
-      title: "35. hlava růžové růže spodek: růžové gerbery",
+      title: "35. hlava: růžové růže<br />spodek: růžové gerbery",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407483/pohrebniustavcibulka/vence/11_gr6pec.webp",
     },
     {
@@ -165,11 +165,11 @@ export default function Katalog() {
     },
     {
       title:
-        "39. hlava: červené karafiáty, spodek: oranž. a čajové růže, světle žl. karafiáty",
+        "39. hlava: červené karafiáty<br />spodek: oranž. a čajové růže, světle žl. karafiáty",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407484/pohrebniustavcibulka/vence/15_iufpsx.webp",
     },
     {
-      title: "40. hlava: růžové, bílé chryzantémy spodek: žluté gerbery",
+      title: "40. hlava: růžové, bílé chryzantémy<br />spodek: žluté gerbery",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407484/pohrebniustavcibulka/vence/16_stgbnm.webp",
     },
   ];
@@ -357,7 +357,7 @@ export default function Katalog() {
               Naše stránky zobrazují pouze malý výběr z naší bohaté nabídky, a
               to s cílem poskytnout inspiraci a podnět k osobitému rozhodnutí.
             </p>
-            <ul className="list-inside list-disc">
+            <ul className="list-inside list-disc pt-4">
               <li>živé (rostlé) kytice a věnce</li>
               <li>umělé (silonové) kytice a věnce</li>
               <li>zápůjční vazba - silonové kytice a věnce</li>
@@ -369,7 +369,7 @@ export default function Katalog() {
               Rostlé kytice a věnce včetně stuh jsou s pečlivostí vytvářeny
               podle přání a vkusu klientů.
             </p>
-            <ul className="list-inside list-disc">
+            <ul className="list-inside list-disc pt-4">
               <li>Kytice na položení</li>
               <li>Kytice na pověšení</li>
               <li>Věnec Ø 40, Ø 50, Ø 60</li>
@@ -421,8 +421,10 @@ export default function Katalog() {
                   </div>
                   <h3 className="tracking-widest  font-medium title-font text-center">
                     {/* {counter}  */}
-
-                    {item.title}
+                    <span
+                      dangerouslySetInnerHTML={{ __html: item.title }}
+                    ></span>
+                    {/* {item.title} */}
                   </h3>
                 </div>
               );
@@ -547,9 +549,7 @@ export default function Katalog() {
 
       <section>
         <div className="mt-12">
-          <h1 className="hajednicka">
-            Věnce k zapůjčení
-          </h1>
+          <h1 className="hajednicka">Věnce k zapůjčení</h1>
         </div>
         <div className="flex flex-wrap py-8">
           <img

@@ -65,7 +65,7 @@ export default function Pohrby() {
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left">
             <p className="hadvojka">Převoz a úprava zesnulého</p>
             <p className="mb-2 leading-relaxed">
-              Zajišťujeme převoz zemřelých z různých částí České republiky.
+              Zajišťujeme převoz zemřelých z celé České republiky.
             </p>
             <p className="mb-2 leading-relaxed">
               Prosíme, abyste nám předali oblečení, ve kterém chcete, aby byl
@@ -86,7 +86,7 @@ export default function Pohrby() {
             <p className="hadvojka">Smuteční oznámení</p>
             <p className="mb-4 leading-relaxed">
               Na základě Vašeho přání společně sestavíme text na parte, vybereme
-              verš a obrázek.
+              verš a obrázek. Smuteční oznámení vyhotovíme na počkání.
               <br />
               Na oznámení může být i fotografie zesnulého.
               <br />
@@ -174,7 +174,7 @@ export default function Pohrby() {
               >
                 hudby k obřadu
               </Link>
-              , vše je plně personalizované.
+              .
             </p>
             <p className="mb-2 leading-relaxed">
               Poskytujeme možnost posledního rozloučení se zesnulým včetně
@@ -189,9 +189,8 @@ export default function Pohrby() {
               Zajištění květinového aranžmá včetně stuh:
             </p>
             <ul className="mb-4 pl-4 leading-relaxed list-disc	list-outside">
-              <li>živé (rostlé) květiny</li>
-              <li>umělé květiny</li>
-              <li>věnce</li>
+              <li>živé rostlé - kytice a věnce</li>
+              <li>silonové - umělé kytice a věnce</li>
               <li>zápůjční vazba</li>
             </ul>
             <p className="mb-2 leading-relaxed">
@@ -203,7 +202,7 @@ export default function Pohrby() {
               </Link>
             </p>
             <p className="mb-2 leading-relaxed">
-              Fotografie u obřadu je dobrovolná.
+              <strong>Fotografie u obřadu</strong> je dobrovolná.
             </p>
             <p className="mb-2 leading-relaxed">
               Nabízíme službu profesionálního řečníka i poradce pro pozůstalé.
@@ -231,7 +230,7 @@ export default function Pohrby() {
             // className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center"
             className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left scroll-mt-36"
           >
-            <h3 className="hadvojka">Převoz a úprava zesnulého</h3>
+            <h3 className="hadvojka">Převoz zemřelého</h3>
             <p className="mb-2 leading-relaxed">
               Po obřadu se postaráme o převoz zesnulého na hřbitov a následné
               uložení do hrobu či hrobky.

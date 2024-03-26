@@ -206,7 +206,7 @@ export default function Parte() {
             <li>
               Kdo žije v srdcích svých milých, není mrtev, je jen vzdálen.
             </li>
-            <li>
+            <li className="md:break-after-column">
               Kdo Tě znal, ten zná naši bolest, ten ví, co jsme v Tobě ztratili.
               V našem srdci žiješ věčně dále, spi sladce, vždyť se opět
               shledáme.
@@ -356,18 +356,18 @@ export default function Parte() {
             <li>
               Spi v krajkách, jak brouček v kapradí, tma oči uzamyká…
               <br />
-              J. Seifrt
+              J. Seifert
             </li>
             <li>
               A už se loučím, s písněmi ptáků před oknem, s vůněmi květin.
               <br />
-              J. Seifrt
+              J. Seifert
             </li>
             <li>
               Ohlédnu-li se na svůj život, zdá se mi, že je to vlastně téměř
               vše, zač stálo žít.
               <br />
-              J. Seifrt
+              J. Seifert
             </li>
             <li>
               Kdo v srdci žije, neumírá…

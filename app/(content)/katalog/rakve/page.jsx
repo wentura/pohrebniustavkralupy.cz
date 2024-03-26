@@ -99,8 +99,8 @@ export default function Rakve() {
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707373/pohrebniustavcibulka/rakve/Moser_dub_s_vloz%CC%8Ckou_-_do_hrobek_lnmsjy.webp",
     },
     {
-      title: "KR 40 třešeň s kov. vložkou CEKAM NA FOKTU",
-      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1706707373/pohrebniustavcibulka/rakve/Moser_dub_s_vloz%CC%8Ckou_-_do_hrobek_lnmsjy.webp",
+      title: "KR 40 třešeň s kov. vložkou",
+      href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1711477345/pohrebniustavcibulka/rakve/KR40tresen_agz4wm.webp",
     },
     {
       title: "Amerika - lila",
