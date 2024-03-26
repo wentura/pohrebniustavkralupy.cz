@@ -1,6 +1,6 @@
 const pictures = [
   {
-    href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549943/pohrebniustavcibulka/historie/strejda_k6io8s.webp",
+    href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1711478689/pohrebniustavcibulka/fotogalerie/1.webp",
     alt: "",
     col: "1",
   },
@@ -251,28 +251,47 @@ const pictures = [
     col: "1",
   },
 ];
+// src={`https://res.cloudinary.com/dam7wdzvx/image/upload/v1711478689/pohrebniustavcibulka/fotogalerie/${i}.webp`}
+let i = 0;
+const loopArrays = [
+  ["", [1, 2, 3, 4]],
+  ["Obřadní síň v Kralupech nad Vltavou", [5, 6, 7, 8, 9, 10, 11, 12]],
+  ["Kostely a kaple", [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]],
+  [
+    "Rozloučení na hřbitově",
+    [
+      27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44,
+      45, 46, 47, 48, 49, 50, 51, 52, 53,
+    ],
+  ],
+];
 
 export default function ObrazkyOnas() {
   return (
     <div className="bg-white py-6 sm:py-8 lg:py-12">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
-        <div className="flex flex-wrap gap-2 md:gap-4 xl:gap-6">
-          {pictures.map((picture) => {
-            return (
-              <div
-                className={`group flex h-48 items-end overflow-hidden rounded-lg md:h-80 md:col-span-${picture.col}`}
-                key={picture.href}
-              >
-                <img
-                  src={picture.href}
-                  loading="lazy"
-                  alt={picture.alt}
-                  className="inset-0 h-full  object-cover object-center max-w-lg"
-                />
+        {loopArrays.map((arrItem) => {
+          return (
+            <div key={loopArrays[0]}>
+              <div className="hajednicka text-center py-8">{arrItem[0]}</div>
+              <div className="columns-1 md:columns-2 lg:columns-3">
+                {arrItem[1].map((item) => {
+                  return (
+                    <div className={`group flex w-full pb-4`} key={i}>
+                      <img
+                        // src={picture.href}
+                        src={`https://res.cloudinary.com/dam7wdzvx/image/upload/v1711478689/pohrebniustavcibulka/fotogalerie/${item}.webp`}
+                        loading="lazy"
+                        alt="poh"
+                        className="h-full object-top max-w-full"
+                      />
+                    </div>
+                  );
+                })}
               </div>
-            );
-          })}
-        </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
