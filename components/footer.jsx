@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { menuItems } from "./data-menu";
+import Matomo from "./matomo";
 import Signature from "./signature";
 export default function Footer() {
   return (
@@ -37,6 +38,7 @@ export default function Footer() {
       </footer>
       {/* <div className="footer p-10 bg-modra text-neutral-300 text-xs"></div> */}
       <Signature />
+      <Matomo />
     </div>
   );
 }
