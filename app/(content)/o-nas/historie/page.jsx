@@ -156,7 +156,7 @@ export default function Onas() {
       </section>
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
-          <div className="md:w-1/2 w-2/3 mb-10 md:mb-0">
+          <div className="hidden md:flex md:w-1/2 w-2/3 mb-10 md:mb-0">
             <img
               className="object-cover object-center rounded max-w-[250px] md:max-w-sm mx-auto"
               alt="hero"
