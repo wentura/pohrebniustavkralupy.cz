@@ -18,11 +18,11 @@ export default function DetailContact() {
         </div>
       </div>
       <div className="relative mb-4"></div>
-      <div className="relative mb-4">
+      {/* <div className="relative mb-4">
         <a href="mailto:info@pohrebniustavkralupy.cz">
           info@pohrebniustavkralupy.cz
         </a>
-      </div>
+      </div> */}
       <div className="relative mb-4">
         <a href="mailto:pohrebni.ustav.cibulka@seznam.cz">
           pohrebni.ustav.cibulka@seznam.cz
