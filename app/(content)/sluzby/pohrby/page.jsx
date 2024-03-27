@@ -68,8 +68,8 @@ export default function Pohrby() {
               Zajišťujeme převoz zemřelých z celé České republiky.
             </p>
             <p className="mb-2 leading-relaxed">
-              Prosíme, abyste nám předali oblečení, ve kterém chcete, aby byl
-              Váš drahý nebo drahá obléknut(a).
+              Prosíme, abyste nám předali oblečení pro zesnulého, které měl(a)
+              rád(a) – není třeba, aby bylo tmavé barvy.
             </p>
 
             <p className="leading-relaxed">Můžete vybrat:</p>

@@ -169,7 +169,8 @@ export default function Katalog() {
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407484/pohrebniustavcibulka/vence/15_iufpsx.webp",
     },
     {
-      title: "40. hlava: růžové, bílé chryzantémy<br />spodek: žluté gerbery",
+      title:
+        "40. hlava: růžové gerbery, žluté a bílé chryzantémy<br />spodek: žluté gerbery",
       href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1709407484/pohrebniustavcibulka/vence/16_stgbnm.webp",
     },
   ];
