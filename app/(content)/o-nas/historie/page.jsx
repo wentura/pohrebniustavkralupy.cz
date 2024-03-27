@@ -156,9 +156,9 @@ export default function Onas() {
       </section>
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
-          <div className="max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <div className="md:w-1/2 w-2/3 mb-10 md:mb-0">
             <img
-              className="object-cover object-center rounded max-w-sm mx-auto"
+              className="object-cover object-center rounded max-w-[250px] md:max-w-sm mx-auto"
               alt="hero"
               src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549937/pohrebniustavcibulka/historie/52_hr1ujg.webp"
             />
