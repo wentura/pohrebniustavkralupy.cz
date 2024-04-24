@@ -61,7 +61,7 @@ export default function Onas() {
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               className="object-cover object-center rounded mx-auto"
-              alt="hero"
+              alt="Antonín Macák - původní budova"
               src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549943/pohrebniustavcibulka/historie/puOld_ukt7mo.webp"
             />
           </div>
@@ -119,7 +119,7 @@ export default function Onas() {
           <img
             src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549927/pohrebniustavcibulka/historie/16_suwfqh.webp"
             loading="lazy"
-            alt=""
+            alt="pohřební kočár"
             className="object-cover object-center max-h-96 md:max-h-[500px] md:justify-self-end justify-self-center"
           />
 
@@ -129,7 +129,7 @@ export default function Onas() {
           <img
             src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549929/pohrebniustavcibulka/historie/21_n0w7hg.webp"
             loading="lazy"
-            alt=""
+            alt="pohřební průvod"
             className="object-cover object-center max-h-96 md:max-h-[500px] md:justify-self-start md:align-self-end justify-self-center"
           />
 
@@ -138,7 +138,7 @@ export default function Onas() {
           <img
             src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549925/pohrebniustavcibulka/historie/4_qflima.webp"
             loading="lazy"
-            alt=""
+            alt="pohřební vůz Škoda 1203"
             className="object-cover object-center max-h-96 md:max-h-[500px] md:justify-self-end justify-self-center"
           />
 
@@ -147,7 +147,7 @@ export default function Onas() {
           <img
             src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705689200/pohrebniustavcibulka/1_ynkq8e.webp"
             loading="lazy"
-            alt=""
+            alt="nové a moderní pohřební vozy"
             className="object-cover object-center max-h-96 md:max-h-[500px] md:justify-self-start justify-self-center"
           />
 
@@ -159,7 +159,7 @@ export default function Onas() {
           <div className="hidden md:flex md:w-1/2 w-2/3 mb-10 md:mb-0">
             <img
               className="object-cover object-center rounded max-w-[250px] md:max-w-sm mx-auto"
-              alt="hero"
+              alt="Jiří Cibulka - vnuk zakladatele A. Macáka"
               src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549937/pohrebniustavcibulka/historie/52_hr1ujg.webp"
             />
           </div>

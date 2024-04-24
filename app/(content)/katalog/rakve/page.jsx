@@ -211,7 +211,7 @@ export default function Rakve() {
                     <img
                       className="rounded w-full"
                       src={item.href}
-                      alt="content"
+                      alt={item.title}
                     />
                     <p className="tracking-widest font-medium title-font text-center">
                       {item.title}
@@ -269,7 +269,7 @@ export default function Rakve() {
                     <img
                       className="rounded w-full"
                       src={item.href}
-                      alt="content"
+                      alt={item.title}
                     />
                     <p className="tracking-widest text-center font-medium title-font">
                       {item.title}
@@ -301,7 +301,7 @@ export default function Rakve() {
                     <img
                       className="rounded w-full"
                       src={item.href}
-                      alt="content"
+                      alt={item.title}
                     />
                     <p className="tracking-widest text-center font-medium title-font">
                       {item.title}
@@ -333,7 +333,7 @@ export default function Rakve() {
                     <img
                       className="rounded w-full"
                       src={item.href}
-                      alt="content"
+                      alt={item.title}
                     />
                     <h3 className="tracking-widest text-center font-medium title-font">
                       {item.title}
@@ -365,7 +365,7 @@ export default function Rakve() {
                     <img
                       className="rounded w-full"
                       src={item.href}
-                      alt="content"
+                      alt={item.title}
                     />
                     <p className="tracking-widest text-center font-medium title-font">
                       {item.title}
@@ -420,7 +420,7 @@ export default function Rakve() {
                     <img
                       className="rounded w-full"
                       src={item.href}
-                      alt="content"
+                      alt={item.title}
                     />
                     <p className="tracking-widest text-center font-medium title-font">
                       {item.title}

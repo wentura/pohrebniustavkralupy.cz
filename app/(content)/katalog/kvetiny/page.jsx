@@ -417,7 +417,7 @@ export default function Katalog() {
                     <img
                       className="w-fit h-full mx-auto"
                       src={item.href}
-                      alt="kvetiny"
+                      alt={item.title}
                     />
                   </div>
                   <h3 className="tracking-widest  font-medium title-font text-center">
@@ -452,12 +452,12 @@ export default function Katalog() {
             <img
               className="rounded w-full md:w-1/2 py-2 px-2"
               src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1709408070/pohrebniustavcibulka/silon/2_bbgxd6.webp"
-              alt="silon vence"
+              alt="silon věnce"
             />
             <img
               className="rounded w-full md:w-1/2 py-2 px-2 "
               src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1709408069/pohrebniustavcibulka/silon/1_wfkmbw.webp"
-              alt="silon vence"
+              alt="silon věnce"
             />
           </div>
           <div className="flex flex-wrap -m-4">
@@ -471,7 +471,7 @@ export default function Katalog() {
                     <img
                       className="w-fit mx-auto "
                       src={item.href}
-                      alt="kvetiny"
+                      alt={item.title}
                     />
                   </div>
                   <h3 className="tracking-widest  font-medium title-font text-center">
@@ -487,7 +487,7 @@ export default function Katalog() {
             <img
               className="rounded w-full py-2 px-2"
               src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1709408073/pohrebniustavcibulka/silon/9_gqyunc.webp"
-              alt="silon vence"
+              alt="silon věnce"
             />
           </div>
         </div>
@@ -514,7 +514,7 @@ export default function Katalog() {
                     <img
                       className="rounded w-full"
                       src={item.href}
-                      alt="content"
+                      alt={item.title}
                     />
                     <p className="tracking-widest text-center font-medium title-font">
                       {item.title}
@@ -535,7 +535,7 @@ export default function Katalog() {
                     <img
                       className="rounded w-full"
                       src={item.href}
-                      alt="content"
+                      alt={item.title}
                     />
                     <p className="tracking-widest text-center font-medium title-font">
                       {item.title}
@@ -556,7 +556,7 @@ export default function Katalog() {
           <img
             className="rounded w-full py-2 px-2"
             src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1709409337/pohrebniustavcibulka/zapujcka/velka/1.JPG_taapua.webp"
-            alt="silon vence"
+            alt="silon věnce"
           />
         </div>
         <div className="container px-5 py-12 mx-auto">
@@ -571,7 +571,7 @@ export default function Katalog() {
                     <img
                       className="w-fit h-full mx-auto"
                       src={item.href}
-                      alt="kvetiny"
+                      alt={item.title}
                     />
                   </div>
                   <h3 className="tracking-widest  font-medium title-font text-center">

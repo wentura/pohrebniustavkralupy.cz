@@ -124,7 +124,7 @@ export default function NaSmutecniOznameni() {
                     <img
                       className="rounded w-full"
                       src={item.href}
-                      alt="content"
+                      alt="ukázkové smuteční oznámení (parte)"
                     />
                     <h3 className="font-medium title-font -m-2 text-center">
                       {counter}
