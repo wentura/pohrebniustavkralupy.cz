@@ -375,6 +375,13 @@ export default function Katalog() {
               <li>Kytice na pověšení</li>
               <li>Věnec Ø 40, Ø 50, Ø 60</li>
             </ul>
+            <a
+              href="https://www.canva.com/design/DAFzpjnActk/lWjp61Jm69Gri-HRH7jiAA/edit"
+              target="_blank"
+              className="mt-12 w-full leading-relaxed font-bold underline underline-offset-2 decoration-modra text-modra text-right"
+            >
+              Aktuální nabídka květinové vazby
+            </a>
           </div>
           <div className="flex flex-wrap -m-4">
             {kvetiny.map((item) => {

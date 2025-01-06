@@ -1,5 +1,6 @@
 import Breadcrumbs from "@/components/breadcrumbs";
 import LandingSluzby from "@/components/landingSluzby";
+import Image from "next/image";
 import Parte from "../../sluzby/parte/page";
 const breads = [
   {
@@ -9,6 +10,28 @@ const breads = [
 ];
 
 export default function NaSmutecniOznameni() {
+  const obrazkyNaParte1 = Array.from({ length: 12 }, (_, i) => ({
+    title: `${i}`,
+    href: `https://res.cloudinary.com/dam7wdzvx/image/upload/v1736154635/pohrebniustavcibulka/parte2/parteobrzky/noname_${i}.webp`,
+  }));
+  const obrazkyNaParte2 = Array.from({ length: 9 }, (_, i) => ({
+    title: `${i}`,
+    href: `https://res.cloudinary.com/dam7wdzvx/image/upload/v1736154626/pohrebniustavcibulka/parte2/2parteobrzky/noname_${i}.webp`,
+  }));
+  const obrazkyNaParte = [...obrazkyNaParte1, ...obrazkyNaParte2];
+  const barevnaParte = Array.from({ length: 33 }, (_, i) => ({
+    title: `${i}`,
+    href: `https://res.cloudinary.com/dam7wdzvx/image/upload/v1736154639/pohrebniustavcibulka/parte2/4parteobrzkybarevn/noname_${i}.webp`,
+  }));
+  const bilaParte = Array.from({ length: 9 }, (_, i) => ({
+    title: `${i}`,
+    href: `https://res.cloudinary.com/dam7wdzvx/image/upload/v1736154622/pohrebniustavcibulka/parte2/3parteobrzky/noname_${i}.webp`,
+  }));
+  const bilaParte2 = Array.from({ length: 6 }, (_, i) => ({
+    title: `${i}`,
+    href: `	https://res.cloudinary.com/dam7wdzvx/image/upload/v1736154624/pohrebniustavcibulka/parte2/3parteobrzky/2/noname_${i}.webp`,
+  }));
+
   const obrazky = [
     {
       title: "",
@@ -94,7 +117,10 @@ export default function NaSmutecniOznameni() {
     //   title: "",
     //   href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1710082806/pohrebniustavcibulka/parte/21_gcenrx.webp",
     // },
+    ...bilaParte,
+    ...bilaParte2,
   ];
+
   let counter = 0;
   return (
     <div>
@@ -121,14 +147,67 @@ export default function NaSmutecniOznameni() {
               return (
                 <div className="xl:w-1/4 md:w-1/3 px-4 py-2" key={item.href}>
                   <div className="mb-8">
-                    <img
+                    <Image
                       className="rounded w-full"
                       src={item.href}
-                      alt="ukázkové smuteční oznámení (parte)"
+                      alt="ukázkové smuteční oznámení (parte), Pohřební ústav Kralupy nad Vltavou"
+                      width={400}
+                      height={600}
                     />
                     <h3 className="font-medium title-font -m-2 text-center">
                       {counter}
                     </h3>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-wrap w-full mb-20">
+            <div className="w-full mb-6 lg:mb-0">
+              <h1 className="hajednicka">Barevná smuteční oznámení</h1>
+            </div>
+          </div>
+          <div className="flex flex-wrap -m-4  justify-center">
+            {barevnaParte.map((item) => {
+              return (
+                <div className="xl:w-1/4 md:w-1/3 px-4 py-2" key={item.href}>
+                  <div className="mb-8">
+                    <Image
+                      className="rounded w-full"
+                      src={item.href}
+                      alt="ukázkové smuteční oznámení (parte), Pohřební ústav Kralupy nad Vltavou"
+                      width={400}
+                      height={600}
+                    />
+                    <h3 className="font-medium title-font m-2 text-center">
+                      {item.title}
+                    </h3>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+        <div className="container px-5 py-24 mx-auto">
+          <div className="flex flex-wrap w-full mb-20">
+            <div className="w-full mb-6 lg:mb-0">
+              <h1 className="hajednicka">Obrázky na smuteční oznámení</h1>
+            </div>
+          </div>
+          <div className="flex flex-wrap -m-4  justify-center">
+            {obrazkyNaParte.map((item) => {
+              return (
+                <div className="xl:w-1/4 md:w-1/3 px-4 py-2" key={item.href}>
+                  <div className="mb-8">
+                    <Image
+                      className="rounded w-full"
+                      src={item.href}
+                      alt="ukázkové smuteční oznámení (parte), Pohřební ústav Kralupy nad Vltavou"
+                      width={400}
+                      height={600}
+                    />
                   </div>
                 </div>
               );
