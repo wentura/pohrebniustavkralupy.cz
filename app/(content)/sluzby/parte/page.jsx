@@ -9,8 +9,8 @@ export default function Parte() {
         </h1>
         <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
       </div>
-      <div class="mx-auto flex flex-wrap container px-5">
-        <div class="flex flex-col w-full mb-12">
+      <div className="mx-auto flex flex-wrap container px-5">
+        <div className="flex flex-col w-full mb-12">
           <p className="text-left py-2">
             Parte je nejen formálním informačním dokumentem, ale také
             příležitostí vyjádřit respekt, vzpomínku a lásku k zesnulému.
@@ -27,8 +27,8 @@ export default function Parte() {
             zesnulého milovali.
           </p>
         </div>
-        <div class="flex flex-col w-full mb-12">
-          <h1 class="hajednicka">Verše na parte</h1>
+        <div className="flex flex-col w-full mb-12">
+          <h1 className="hajednicka">Verše na parte</h1>
           {/* <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" /> */}
           <h2 className="text-center md:text-left text-xl md:text-2xl pt-4 pb-2 font-obsah">
             Pro ženu

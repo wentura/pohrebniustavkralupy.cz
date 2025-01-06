@@ -140,12 +140,12 @@ export default function NaSmutecniOznameni() {
             </div>
           </div>
           <div className="flex flex-wrap -m-4  justify-center">
-            {obrazky.map((item) => {
+            {obrazky.map((item, index) => {
               {
                 counter++;
               }
               return (
-                <div className="xl:w-1/4 md:w-1/3 px-4 py-2" key={item.href}>
+                <div className="xl:w-1/4 md:w-1/3 px-4 py-2" key={index}>
                   <div className="mb-8">
                     <Image
                       className="rounded w-full"
@@ -170,9 +170,9 @@ export default function NaSmutecniOznameni() {
             </div>
           </div>
           <div className="flex flex-wrap -m-4  justify-center">
-            {barevnaParte.map((item) => {
+            {barevnaParte.map((item, index) => {
               return (
-                <div className="xl:w-1/4 md:w-1/3 px-4 py-2" key={item.href}>
+                <div className="xl:w-1/4 md:w-1/3 px-4 py-2" key={index}>
                   <div className="mb-8">
                     <Image
                       className="rounded w-full"
@@ -197,9 +197,9 @@ export default function NaSmutecniOznameni() {
             </div>
           </div>
           <div className="flex flex-wrap -m-4  justify-center">
-            {obrazkyNaParte.map((item) => {
+            {obrazkyNaParte.map((item, index) => {
               return (
-                <div className="xl:w-1/4 md:w-1/3 px-4 py-2" key={item.href}>
+                <div className="xl:w-1/4 md:w-1/3 px-4 py-2" key={index}>
                   <div className="mb-8">
                     <Image
                       className="rounded w-full"
