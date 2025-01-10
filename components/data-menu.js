@@ -45,7 +45,8 @@ export const menuItems = [
         link: "/katalog/rakve",
         text: "Nabídka rakví",
       },
-      { id: 10, link: "/katalog/kvetiny", text: "Smuteční kytice a věnce" },
+      // { id: 10, link: "/katalog/kvetiny", text: "Smuteční kytice a věnce",  },
+      { id: 10, link: "https://www.canva.com/design/DAFzpjnActk/lWjp61Jm69Gri-HRH7jiAA/edit", text: "Smuteční kytice a věnce",  },
 
       { id: 11, link: "/katalog/urny", text: "Obaly na urny a smuteční zboží" },
     ],
