@@ -35,6 +35,14 @@ export default function Footer() {
             </div>
           );
         })}
+        <div className="relative mb-4 flex mx-auto md:flex-col">
+          <a href="https://www.facebook.com/profile.php?id=61569862836577" target="_blank">
+          <img src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1736514127/pro_vsechny/icons8-facebook-50.png" className="w-8 invert opacity-65 mr-4"/>
+          </a>
+          <a href="https://www.instagram.com/pohrebni_ustav_cibulka/"  target="_blank">
+          <img src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1736514126/pro_vsechny/icons8-instagram-50.png" className="w-8 invert opacity-65"/>
+          </a>
+          </div>
       </footer>
       {/* <div className="footer p-10 bg-modra text-neutral-300 text-xs"></div> */}
       <Signature />

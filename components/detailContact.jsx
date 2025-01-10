@@ -28,6 +28,15 @@ export default function DetailContact() {
           pohrebni.ustav.cibulka@seznam.cz
         </a>
       </div>
+      <div className="relative mb-4 flex gap-4">
+        <a href="https://www.facebook.com/profile.php?id=61569862836577"  target="_blank">
+        <img src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1736514127/pro_vsechny/icons8-facebook-50.png" className="w-8"/>
+        </a>
+        <a href="https://www.instagram.com/pohrebni_ustav_cibulka/" target="_blank">
+        <img src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1736514126/pro_vsechny/icons8-instagram-50.png" className="w-8"/>
+        </a>
+      </div>
+
       <div className="relative mb-4">
         Grégrova 167/1, 278 01 Kralupy nad Vltavou
       </div>
