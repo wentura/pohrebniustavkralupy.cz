@@ -1,5 +1,8 @@
 import Breadcrumbs from "@/components/breadcrumbs";
+import {popularni, sportovni, vazna, lidove } from "./hubba"
 import ObrazkyNaParte from "@/components/obrazkyNaParte";
+// import { popularni, sportovni } from "./hubba";
+/*
 const moderni = [
   "Ave Maria – J. Smolík",
   "Ave Maria – L. Bílá",
@@ -83,6 +86,8 @@ const moderni = [
   "Who Wants To Live Forever – Queen",
   "Wind Of Change – Scorpions",
 ];
+*/
+/*
 const vazna = [
   "Adagio A moll z viol. Konc.- R. Schumann",
   "Air – J. S. Bach",
@@ -107,6 +112,8 @@ const vazna = [
   "Vltava – B. Smetana",
   "Vzpomínka – B. Smetana",
 ];
+*/
+/*
 const soundtrack = [
   "A Gift Of A Thistle – J. Horner (Statečné srdce)",
   "For The Love Of A Princess – J. Horner (Statečné srdce)",
@@ -119,6 +126,8 @@ const soundtrack = [
   "Tennessee – H. Zimmer (Pearl Harbor)",
   "Time – H. Zimmer (Inception)",
 ];
+*/
+/*
 const lidove = [
   "Ach synku synku",
   "Akáty bílé",
@@ -158,6 +167,7 @@ const lidove = [
   "Zasviť mi ty slunko zlaté",
   "Zelení hájové",
 ];
+*/
 let counter = 1;
 const breads = [
   { link: "/sluzby", title: "Služby" },
@@ -228,12 +238,12 @@ export default function Hudba() {
               Populární a moderní skladby
             </h2>
 
-            <ol className="gap-2 gap-x-2 columns-1 sm:columns-2 md:columns-3 list-decimal text-left parte">
-              {moderni.map((item) => {
-                counter++;
-                return <li key={item}>{item}</li>;
+            <ul className="gap-2 gap-x-2 columns-1 sm:columns-2 md:columns-3 text-left parte">
+              {popularni.map((item, index) => {
+                
+                return <li key={index}>{item.id} - {item.title}</li>;
               })}
-            </ol>
+            </ul>
           </div>
 
           <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-8 dark:bg-gray-700" />
@@ -242,19 +252,17 @@ export default function Hudba() {
               Vážná hudba
             </h2>
 
-            <ol
-              className="gap-2 gap-x-2 columns-1 sm:columns-2 md:columns-3 list-decimal text-left parte"
-              start={counter}
+            <ul
+              className="gap-2 gap-x-2 columns-1 sm:columns-2 md:columns-3 text-left parte"
             >
-              {vazna.map((item) => {
-                counter++;
-                return <li key={item}>{item}</li>;
+              {vazna.map((item, index) => {
+                return <li key={index}>{item.id} - {item.title}</li>;
               })}
-            </ol>
+            </ul>
           </div>
 
-          <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-8 dark:bg-gray-700" />
-          <div>
+          {/* <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-8 dark:bg-gray-700" /> */}
+          {/* <div>
             <h2 className="text-center md:text-left text-xl md:text-2xl pt-4 pb-2 font-obsah">
               Soundtrack - hudba ze známých filmů
             </h2>
@@ -268,21 +276,37 @@ export default function Hudba() {
                 return <li key={item}>{item}</li>;
               })}
             </ol>
+          </div> */}
+<hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-8 dark:bg-gray-700" />
+          <div>
+            <h2 className="text-center md:text-left text-xl md:text-2xl pt-4 pb-2 font-obsah">
+Sportovní
+            </h2>
+
+            <ul
+              className="gap-2 gap-x-2 columns-1 sm:columns-2 md:columns-3 text-left parte"
+              start={counter}
+            >
+              {sportovni.map((item, index) => {
+                return <li key={index}>{item.id} - {item.title}</li>;
+              })}
+            </ul>
           </div>
+
           <hr className="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-8 dark:bg-gray-700" />
           <div>
             <h2 className="text-center md:text-left text-xl md:text-2xl pt-4 pb-2 font-obsah">
               Lidové skladby
             </h2>
 
-            <ol
-              className="gap-2 gap-x-2 columns-1 sm:columns-2 md:columns-3 list-decimal text-left parte"
+            <ul
+              className="gap-2 gap-x-2 columns-1 sm:columns-2 md:columns-3 text-left parte"
               start={counter}
             >
-              {lidove.map((item) => {
-                return <li key={item}>{item}</li>;
+              {lidove.map((item, index) => {
+                return <li key={index}>{item.id} - {item.title}</li>;
               })}
-            </ol>
+            </ul>
           </div>
         </div>
         <div

@@ -6,14 +6,14 @@ export default function Footer() {
   return (
     <div className="text-center my-4 text-neutral-700">
       <footer className="footer py-16 px-6 bg-modra text-neutral-300 text-md">
-        {menuItems.map((menuItem) => {
+        {menuItems.map((menuItem, index) => {
           return menuItem.children ? (
-            <div key={menuItem.link}>
+            <div key={index}>
               <div className="footer-title  text-left">{menuItem.text}</div>
-              {menuItem.children.map((menuChildren) => {
+              {menuItem.children.map((menuChildren, index) => {
                 return (
                   <Link
-                    key={menuChildren.link}
+                    key={index}
                     href={menuChildren.link}
                     className="odkaz-bila text-left"
                   >
@@ -26,7 +26,7 @@ export default function Footer() {
             <div className="text-left justify-items-start">
               <div className="footer-title">&nbsp;</div>
               <Link
-                key={menuItem.link}
+                key={index}
                 href={menuItem.link}
                 className="odkaz-bila link link-hover text-left"
               >
