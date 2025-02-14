@@ -13,7 +13,7 @@ export default function LandingSluzby() {
       title: "Pohřeb bez obřadu",
       text: "Soukromější a osobnější způsob rozloučení se zesnulým, bez tradičních ceremonií či náboženských prvků.",
       href: "/sluzby/pohrbybezobradu",
-      vice: "více o pohřebech bez obřadu",
+      vice: "více o pohřbech bez obřadu",
     },
     {
       title: "Pohřeb s obřadem",
