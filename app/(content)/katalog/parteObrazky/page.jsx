@@ -2,12 +2,19 @@ import Breadcrumbs from "@/components/breadcrumbs";
 import LandingSluzby from "@/components/landingSluzby";
 import Image from "next/image";
 import Parte from "../../sluzby/parte/page";
+
 const breads = [
   {
     link: "/katalog/parteObrazky",
     title: "Smuteční katalog / Na smuteční oznámení",
   },
 ];
+
+export const metadata = {
+  title: "Smuteční oznámení – katalog",
+  description:
+    "Katalog vzorů smutečních oznámení (parte). Tisk a výroba. Pohřební ústav Cibulka Kralupy.",
+};
 
 export default function NaSmutecniOznameni() {
   const obrazkyNaParte1 = Array.from({ length: 12 }, (_, i) => ({

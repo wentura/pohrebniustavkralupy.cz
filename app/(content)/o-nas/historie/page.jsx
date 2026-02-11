@@ -1,7 +1,14 @@
 import Breadcrumbs from "@/components/breadcrumbs";
 import ObrazkyOnas from "@/components/obrazkyOnas";
 import React from "react";
+
 const breads = [{ link: "/o-nas/historie", title: "O nás" }];
+
+export const metadata = {
+  title: "O nás – historie",
+  description:
+    "Historie pohřebního ústavu Cibulka od roku 1914. Rodinná tradice v Kralupech nad Vltavou.",
+};
 
 export default function Onas() {
   return (

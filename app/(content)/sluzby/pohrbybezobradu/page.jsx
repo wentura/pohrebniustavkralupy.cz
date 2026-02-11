@@ -1,10 +1,17 @@
 import ADozvedetSeVic from "@/components/aDozvedetSeVic";
 import Breadcrumbs from "@/components/breadcrumbs";
 import Link from "next/link";
+
 const breads = [
   { link: "/sluzby", title: "Služby" },
   { link: "/sluzby/pohrbybezobradu", title: "Pohřeb bez obřadu" },
 ];
+
+export const metadata = {
+  title: "Pohřeb bez obřadu",
+  description:
+    "Pohřeb bez obřadu – soukromé rozloučení. Pohřební ústav Cibulka Kralupy nad Vltavou.",
+};
 
 export default function Pohrbybezobradu() {
   return (

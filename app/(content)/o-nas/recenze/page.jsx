@@ -1,4 +1,11 @@
 import Breadcrumbs from "@/components/breadcrumbs";
+
+export const metadata = {
+  title: "Recenze klientů",
+  description:
+    "Recenze a reference klientů pohřebního ústavu Cibulka. Kralupy nad Vltavou.",
+};
+
 const reviews = [
   {
     text: "Chtěla jsme Vám všem mnohokrát poděkovat za 100% profesionalitu  a velmi citlivý a ochotný přístup. V těch nejtěžších chvílích mi bylo vše velmi dobře vysvětleno a provedeno a to i přesto, že jsem nebyla osobně přítomna a vše proběhlo přes telefon a email. Slova nemohou vyjádřit mou vděčnost. Jsou nejlepší v Kralupech a rozhodně je doporučuji. Lepší servis nikde nedostanete!! Děkuji z celého srdce!!",

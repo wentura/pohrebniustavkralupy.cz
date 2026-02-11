@@ -1,5 +1,6 @@
 import Breadcrumbs from "@/components/breadcrumbs";
 import LandingSluzby from "@/components/landingSluzby";
+
 const breads = [
   {
     link: "/katalog/urny",
@@ -7,7 +8,13 @@ const breads = [
   },
 ];
 
-export default function Rakve() {
+export const metadata = {
+  title: "Obaly na urny a smuteční zboží",
+  description:
+    "Katalog obalů na urny a smutečního zboží. Pohřební ústav Cibulka Kralupy nad Vltavou.",
+};
+
+export default function Urny() {
   const plast = [
     {
       title: "UH těžký - černý (s přidanou kameninou)",

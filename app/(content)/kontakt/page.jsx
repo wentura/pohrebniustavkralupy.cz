@@ -1,7 +1,14 @@
 import BannerContact from "@/components/bannerContact";
 import Breadcrumbs from "@/components/breadcrumbs";
-// import DetailContact from "@/components/detailContact";
+
 const breads = [{ link: "/kontakt", title: "Kontakt" }];
+
+export const metadata = {
+  title: "Kontakt",
+  description:
+    "Kontakt na pohřební ústav Cibulka v Kralupech nad Vltavou. Adresa, telefon, otevírací doba.",
+};
+
 export default function Kontakt() {
   return (
     <section className="">

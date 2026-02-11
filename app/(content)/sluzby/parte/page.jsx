@@ -1,5 +1,11 @@
 import ObrazkyNaParte from "@/components/obrazkyNaParte";
 
+export const metadata = {
+  title: "Parte, smuteční oznámení",
+  description:
+    "Výroba a tisk smutečních oznámení (parte). Pohřební ústav Cibulka Kralupy nad Vltavou.",
+};
+
 export default function Parte() {
   return (
     <section className="">

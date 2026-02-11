@@ -1,5 +1,5 @@
 import Breadcrumbs from "@/components/breadcrumbs";
-import { isSupported, sanitize } from "isomorphic-dompurify";
+import { sanitize } from "isomorphic-dompurify";
 const infos = [
   {
     vlevo: "Úmrtní list",
@@ -45,6 +45,13 @@ const infos = [
   },
 ];
 const breads = [{ link: "/pro-pozustale", title: "Informace pro pozůstalé" }];
+
+export const metadata = {
+  title: "Informace pro pozůstalé",
+  description:
+    "Praktické informace pro pozůstalé: úmrtní list, notář, pracovní volno. Pohřební ústav Cibulka Kralupy nad Vltavou.",
+};
+
 export default function ProPozustale() {
   return (
     <section className="text-gray-600 body-font overflow-hidden">
@@ -90,7 +97,7 @@ export default function ProPozustale() {
                     <h2 className="hajednicka">{info.nadpis}</h2>
                     <p
                       dangerouslySetInnerHTML={{
-                        __html: DOMPurify.sanitize(info.text),
+                        __html: sanitize(info.text),
                       }}
                     ></p>
                   </div>

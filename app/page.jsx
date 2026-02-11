@@ -1,9 +1,15 @@
 import BannerContact from "@/components/bannerContact";
 import BannerPhone from "@/components/bannerPhone";
 import Header from "@/components/header";
-import Hero from "@/components/hero";
 import LandingSluzby from "@/components/landingSluzby";
 import SmallHero from "@/components/smallHero";
+
+export const metadata = {
+  title: "Pohřební ústav Cibulka | Kralupy nad Vltavou",
+  description:
+    "Kralupský pohřební ústav Cibulka. Rodinná tradice od roku 1914. Pohřby s obřadem i bez, smuteční oznámení, rakve, urny. Služby v Kralupech a okolí.",
+};
+
 export default function Home() {
   return (
     <div>

@@ -6,14 +6,14 @@ export default function Footer() {
   return (
     <div className="text-center my-4 text-neutral-700">
       <footer className="footer py-16 px-6 bg-modra text-neutral-300 text-md">
-        {menuItems.map((menuItem, index) => {
+        {menuItems.map((menuItem) => {
           return menuItem.children ? (
-            <div key={index}>
+            <div key={menuItem.id}>
               <div className="footer-title  text-left">{menuItem.text}</div>
               {menuItem.children.map((menuChildren, index) => {
                 return (
                   <Link
-                    key={index}
+                    key={menuChildren.id ?? menuChildren.link ?? index}
                     href={menuChildren.link}
                     className="odkaz-bila text-left"
                   >
@@ -23,10 +23,9 @@ export default function Footer() {
               })}
             </div>
           ) : (
-            <div className="text-left justify-items-start">
+            <div className="text-left justify-items-start" key={menuItem.id}>
               <div className="footer-title">&nbsp;</div>
               <Link
-                key={index}
                 href={menuItem.link}
                 className="odkaz-bila link link-hover text-left"
               >
@@ -36,11 +35,11 @@ export default function Footer() {
           );
         })}
         <div className="relative mb-4 flex mx-auto md:flex-col">
-          <a href="https://www.facebook.com/profile.php?id=61569862836577" target="_blank">
-          <img src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1736514127/pro_vsechny/icons8-facebook-50.png" className="w-8 invert opacity-65 mr-4"/>
+          <a href="https://www.facebook.com/profile.php?id=61569862836577" target="_blank" rel="noopener noreferrer">
+          <img src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1736514127/pro_vsechny/icons8-facebook-50.png" alt="Facebook" className="w-8 invert opacity-65 mr-4"/>
           </a>
-          <a href="https://www.instagram.com/pohrebni_ustav_cibulka/"  target="_blank">
-          <img src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1736514126/pro_vsechny/icons8-instagram-50.png" className="w-8 invert opacity-65"/>
+          <a href="https://www.instagram.com/pohrebni_ustav_cibulka/" target="_blank" rel="noopener noreferrer">
+          <img src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1736514126/pro_vsechny/icons8-instagram-50.png" alt="Instagram" className="w-8 invert opacity-65"/>
           </a>
           </div>
       </footer>

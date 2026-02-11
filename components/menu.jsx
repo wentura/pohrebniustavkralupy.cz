@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import { menuItems } from "./data-menu";
 

@@ -30,9 +30,26 @@ export default function Breadcrumbs({ breads }) {
       </nav>
     );
   } else if (delkaBreads > 0) {
-    // return <div>{breads[0].title}</div>;
+    const baseUrl = "https://pohrebniustavkralupy.cz";
+    const jsonLd = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Domů", item: baseUrl },
+        ...breads.map((bread, i) => ({
+          "@type": "ListItem",
+          position: i + 2,
+          name: bread.title,
+          item: `${baseUrl}${bread.link}`,
+        })),
+      ],
+    };
     return (
       <nav aria-label="breadcrumb" className="w-full p-4 text-sm">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <ol className="flex h-8 space-x-2">
           <li className="flex items-center">
             <a

@@ -1,11 +1,18 @@
 import Breadcrumbs from "@/components/breadcrumbs";
 import LandingSluzby from "@/components/landingSluzby";
+
 const breads = [
   {
     link: "/katalog/rakve",
     title: "Smuteční katalog / Nabídka rakví",
   },
 ];
+
+export const metadata = {
+  title: "Nabídka rakví",
+  description:
+    "Katalog rakví – široká nabídka. Pohřební ústav Cibulka Kralupy nad Vltavou.",
+};
 
 export default function Rakve() {
   const sirokeDlouheRakve = [

@@ -1,10 +1,17 @@
 import ADozvedetSeVic from "@/components/aDozvedetSeVic";
 import Breadcrumbs from "@/components/breadcrumbs";
 import Link from "next/link";
+
 const breads = [
   { link: "/sluzby", title: "Služby" },
   { link: "/sluzby/pohrby", title: "Pohřeb s obřadem" },
 ];
+
+export const metadata = {
+  title: "Pohřeb s obřadem",
+  description:
+    "Pohřeb s obřadem v Kralupech nad Vltavou. Obřadní síň, kostel, převoz zesnulého. Pohřební ústav Cibulka.",
+};
 
 export default function Pohrby() {
   return (

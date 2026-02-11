@@ -1,7 +1,14 @@
 import Breadcrumbs from "@/components/breadcrumbs";
-import ObrazkyNaParte from "@/components/obrazkyNaParte";
 import ObrazkyOnas from "@/components/obrazkyOnas";
+
 const breads = [{ link: "/o-nas/fotogalerie", title: "Fotogalerie" }];
+
+export const metadata = {
+  title: "Fotogalerie",
+  description:
+    "Fotogalerie pohřebního ústavu Cibulka. Kralupy nad Vltavou.",
+};
+
 export default function Fotogalerie() {
   return (
     <section>

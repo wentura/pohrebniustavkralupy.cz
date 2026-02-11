@@ -1,6 +1,12 @@
 import Breadcrumbs from "@/components/breadcrumbs";
-import {popularni, sportovni, vazna, lidove } from "./hubba"
+import { popularni, sportovni, vazna, lidove } from "./hubba";
 import ObrazkyNaParte from "@/components/obrazkyNaParte";
+
+export const metadata = {
+  title: "Smuteční řeč, hudba a fotografie",
+  description:
+    "Smuteční řečník, hudba při pohřbu, smuteční fotografie. Církevní obřady. Pohřební ústav Cibulka Kralupy.",
+};
 // import { popularni, sportovni } from "./hubba";
 /*
 const moderni = [
