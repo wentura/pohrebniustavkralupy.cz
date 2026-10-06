@@ -1,3 +1,4 @@
+import CldImg from "./CldImg";
 const pictures = [
   {
     href: "https://res.cloudinary.com/dam7wdzvx/image/upload/v1711478689/pohrebniustavcibulka/fotogalerie/1.webp",
@@ -251,8 +252,7 @@ const pictures = [
     col: "1",
   },
 ];
-// src={`https://res.cloudinary.com/dam7wdzvx/image/upload/v1711478689/pohrebniustavcibulka/fotogalerie/${i}.webp`}
-let i = 0;
+
 const loopArrays = [
   ["", [1, 2, 3, 4]],
   ["Obřadní síň v Kralupech nad Vltavou", [5, 6, 7, 8, 9, 10, 11, 12]],
@@ -273,18 +273,19 @@ export default function ObrazkyOnas() {
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
         {loopArrays.map((arrItem) => {
           return (
-            <div key={loopArrays[0]}>
+            <div key={arrItem[0] || "all"}>
               <div className="hajednicka text-center py-8">{arrItem[0]}</div>
               <div className="columns-1 md:columns-2 lg:columns-3">
                 {arrItem[1].map((item) => {
                   return (
-                    <div className={`group flex w-full pb-4`} key={i}>
-                      <img
-                        // src={picture.href}
+                    <div className="group flex w-full pb-4" key={item}>
+                      <CldImg
                         src={`https://res.cloudinary.com/dam7wdzvx/image/upload/v1711478689/pohrebniustavcibulka/fotogalerie/${item}.webp`}
-                        loading="lazy"
-                        alt="poh"
-                        className="h-full object-top max-w-full"
+                        alt="Fotogalerie Pohřební ústav Cibulka"
+                        width={800}
+                        height={1000}
+                        className="h-auto object-top max-w-full w-full"
+                        sizes="(max-width: 768px) 100vw, 33vw"
                       />
                     </div>
                   );

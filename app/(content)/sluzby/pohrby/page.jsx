@@ -1,3 +1,4 @@
+import CldImg from "@/components/CldImg";
 import ADozvedetSeVic from "@/components/aDozvedetSeVic";
 import Breadcrumbs from "@/components/breadcrumbs";
 import Link from "next/link";
@@ -19,18 +20,21 @@ export default function Pohrby() {
       <Breadcrumbs breads={breads} />
       <section className="text-gray-600 body-font">
         <div className="mt-12">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis text-center">
             Pohřeb s obřadem
           </h1>
           <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
         </div>
         <div className="container mx-auto flex px-5 pt-12 md:flex-row flex-col items-center lg:items-stretch">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705689200/pohrebniustavcibulka/6_t9yfo0.webp"
-            />
+            <CldImg
+                      src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705689200/pohrebniustavcibulka/6_t9yfo0.webp"
+                      alt="hero"
+                      width={800}
+                      height={600}
+                      className="object-cover object-center rounded"
+                      sizes={"100vw"}
+                    />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left">
             <p className="mb-2 leading-relaxed">
@@ -63,11 +67,14 @@ export default function Pohrby() {
 
         <div className="container mx-auto flex px-5 pt-12 md:flex-row flex-col items-center lg:items-stretch">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1710081286/pohrebniustavcibulka/prevozZemreleho2_w1u672.webp"
-            />
+            <CldImg
+                      src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1710081286/pohrebniustavcibulka/prevozZemreleho2_w1u672.webp"
+                      alt="hero"
+                      width={800}
+                      height={600}
+                      className="object-cover object-center rounded"
+                      sizes={"100vw"}
+                    />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left">
             <p className="hadvojka">Převoz a úprava zesnulého</p>
@@ -109,11 +116,14 @@ export default function Pohrby() {
 
         <div className="container mx-auto flex px-5 pt-12 md:flex-row-reverse flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705689200/pohrebniustavcibulka/5_daiubk.webp"
-            />
+            <CldImg
+                      src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705689200/pohrebniustavcibulka/5_daiubk.webp"
+                      alt="hero"
+                      width={800}
+                      height={600}
+                      className="object-cover object-center rounded"
+                      sizes={"100vw"}
+                    />
           </div>
           <div
             // className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left"
@@ -226,11 +236,14 @@ export default function Pohrby() {
           id="prevozzesnuleho"
         >
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705689200/pohrebniustavcibulka/1_ynkq8e.webp"
-            />
+            <CldImg
+                      src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705689200/pohrebniustavcibulka/1_ynkq8e.webp"
+                      alt="hero"
+                      width={800}
+                      height={600}
+                      className="object-cover object-center rounded"
+                      sizes={"100vw"}
+                    />
           </div>
           {/* <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center"> */}
           <div
@@ -272,11 +285,14 @@ export default function Pohrby() {
         {/* 
         <div className="container mx-auto flex px-5 pt-12 md:flex-row-reverse flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705689200/pohrebniustavcibulka/4_pbewze.webp"
-            />
+            <CldImg
+                      src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705689200/pohrebniustavcibulka/4_pbewze.webp"
+                      alt="hero"
+                      width={800}
+                      height={600}
+                      className="object-cover object-center rounded"
+                      sizes={"100vw"}
+                    />
           </div>
           <div
             className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left"

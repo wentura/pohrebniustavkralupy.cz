@@ -2,8 +2,8 @@ import DetailContact from "./detailContact";
 
 export default function BannerContact() {
   return (
-    <section className=" body-font relative overflow-hidden rounded-2xl">
-      <div className="absolute inset-0 ">
+    <section className="body-font relative isolate overflow-hidden rounded-2xl">
+      <div className="absolute inset-0 z-0">
         <iframe
           width="100%"
           height="100%"
@@ -17,7 +17,7 @@ export default function BannerContact() {
         />
       </div>
       <div className="container px-5 py-24 mx-auto flex">
-        <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-xl border-4 border-neutral-700">
+        <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-20 shadow-xl border-4 border-neutral-700">
           <DetailContact />
         </div>
       </div>

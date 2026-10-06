@@ -50,7 +50,7 @@ export default function Recenze() {
     <section className="text-gray-600 body-font">
       <Breadcrumbs breads={breads} />
       <div className="mt-12">
-        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
+        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis text-center">
           Recenze našich klientů
         </h1>
         <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />

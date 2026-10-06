@@ -1,6 +1,6 @@
+import CldImg from "@/components/CldImg";
 import Breadcrumbs from "@/components/breadcrumbs";
 import LandingSluzby from "@/components/landingSluzby";
-import Image from "next/image";
 import Parte from "../../sluzby/parte/page";
 
 const breads = [
@@ -154,12 +154,13 @@ export default function NaSmutecniOznameni() {
               return (
                 <div className="xl:w-1/4 md:w-1/3 px-4 py-2" key={index}>
                   <div className="mb-8">
-                    <img
-                      className="rounded w-full"
+                    <CldImg
                       src={item.href}
                       alt="ukázkové smuteční oznámení (parte), Pohřební ústav Kralupy nad Vltavou"
                       width={400}
                       height={600}
+                      className="rounded w-full h-auto"
+                      sizes={"(max-width: 768px) 100vw, 33vw"}
                     />
                     <h3 className="font-medium title-font -m-2 text-center">
                       {counter}
@@ -181,12 +182,13 @@ export default function NaSmutecniOznameni() {
               return (
                 <div className="xl:w-1/4 md:w-1/3 px-4 py-2" key={index}>
                   <div className="mb-8">
-                    <img
-                      className="rounded w-full"
+                    <CldImg
                       src={item.href}
                       alt="ukázkové smuteční oznámení (parte), Pohřební ústav Kralupy nad Vltavou"
                       width={400}
                       height={600}
+                      className="rounded w-full h-auto"
+                      sizes={"(max-width: 768px) 100vw, 33vw"}
                     />
                     <h3 className="font-medium title-font m-2 text-center">
                       {item.title}
@@ -208,12 +210,13 @@ export default function NaSmutecniOznameni() {
               return (
                 <div className="xl:w-1/4 md:w-1/3 px-4 py-2" key={index}>
                   <div className="mb-8">
-                    <img
-                      className="rounded w-full"
+                    <CldImg
                       src={item.href}
                       alt="ukázkové smuteční oznámení (parte), Pohřební ústav Kralupy nad Vltavou"
                       width={400}
                       height={600}
+                      className="rounded w-full h-auto"
+                      sizes={"(max-width: 768px) 100vw, 33vw"}
                     />
                   </div>
                 </div>

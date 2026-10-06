@@ -1,3 +1,4 @@
+import CldImg from "@/components/CldImg";
 import Breadcrumbs from "@/components/breadcrumbs";
 import { sanitize } from "isomorphic-dompurify";
 const infos = [
@@ -57,7 +58,7 @@ export default function ProPozustale() {
     <section className="text-gray-600 body-font overflow-hidden">
       <Breadcrumbs breads={breads} />
       <div className="mt-12">
-        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
+        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis text-center">
           Informace pro pozůstalé
         </h1>
         <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
@@ -103,11 +104,14 @@ export default function ProPozustale() {
                   </div>
                   {info.image ? (
                     <div className="lg:w-1/2">
-                      <img
-                        src={info.image}
-                        alt={info.nadpis}
-                        className="max-w-1/2 pt-12 lg:pt-0 lg:px-12"
-                      />
+                      <CldImg
+                      src={info.image}
+                      alt={info.nadpis}
+                      width={800}
+                      height={600}
+                      className="max-w-1/2 pt-12 lg:pt-0 lg:px-12"
+                      sizes={"100vw"}
+                    />
                     </div>
                   ) : (
                     ""

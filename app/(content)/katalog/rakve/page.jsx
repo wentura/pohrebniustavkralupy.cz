@@ -1,3 +1,4 @@
+import CldImg from "@/components/CldImg";
 import Breadcrumbs from "@/components/breadcrumbs";
 import LandingSluzby from "@/components/landingSluzby";
 
@@ -132,7 +133,7 @@ export default function Rakve() {
       {/* RAKVE BEZOBRADE */}
       <section className="body-font">
         <div className="mt-12">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium font-nadpis mt-88 text-center">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium font-nadpis text-center">
             Nabídka rakví
           </h1>
           <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
@@ -215,10 +216,13 @@ export default function Rakve() {
               return (
                 <div className="xl:w-1/2 md:w-1/2 p-4" key={item.href}>
                   <div className="">
-                    <img
-                      className="rounded w-full"
+                    <CldImg
                       src={item.href}
                       alt={item.title}
+                      width={800}
+                      height={600}
+                      className="rounded w-full h-auto"
+                      sizes={"(max-width: 768px) 100vw, 33vw"}
                     />
                     <p className="tracking-widest font-medium title-font text-center">
                       {item.title}
@@ -273,10 +277,13 @@ export default function Rakve() {
               return (
                 <div className="xl:w-1/3 md:w-1/3 p-4" key={item.href}>
                   <div className="">
-                    <img
-                      className="rounded w-full"
+                    <CldImg
                       src={item.href}
                       alt={item.title}
+                      width={800}
+                      height={600}
+                      className="rounded w-full h-auto"
+                      sizes={"(max-width: 768px) 100vw, 33vw"}
                     />
                     <p className="tracking-widest text-center font-medium title-font">
                       {item.title}
@@ -305,10 +312,13 @@ export default function Rakve() {
               return (
                 <div className="xl:w-1/3 md:w-1/3 p-4" key={item.href}>
                   <div className="">
-                    <img
-                      className="rounded w-full"
+                    <CldImg
                       src={item.href}
                       alt={item.title}
+                      width={800}
+                      height={600}
+                      className="rounded w-full h-auto"
+                      sizes={"(max-width: 768px) 100vw, 33vw"}
                     />
                     <p className="tracking-widest text-center font-medium title-font">
                       {item.title}
@@ -337,10 +347,13 @@ export default function Rakve() {
               return (
                 <div className="xl:w-1/3 md:w-1/3 p-4" key={item.href}>
                   <div className="">
-                    <img
-                      className="rounded w-full"
+                    <CldImg
                       src={item.href}
                       alt={item.title}
+                      width={800}
+                      height={600}
+                      className="rounded w-full h-auto"
+                      sizes={"(max-width: 768px) 100vw, 33vw"}
                     />
                     <h3 className="tracking-widest text-center font-medium title-font">
                       {item.title}
@@ -369,10 +382,13 @@ export default function Rakve() {
               return (
                 <div className="xl:w-1/3 md:w-1/3 p-4" key={item.href}>
                   <div className="">
-                    <img
-                      className="rounded w-full"
+                    <CldImg
                       src={item.href}
                       alt={item.title}
+                      width={800}
+                      height={600}
+                      className="rounded w-full h-auto"
+                      sizes={"(max-width: 768px) 100vw, 33vw"}
                     />
                     <p className="tracking-widest text-center font-medium title-font">
                       {item.title}
@@ -424,10 +440,13 @@ export default function Rakve() {
               return (
                 <div className="xl:w-1/3 md:w-full p-4" key={item.href}>
                   <div className="">
-                    <img
-                      className="rounded w-full"
+                    <CldImg
                       src={item.href}
                       alt={item.title}
+                      width={800}
+                      height={600}
+                      className="rounded w-full h-auto"
+                      sizes={"(max-width: 768px) 100vw, 33vw"}
                     />
                     <p className="tracking-widest text-center font-medium title-font">
                       {item.title}

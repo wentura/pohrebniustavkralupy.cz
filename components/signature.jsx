@@ -7,7 +7,7 @@ export default function Signature() {
       </div>
       <div>
         vytvořil&nbsp;
-        <a href="https://www.zbyneksvoboda.cz" target="_blank" className="">
+        <a href="https://www.zbyneksvoboda.cz" target="_blank" rel="noopener noreferrer" className="">
           Zbyněk Svoboda
         </a>
       </div>

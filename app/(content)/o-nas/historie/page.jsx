@@ -1,3 +1,4 @@
+import CldImg from "@/components/CldImg";
 import Breadcrumbs from "@/components/breadcrumbs";
 import ObrazkyOnas from "@/components/obrazkyOnas";
 import React from "react";
@@ -17,7 +18,7 @@ export default function Onas() {
         <Breadcrumbs breads={breads} />
 
         <div className="mt-12">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis mt-88 text-center">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 font-nadpis text-center">
             Kralupský pohřební ústav Cibulka
           </h1>
           <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />
@@ -38,11 +39,14 @@ export default function Onas() {
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-16 flex-col items-center md:flex-row-reverse">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img
-              className="object-cover object-center rounded max-h-96 mx-auto"
-              alt="zakladatel Macák"
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549940/pohrebniustavcibulka/historie/macak_a41ekd.webp"
-            />
+            <CldImg
+                      src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549940/pohrebniustavcibulka/historie/macak_a41ekd.webp"
+                      alt="zakladatel Macák"
+                      width={800}
+                      height={600}
+                      className="object-cover object-center rounded max-h-96 mx-auto"
+                      sizes={"100vw"}
+                    />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start text-left">
             <h1 className="hajednicka">Historie pohřebního ústavu</h1>
@@ -66,11 +70,14 @@ export default function Onas() {
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img
-              className="object-cover object-center rounded mx-auto"
-              alt="Antonín Macák - původní budova"
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549943/pohrebniustavcibulka/historie/puOld_ukt7mo.webp"
-            />
+            <CldImg
+                      src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549943/pohrebniustavcibulka/historie/puOld_ukt7mo.webp"
+                      alt="Antonín Macák - původní budova"
+                      width={800}
+                      height={600}
+                      className="object-cover object-center rounded mx-auto"
+                      sizes={"100vw"}
+                    />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col items-start text-left">
             <h3 className="hadvojka">Přesídlení a rozvoj</h3>
@@ -94,11 +101,14 @@ export default function Onas() {
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-16 flex-col items-center md:flex-row-reverse">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img
-              className="object-cover object-center rounded max-h-96 mx-auto"
-              alt="zakladatel Macák"
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549925/pohrebniustavcibulka/historie/2_acno0z.webp"
-            />
+            <CldImg
+                      src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549925/pohrebniustavcibulka/historie/2_acno0z.webp"
+                      alt="zakladatel Macák"
+                      width={800}
+                      height={600}
+                      className="object-cover object-center rounded max-h-96 mx-auto"
+                      sizes={"100vw"}
+                    />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col items-start text-left ">
             <h3 className="hadvojka">Zajímavá historická cesta</h3>
@@ -123,40 +133,48 @@ export default function Onas() {
       <section>
         <div className="grid grid-cols-2 gap-2">
           {/* image - start */}
-          <img
-            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549927/pohrebniustavcibulka/historie/16_suwfqh.webp"
-            loading="lazy"
-            alt="pohřební kočár"
-            className="object-cover object-center max-h-96 md:max-h-[500px] md:justify-self-end justify-self-center"
-          />
+          <CldImg
+                      src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549927/pohrebniustavcibulka/historie/16_suwfqh.webp"
+                      alt="pohřební kočár"
+                      width={800}
+                      height={600}
+                      className="object-cover object-center max-h-96 md:max-h-[500px] md:justify-self-end justify-self-center"
+                      sizes={"100vw"}
+                    />
 
           {/* image - end */}
 
           {/* image - start */}
-          <img
-            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549929/pohrebniustavcibulka/historie/21_n0w7hg.webp"
-            loading="lazy"
-            alt="pohřební průvod"
-            className="object-cover object-center max-h-96 md:max-h-[500px] md:justify-self-start md:align-self-end justify-self-center"
-          />
+          <CldImg
+                      src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549929/pohrebniustavcibulka/historie/21_n0w7hg.webp"
+                      alt="pohřební průvod"
+                      width={800}
+                      height={600}
+                      className="object-cover object-center max-h-96 md:max-h-[500px] md:justify-self-start md:align-self-end justify-self-center"
+                      sizes={"100vw"}
+                    />
 
           {/* image - end */}
           {/* image - start */}
-          <img
-            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549925/pohrebniustavcibulka/historie/4_qflima.webp"
-            loading="lazy"
-            alt="pohřební vůz Škoda 1203"
-            className="object-cover object-center max-h-96 md:max-h-[500px] md:justify-self-end justify-self-center"
-          />
+          <CldImg
+                      src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549925/pohrebniustavcibulka/historie/4_qflima.webp"
+                      alt="pohřební vůz Škoda 1203"
+                      width={800}
+                      height={600}
+                      className="object-cover object-center max-h-96 md:max-h-[500px] md:justify-self-end justify-self-center"
+                      sizes={"100vw"}
+                    />
 
           {/* image - end */}
           {/* image - start */}
-          <img
-            src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705689200/pohrebniustavcibulka/1_ynkq8e.webp"
-            loading="lazy"
-            alt="nové a moderní pohřební vozy"
-            className="object-cover object-center max-h-96 md:max-h-[500px] md:justify-self-start justify-self-center"
-          />
+          <CldImg
+                      src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1705689200/pohrebniustavcibulka/1_ynkq8e.webp"
+                      alt="nové a moderní pohřební vozy"
+                      width={800}
+                      height={600}
+                      className="object-cover object-center max-h-96 md:max-h-[500px] md:justify-self-start justify-self-center"
+                      sizes={"100vw"}
+                    />
 
           {/* image - end */}
         </div>
@@ -164,11 +182,14 @@ export default function Onas() {
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
           <div className="hidden md:flex md:w-1/2 w-2/3 mb-10 md:mb-0">
-            <img
-              className="object-cover object-center rounded max-w-[250px] md:max-w-sm mx-auto"
-              alt="Jiří Cibulka - vnuk zakladatele A. Macáka"
-              src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549937/pohrebniustavcibulka/historie/52_hr1ujg.webp"
-            />
+            <CldImg
+                      src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1702549937/pohrebniustavcibulka/historie/52_hr1ujg.webp"
+                      alt="Jiří Cibulka - vnuk zakladatele A. Macáka"
+                      width={800}
+                      height={600}
+                      className="object-cover object-center rounded max-w-[250px] md:max-w-sm mx-auto"
+                      sizes={"100vw"}
+                    />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col items-start text-left">
             <h3 className="hadvojka">Rodinná kontinuita</h3>

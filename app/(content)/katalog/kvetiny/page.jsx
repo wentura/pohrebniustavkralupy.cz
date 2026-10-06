@@ -18,7 +18,7 @@ export default function KvetinyPage() {
       <Breadcrumbs breads={breads} />
       <section className="body-font">
         <div className="mt-12">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium font-nadpis mt-88 text-center">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium font-nadpis text-center">
             Smuteční kytice a věnce
           </h1>
           <hr className="w-48 h-1 mx-auto my-2 bg-gray-100 border-0 rounded md:mt-2 md:mb-8 dark:bg-gray-700" />

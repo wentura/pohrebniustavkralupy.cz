@@ -1,6 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-modra: #051d40;
+  --color-natyzlata: #ad8330;
+  --color-zlata: #daa520;
+  --font-nadpis: var(--font-libre), "Libre Baskerville", serif;
+  --font-obsah: var(--font-montserrat), "Montserrat", sans-serif;
+  --font-logo: var(--font-charm), "Charm", cursive;
+}
 
 @layer base {
   .odkaz-bila {

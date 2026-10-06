@@ -1,3 +1,4 @@
+import CldImg from "./CldImg";
 export default function DetailContact() {
   return (
     <div>
@@ -29,11 +30,25 @@ export default function DetailContact() {
         </a>
       </div>
       <div className="relative mb-4 flex gap-4">
-        <a href="https://www.facebook.com/profile.php?id=61569862836577"  target="_blank">
-        <img src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1736514127/pro_vsechny/icons8-facebook-50.png" className="w-8"/>
+        <a href="https://www.facebook.com/profile.php?id=61569862836577" target="_blank" rel="noopener noreferrer">
+        <CldImg
+                      src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1736514127/pro_vsechny/icons8-facebook-50.png"
+                      alt="Facebook"
+                      width={800}
+                      height={600}
+                      className="w-8"
+                      sizes={"100vw"}
+                    />
         </a>
-        <a href="https://www.instagram.com/pohrebni_ustav_cibulka/" target="_blank">
-        <img src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1736514126/pro_vsechny/icons8-instagram-50.png" className="w-8"/>
+        <a href="https://www.instagram.com/pohrebni_ustav_cibulka/" target="_blank" rel="noopener noreferrer">
+        <CldImg
+                      src="https://res.cloudinary.com/dam7wdzvx/image/upload/v1736514126/pro_vsechny/icons8-instagram-50.png"
+                      alt="Instagram"
+                      width={800}
+                      height={600}
+                      className="w-8"
+                      sizes={"100vw"}
+                    />
         </a>
       </div>
 
